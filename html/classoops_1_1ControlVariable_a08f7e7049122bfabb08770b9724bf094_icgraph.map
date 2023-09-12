@@ -1,12 +1,12 @@
 <map id="oops::ControlVariable::modVar" name="oops::ControlVariable::modVar">
-<area shape="rect" id="node1" title="Returns the auxiliary model space component of the control variable." alt="" coords="264,267,408,308"/>
-<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="44,5,177,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1CostFct4DVarTrajHR.html#a7c4ae909393cb470512d124e967ed585" title="Specific linearization for ARPEGE 4D&#45;Var with trajectory from high resolution." alt="" coords="21,71,200,112"/>
-<area shape="rect" id="node4" href="$classoops_1_1CostFunction.html#a9f5436014c826918c0593d55f07df3be" title="Linearise the cost function: set up the quadratic cost function." alt="" coords="44,136,177,177"/>
-<area shape="rect" id="node5" href="$classoops_1_1CostFct3DVar.html#adb9783822b134c0812682c01cfe90119" title="Run the non&#45;linear model (virtual method)" alt="" coords="41,201,180,243"/>
-<area shape="rect" id="node6" href="$classoops_1_1CostFct4DVar.html#a11cc4b2eda793d2c5c087533413dfe72" title="Run the non&#45;linear model (virtual method)" alt="" coords="41,267,180,308"/>
-<area shape="rect" id="node7" href="$classoops_1_1CostFctWeak.html#ae52f9b20b1e54ccf28e7c0e3dcfe7d51" title="Run the non&#45;linear model (virtual method)" alt="" coords="40,332,181,373"/>
-<area shape="rect" id="node8" href="$classoops_1_1CostFct4DEnsVar.html#a9f9ac24e0e56fac9ad2e961e5340a73f" title="Run the non&#45;linear model (virtual method)" alt="" coords="31,397,191,439"/>
-<area shape="rect" id="node9" href="$classoops_1_1CostFct4DEnVar.html#a499bc216ee13afecab0bfcf92223e0bf" title="Run the non&#45;linear model (virtual method)" alt="" coords="34,463,187,504"/>
-<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarMFTemplate.html#a0a055420c35897c7454be260b8050d9c" title="Run the non&#45;linear model (HR)" alt="" coords="5,528,216,569"/>
+<area shape="rect" id="node1" title="Returns the auxiliary model space component of the control variable." alt="" coords="232,267,376,308"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="28,5,161,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFct4DVarTrajHR.html#a7c4ae909393cb470512d124e967ed585" title="Specific linearization for ARPEGE 4D&#45;Var with trajectory from high resolution." alt="" coords="5,71,184,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFunction.html#a9f5436014c826918c0593d55f07df3be" title="Linearise the cost function: set up the quadratic cost function." alt="" coords="28,136,161,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostFct3DVar.html#adb9783822b134c0812682c01cfe90119" title="Run the non&#45;linear model (virtual method)" alt="" coords="25,201,164,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFct4DVar.html#a11cc4b2eda793d2c5c087533413dfe72" title="Run the non&#45;linear model (virtual method)" alt="" coords="25,267,164,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1CostFctWeak.html#ae52f9b20b1e54ccf28e7c0e3dcfe7d51" title="Run the non&#45;linear model (virtual method)" alt="" coords="24,332,165,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1CostFct4DEnsVar.html#a9f9ac24e0e56fac9ad2e961e5340a73f" title="Run the non&#45;linear model (virtual method)" alt="" coords="15,397,175,439"/>
+<area shape="rect" id="node9" href="$classoops_1_1CostFct4DEnVar.html#a499bc216ee13afecab0bfcf92223e0bf" title="Run the non&#45;linear model (virtual method)" alt="" coords="18,463,171,504"/>
+<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarMF.html#a299d2d78c12ec362264601bf7ecc1dfc" title="Run the non&#45;linear model (HR)" alt="" coords="16,528,173,569"/>
 </map>

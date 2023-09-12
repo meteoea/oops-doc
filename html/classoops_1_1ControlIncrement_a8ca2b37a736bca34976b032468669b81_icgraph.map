@@ -1,26 +1,26 @@
 <map id="oops::ControlIncrement::obsVar" name="oops::ControlIncrement::obsVar">
-<area shape="rect" id="node1" title="Get augmented observation control increment." alt="" coords="732,632,887,673"/>
-<area shape="rect" id="node2" href="$classoops_1_1CostJbTotal.html#abd0f42665033911a7ce666751c0ba502" title=" " alt="" coords="513,5,645,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="512,71,645,112"/>
-<area shape="rect" id="node4" href="$classoops_1_1CostJbTotal.html#ae4cc2a0e863ff4c9946ad766fa718aaa" title="Compute Jb cost function value." alt="" coords="513,136,645,177"/>
-<area shape="rect" id="node5" href="$classoops_1_1CostJbTotal.html#aa6c7ef94aef05aa22127097c865dc65a" title="Various computations after the integration of the model." alt="" coords="513,201,645,243"/>
-<area shape="rect" id="node6" href="$classoops_1_1BMatrix.html#af326a336f1f969e5ee11e865ee1b1141" title=" " alt="" coords="499,333,658,359"/>
-<area shape="rect" id="node8" href="$classoops_1_1CostJbTotal.html#af554c6dbcc2a6f5499c265c719342725" title="Multiply by the covariance matrix." alt="" coords="513,267,645,308"/>
-<area shape="rect" id="node17" href="$classoops_1_1CostJbTotal.html#ad7638970eea30c0a412ff215dad50fcb" title="Multiply by the inverse covariance matrix." alt="" coords="513,384,645,425"/>
-<area shape="rect" id="node18" href="$classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600" title="Multiply by the square root of the covariance matrix." alt="" coords="513,501,645,543"/>
-<area shape="rect" id="node21" href="$classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="513,567,645,608"/>
-<area shape="rect" id="node23" href="$classoops_1_1BMatrix.html#a8e4d81520d880d75b38c5ea2f67438a2" title=" " alt="" coords="498,450,659,477"/>
-<area shape="rect" id="node24" href="$classoops_1_1CostJbTotal.html#a8524d2238ea9ff272ebd4e2e964413f0" title="Randomize (using the square root of the covariance matrix)" alt="" coords="513,632,645,673"/>
-<area shape="rect" id="node25" href="$classoops_1_1CostJo.html#ac381a940bef3cb634d9f10774415695a" title="Initialize ObserverAD (computes ) before starting the AD run." alt="" coords="502,698,655,725"/>
-<area shape="rect" id="node26" href="$classoops_1_1CostJo.html#a0cf21e6bf99d2a02ce80497b5ff0e832" title="Initialize ObserverTL (computes ) before starting the TL run." alt="" coords="503,749,654,775"/>
-<area shape="rect" id="node27" href="$classoops_1_1CostJbTotal.html#a8490b161a4803250c86c1e44b48f63a8" title="Write the increment." alt="" coords="513,800,645,841"/>
-<area shape="rect" id="node28" href="$classoops_1_1CostFct3DVar.html#a8297e39b7b9d8b8be837612ae8d350f3" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="509,865,648,907"/>
-<area shape="rect" id="node29" href="$classoops_1_1CostFctWeak.html#af2528021a32daa75c8d530a33022dc07" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="508,931,649,972"/>
-<area shape="rect" id="node30" href="$classoops_1_1CostFct4DVar.html#af5d49e520c1f209c11ad72f71d77ab70" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="509,996,648,1037"/>
-<area shape="rect" id="node31" href="$classoops_1_1CostFct4DVarHyb4D.html#a8b82cdff88fad46270770e48b0b93bbc" title="Nullify the 4D increment prior to running the adjoint model." alt="" coords="490,1061,667,1103"/>
-<area shape="rect" id="node32" href="$classoops_1_1CostFct4DEnsVar.html#a05dc3bd773eea41c9020516969ae1521" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="499,1127,659,1168"/>
-<area shape="rect" id="node33" href="$classoops_1_1CostFct4DEnVar.html#ab8ab3c4c17548d58e9bc1c019cb9c8ca" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="502,1192,655,1233"/>
-<area shape="rect" id="node34" href="$classoops_1_1CostFct4DVarMFTemplate.html#af3d820f542c7e7efcf9077c0cd51bc40" title="Nullify the increment prior to running the adjoint model." alt="" coords="473,1257,684,1299"/>
+<area shape="rect" id="node1" title="Get augmented observation control increment." alt="" coords="699,632,853,673"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostJbTotal.html#abd0f42665033911a7ce666751c0ba502" title=" " alt="" coords="496,5,628,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="495,71,629,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostJbTotal.html#ae4cc2a0e863ff4c9946ad766fa718aaa" title="Compute Jb cost function value." alt="" coords="496,136,628,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostJbTotal.html#aa6c7ef94aef05aa22127097c865dc65a" title="Various computations after the integration of the model." alt="" coords="496,201,628,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1BMatrix.html#af326a336f1f969e5ee11e865ee1b1141" title=" " alt="" coords="483,333,641,359"/>
+<area shape="rect" id="node8" href="$classoops_1_1CostJbTotal.html#af554c6dbcc2a6f5499c265c719342725" title="Multiply by the covariance matrix." alt="" coords="496,267,628,308"/>
+<area shape="rect" id="node17" href="$classoops_1_1CostJbTotal.html#ad7638970eea30c0a412ff215dad50fcb" title="Multiply by the inverse covariance matrix." alt="" coords="496,384,628,425"/>
+<area shape="rect" id="node18" href="$classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600" title="Multiply by the square root of the covariance matrix." alt="" coords="496,501,628,543"/>
+<area shape="rect" id="node21" href="$classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="496,567,628,608"/>
+<area shape="rect" id="node23" href="$classoops_1_1BMatrix.html#a8e4d81520d880d75b38c5ea2f67438a2" title=" " alt="" coords="481,450,643,477"/>
+<area shape="rect" id="node24" href="$classoops_1_1CostJbTotal.html#a8524d2238ea9ff272ebd4e2e964413f0" title="Randomize (using the square root of the covariance matrix)" alt="" coords="496,632,628,673"/>
+<area shape="rect" id="node25" href="$classoops_1_1CostJo.html#ac381a940bef3cb634d9f10774415695a" title="Initialize ObserverAD (computes ) before starting the AD run." alt="" coords="485,698,639,725"/>
+<area shape="rect" id="node26" href="$classoops_1_1CostJo.html#a0cf21e6bf99d2a02ce80497b5ff0e832" title="Initialize ObserverTL (computes ) before starting the TL run." alt="" coords="487,749,637,775"/>
+<area shape="rect" id="node27" href="$classoops_1_1CostJbTotal.html#a8490b161a4803250c86c1e44b48f63a8" title="Write the increment." alt="" coords="496,800,628,841"/>
+<area shape="rect" id="node28" href="$classoops_1_1CostFct3DVar.html#a8297e39b7b9d8b8be837612ae8d350f3" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="493,865,631,907"/>
+<area shape="rect" id="node29" href="$classoops_1_1CostFctWeak.html#af2528021a32daa75c8d530a33022dc07" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="491,931,633,972"/>
+<area shape="rect" id="node30" href="$classoops_1_1CostFct4DVar.html#af5d49e520c1f209c11ad72f71d77ab70" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="493,996,631,1037"/>
+<area shape="rect" id="node31" href="$classoops_1_1CostFct4DVarHyb4D.html#a8b82cdff88fad46270770e48b0b93bbc" title="Nullify the 4D increment prior to running the adjoint model." alt="" coords="473,1061,651,1103"/>
+<area shape="rect" id="node32" href="$classoops_1_1CostFct4DEnsVar.html#a05dc3bd773eea41c9020516969ae1521" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="482,1127,642,1168"/>
+<area shape="rect" id="node33" href="$classoops_1_1CostFct4DEnVar.html#ab8ab3c4c17548d58e9bc1c019cb9c8ca" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="485,1192,639,1233"/>
+<area shape="rect" id="node34" href="$classoops_1_1CostFct4DVarMF.html#a40b55061887aec3791dd8125eee7fda7" title="Nullify the increment prior to running the adjoint model." alt="" coords="483,1257,641,1299"/>
 <area shape="rect" id="node7" href="$classoops_1_1DRPLanczosMinimizer.html#a6339485da6ba7f0309db9b004427cffc" title=" " alt="" coords="239,443,425,484"/>
 <area shape="rect" id="node9" href="$classoops_1_1BMatrix.html#ac7a169bdc944d77ed65cccd584ebca7e" title=" " alt="" coords="257,314,407,341"/>
 <area shape="rect" id="node16" href="$classoops_1_1LBHessianMatrix.html#ab1306ed7701729b87c281ea542a45591" title=" " alt="" coords="254,248,410,289"/>

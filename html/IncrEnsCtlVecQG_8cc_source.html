@@ -150,7 +150,7 @@ $(function() {
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  ctlvec_-&gt;schur_product_with(*dx.ctlvec_);</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">// -----------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keywordtype">double</span> IncrEnsCtlVecQG::local_dot_product_with(<span class="keyword">const</span> IncrEnsCtlVecQG &amp; other)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keywordtype">double</span> IncrEnsCtlVecQG::dot_product_with(<span class="keyword">const</span> IncrEnsCtlVecQG &amp; other, <span class="keyword">const</span> <span class="keywordtype">bool</span> local)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a">dot_product</a>(*ctlvec_, *other.ctlvec_);</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">// -----------------------------------------------------------------------------</span></div>

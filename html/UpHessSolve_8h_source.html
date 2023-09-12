@@ -74,7 +74,7 @@ $(function() {
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespaceoops.html#aa49ccba6804508527e93c0a3ab181ce0">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceoops.html#aa49ccba6804508527e93c0a3ab181ce0">UpHessSolve</a>(std::vector&lt;std::vector&lt;double&gt; &gt;&amp; UpHess,</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                 <span class="keyword">const</span> std::vector&lt;double&gt;&amp; rhs, std::vector&lt;double&gt;&amp; sol) {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">size_t</span> n = rhs.size();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> n = rhs.size();</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  ASSERT(UpHess.size() == n);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  sol.resize(n);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  std::vector&lt;double&gt; v(n);</div>

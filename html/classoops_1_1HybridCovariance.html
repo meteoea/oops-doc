@@ -68,8 +68,8 @@ Inheritance diagram for oops::HybridCovariance&lt; MODEL &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classoops_1_1HybridCovariance__inherit__graph.png" border="0" usemap="#oops_1_1HybridCovariance_3_01MODEL_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="oops_1_1HybridCovariance_3_01MODEL_01_4_inherit__map" id="oops_1_1HybridCovariance_3_01MODEL_01_4_inherit__map">
-<area shape="rect" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="33,263,192,516"/>
-<area shape="rect" href="classoops_1_1ModelSpaceCovarianceBase.html" title="Abstract base class for model space error covariances." alt="" coords="5,5,220,215"/>
+<area shape="rect" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="33,277,192,531"/>
+<area shape="rect" href="classoops_1_1ModelSpaceCovarianceBase.html" title="Abstract base class for model space error covariances." alt="" coords="5,5,220,229"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -80,9 +80,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a34b49cde232a736a7d430b98a8df1e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdb819bd9c88c757d097b2743d29d8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1HybridCovariance.html#a1fdb819bd9c88c757d097b2743d29d8b">~HybridCovariance</a> ()</td></tr>
 <tr class="separator:a1fdb819bd9c88c757d097b2743d29d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0949633b24dc8f0f3fe4fb781605f187"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1HybridCovariance.html#a0949633b24dc8f0f3fe4fb781605f187">linearize</a> (const <a class="el" href="classoops_1_1HybridCovariance.html#a21bad8482ff2fe5d2a2e80da97854aba">State_</a> &amp;, const <a class="el" href="classoops_1_1HybridCovariance.html#af8289fcc1ccee107e5a3b56f47126a43">Geometry_</a> &amp;, const eckit::Configuration &amp;) override</td></tr>
-<tr class="memdesc:a0949633b24dc8f0f3fe4fb781605f187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the inner loop resolution B matrix.  <a href="classoops_1_1HybridCovariance.html#a0949633b24dc8f0f3fe4fb781605f187">More...</a><br /></td></tr>
-<tr class="separator:a0949633b24dc8f0f3fe4fb781605f187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd71aafa08556a7fe341a1082bc73fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1HybridCovariance.html#a8cd71aafa08556a7fe341a1082bc73fb">linearize</a> (const <a class="el" href="classoops_1_1HybridCovariance.html#a21bad8482ff2fe5d2a2e80da97854aba">State_</a> &amp;, const <a class="el" href="classoops_1_1HybridCovariance.html#af8289fcc1ccee107e5a3b56f47126a43">Geometry_</a> &amp;) override</td></tr>
+<tr class="memdesc:a8cd71aafa08556a7fe341a1082bc73fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the inner loop resolution B matrix.  <a href="classoops_1_1HybridCovariance.html#a8cd71aafa08556a7fe341a1082bc73fb">More...</a><br /></td></tr>
+<tr class="separator:a8cd71aafa08556a7fe341a1082bc73fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff69c3db237ec75f9d4cf241c4184b02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1HybridCovariance.html#aff69c3db237ec75f9d4cf241c4184b02">multiply</a> (const <a class="el" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> &amp;, <a class="el" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> &amp;) const override</td></tr>
 <tr class="memdesc:aff69c3db237ec75f9d4cf241c4184b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( dx_1 = B dx_2 \)  <a href="classoops_1_1HybridCovariance.html#aff69c3db237ec75f9d4cf241c4184b02">More...</a><br /></td></tr>
 <tr class="separator:aff69c3db237ec75f9d4cf241c4184b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1590e236715fa1325634e0f28c65a072 inherit pub_methods_classoops_1_1ModelSpaceCovarianceBase"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a1590e236715fa1325634e0f28c65a072">~ModelSpaceCovarianceBase</a> ()</td></tr>
 <tr class="memdesc:a1590e236715fa1325634e0f28c65a072 inherit pub_methods_classoops_1_1ModelSpaceCovarianceBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classoops_1_1ModelSpaceCovarianceBase.html#a1590e236715fa1325634e0f28c65a072">More...</a><br /></td></tr>
 <tr class="separator:a1590e236715fa1325634e0f28c65a072 inherit pub_methods_classoops_1_1ModelSpaceCovarianceBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e54d455cdfad76fe3838fcf846ec50 inherit pub_methods_classoops_1_1ModelSpaceCovarianceBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a87e54d455cdfad76fe3838fcf846ec50">linearize</a> (const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ae8a0c9e71d3b6c7e2d0c1e08529be634">State_</a> &amp;xx, const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a46ba5bfeb66e91ddb8a8a822fd2e317d">Geometry_</a> &amp;geom, const eckit::Configuration &amp;)</td></tr>
+<tr class="separator:a87e54d455cdfad76fe3838fcf846ec50 inherit pub_methods_classoops_1_1ModelSpaceCovarianceBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -371,8 +373,8 @@ template&lt;typename MODEL &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00084">84</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    : <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>(<a class="code" href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">CovarianceFactory&lt;MODEL&gt;::create</a>(</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          eckit::LocalConfiguration(config, <span class="stringliteral">&quot;static_covariance&quot;</span>), resol, vars, xb)) {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration ensConf(config, <span class="stringliteral">&quot;ensemble_covariance&quot;</span>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          eckit::LocalConfiguration(config, <span class="stringliteral">&quot;static&quot;</span>), resol, vars, xb)) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration ensConf(config, <span class="stringliteral">&quot;ensemble&quot;</span>);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>.reset(<span class="keyword">new</span> EnsembleCovariance&lt;MODEL&gt;(resol, vars, ensConf, xb));</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a> = config.getDouble(<span class="stringliteral">&quot;ensemble_weight&quot;</span>);</div>
@@ -446,12 +448,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a4c93d4ff48b12582a79d468ee0825bc5">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00127">127</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                                     {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  IdentityMatrix&lt;Increment_&gt; Id;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  dxo.zero();</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <a class="code" href="namespaceoops.html#a4f9465f796ddc3921fa43cef96b1be89">GMRESR</a>(dxo, dxi, *<span class="keyword">this</span>, Id, 10, 1.0e-3);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00122">122</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  IdentityMatrix&lt;Increment_&gt; Id;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  dxo.zero();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <a class="code" href="namespaceoops.html#a4f9465f796ddc3921fa43cef96b1be89">GMRESR</a>(dxo, dxi, *<span class="keyword">this</span>, Id, 10, 1.0e-3);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="GMRESR_8h_source.html#l00063">oops::GMRESR()</a>, and <a class="el" href="oops_2interface_2Increment_8h_source.html#l00258">oops::Increment&lt; MODEL &gt;::zero()</a>.</p>
 <div class="dynheader">
@@ -469,8 +471,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a0949633b24dc8f0f3fe4fb781605f187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0949633b24dc8f0f3fe4fb781605f187">&#9670;&nbsp;</a></span>linearize()</h2>
+<a id="a8cd71aafa08556a7fe341a1082bc73fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd71aafa08556a7fe341a1082bc73fb">&#9670;&nbsp;</a></span>linearize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,12 +492,6 @@ template&lt;typename MODEL &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classoops_1_1HybridCovariance.html#af8289fcc1ccee107e5a3b56f47126a43">Geometry_</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const eckit::Configuration &amp;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -513,19 +509,14 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Set up the inner loop resolution B matrix. </p>
 
-<p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ac227a76785b3b32022e4d20b789e7870">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
+<p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00104">104</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                                                                                   {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration jbConf(config, <span class="stringliteral">&quot;Jb&quot;</span>);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration covConf(jbConf, <span class="stringliteral">&quot;Covariance&quot;</span>);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration statConf(covConf, <span class="stringliteral">&quot;static_covariance&quot;</span>);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;linearize(xb, resol, statConf);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;linearize(xb, resol, covConf);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;HybridCovariance linearized.&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                                                {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;linearize(xb, resol);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;linearize(xb, resol);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;HybridCovariance linearized.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -569,14 +560,14 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a9e607b6cfb44595f8136e84b5564e4d3">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00117">117</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                              {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;multiply(dxi, dxo);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  dxo *= (1.0 - <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> tmp(dxo);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;multiply(dxi, tmp);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  dxo.axpy(<a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>, tmp);</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00112">112</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                                                              {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;multiply(dxi, dxo);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  dxo *= (1.0 - <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> tmp(dxo);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;multiply(dxi, tmp);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  dxo.axpy(<a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>, tmp);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="oops_2interface_2Increment_8h_source.html#l00322">oops::Increment&lt; MODEL &gt;::axpy()</a>.</p>
 <div class="dynheader">
@@ -631,15 +622,15 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a202d59b4c13f9c2a563288c2402fd077">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00135">135</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                                                 {</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;multiplySqrt(dv, dx);</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  dx *= std::sqrt(1.0 - <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> dxe(dx);</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  dxe.zero();</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;multiplySqrt(dv, dxe);</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  dx.axpy(std::sqrt(<a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>), dxe);</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00130">130</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;multiplySqrt(dv, dx);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  dx *= std::sqrt(1.0 - <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> dxe(dx);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  dxe.zero();</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;multiplySqrt(dv, dxe);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  dx.axpy(std::sqrt(<a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>), dxe);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="oops_2interface_2Increment_8h_source.html#l00322">oops::Increment&lt; MODEL &gt;::axpy()</a>, and <a class="el" href="oops_2interface_2Increment_8h_source.html#l00258">oops::Increment&lt; MODEL &gt;::zero()</a>.</p>
 <div class="dynheader">
@@ -695,15 +686,15 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a4c924d49f6a184efb98427323991cc84">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00146">146</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                                                       {</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> dxm(dx);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  dxm *= std::sqrt(1.0 - <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;multiplySqrtTrans(dxm, dv);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> dxe(dx);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  dxe *= std::sqrt(<a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;multiplySqrtTrans(dxe, dv);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00141">141</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> dxm(dx);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  dxm *= std::sqrt(1.0 - <a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">static_</a>-&gt;multiplySqrtTrans(dxm, dv);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#a58733e4239ff64e0d2285f26b5756f25">Increment_</a> dxe(dx);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  dxe *= std::sqrt(<a class="code" href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">ensWeight_</a>);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <a class="code" href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">ensemble_</a>-&gt;multiplySqrtTrans(dxe, dv);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -811,10 +802,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a63f56a40a33b677a91c4d6ba128a9d34">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00157">157</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                          {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <a class="code" href="abor1__cpp_8h.html#a4da77d81c4b2655d8bb8ba3ae986a7af">ABORT</a>(<span class="stringliteral">&quot;HybridCovariance::randomize: Would it make sense?&quot;</span>);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="HybridCovariance_8h_source.html#l00152">152</a> of file <a class="el" href="HybridCovariance_8h_source.html">HybridCovariance.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                          {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <a class="code" href="abor1__cpp_8h.html#a4da77d81c4b2655d8bb8ba3ae986a7af">ABORT</a>(<span class="stringliteral">&quot;HybridCovariance::randomize: Would it make sense?&quot;</span>);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="abor1__cpp_8h_source.html#l00016">ABORT</a>.</p>
 
@@ -917,7 +908,7 @@ template&lt;typename MODEL &gt; </div>
 </div><!-- contents -->
 <div class="ttc" id="anamespaceoops_html_a4f9465f796ddc3921fa43cef96b1be89"><div class="ttname"><a href="namespaceoops.html#a4f9465f796ddc3921fa43cef96b1be89">oops::GMRESR</a></div><div class="ttdeci">double GMRESR(VECTOR &amp;xx, const VECTOR &amp;bb, const AMATRIX &amp;A, const PMATRIX &amp;precond, const int maxiter, const double tolerance)</div><div class="ttdef"><b>Definition:</b> <a href="GMRESR_8h_source.html#l00063">GMRESR.h:63</a></div></div>
 <div class="ttc" id="aclassoops_1_1HybridCovariance_html_ad69c9280186d9aa8988d78069239f680"><div class="ttname"><a href="classoops_1_1HybridCovariance.html#ad69c9280186d9aa8988d78069239f680">oops::HybridCovariance::ensemble_</a></div><div class="ttdeci">std::unique_ptr&lt; EnsembleCovariance&lt; MODEL &gt; &gt; ensemble_</div><div class="ttdoc">Ensemble component.</div><div class="ttdef"><b>Definition:</b> <a href="HybridCovariance_8h_source.html#l00075">HybridCovariance.h:75</a></div></div>
-<div class="ttc" id="aclassoops_1_1CovarianceFactory_html_acf991daa82e95df8ee05a5dba6170de4"><div class="ttname"><a href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">oops::CovarianceFactory::create</a></div><div class="ttdeci">static ModelSpaceCovarianceBase&lt; MODEL &gt; * create(const eckit::Configuration &amp;, const Geometry_ &amp;, const Variables_ &amp;, const State_ &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="ModelSpaceCovarianceBase_8h_source.html#l00157">ModelSpaceCovarianceBase.h:157</a></div></div>
+<div class="ttc" id="aclassoops_1_1CovarianceFactory_html_acf991daa82e95df8ee05a5dba6170de4"><div class="ttname"><a href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">oops::CovarianceFactory::create</a></div><div class="ttdeci">static ModelSpaceCovarianceBase&lt; MODEL &gt; * create(const eckit::Configuration &amp;, const Geometry_ &amp;, const Variables_ &amp;, const State_ &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="ModelSpaceCovarianceBase_8h_source.html#l00160">ModelSpaceCovarianceBase.h:160</a></div></div>
 <div class="ttc" id="aclassoops_1_1HybridCovariance_html_aafaf33f191d9cba6dccb86fe66caa944"><div class="ttname"><a href="classoops_1_1HybridCovariance.html#aafaf33f191d9cba6dccb86fe66caa944">oops::HybridCovariance::static_</a></div><div class="ttdeci">std::unique_ptr&lt; ModelSpaceCovarianceBase&lt; MODEL &gt; &gt; static_</div><div class="ttdoc">Static component.</div><div class="ttdef"><b>Definition:</b> <a href="HybridCovariance_8h_source.html#l00073">HybridCovariance.h:73</a></div></div>
 <div class="ttc" id="aclassoops_1_1HybridCovariance_html_a4b3d31bdddf5efe1ff5bebbc66a2fe79"><div class="ttname"><a href="classoops_1_1HybridCovariance.html#a4b3d31bdddf5efe1ff5bebbc66a2fe79">oops::HybridCovariance::ensWeight_</a></div><div class="ttdeci">double ensWeight_</div><div class="ttdoc">Weight.</div><div class="ttdef"><b>Definition:</b> <a href="HybridCovariance_8h_source.html#l00076">HybridCovariance.h:76</a></div></div>
 <div class="ttc" id="aabor1__cpp_8h_html_a4da77d81c4b2655d8bb8ba3ae986a7af"><div class="ttname"><a href="abor1__cpp_8h.html#a4da77d81c4b2655d8bb8ba3ae986a7af">ABORT</a></div><div class="ttdeci">#define ABORT(s)</div><div class="ttdef"><b>Definition:</b> <a href="abor1__cpp_8h_source.html#l00016">abor1_cpp.h:16</a></div></div>

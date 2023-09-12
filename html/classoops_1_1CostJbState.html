@@ -89,9 +89,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91e9ccf300af5daa1667e8e7ad350649"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJbState.html#a91e9ccf300af5daa1667e8e7ad350649">computeIncrement</a> (const <a class="el" href="classoops_1_1CostJbState.html#a38880229abeb7275c1fbea7401174d78">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJbState.html#a38880229abeb7275c1fbea7401174d78">State4D_</a> &amp;, <a class="el" href="classoops_1_1CostJbState.html#aac50ad61bd5721286dbf1a29b350ffd6">Increment4D_</a> &amp;) const =0</td></tr>
 <tr class="memdesc:a91e9ccf300af5daa1667e8e7ad350649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get increment from state (usually first guess).  <a href="classoops_1_1CostJbState.html#a91e9ccf300af5daa1667e8e7ad350649">More...</a><br /></td></tr>
 <tr class="separator:a91e9ccf300af5daa1667e8e7ad350649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b7d5130a6d426ecba05ef4d84c9418"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJbState.html#a41b7d5130a6d426ecba05ef4d84c9418">linearize</a> (const <a class="el" href="classoops_1_1CostJbState.html#a38880229abeb7275c1fbea7401174d78">State4D_</a> &amp;xx, const <a class="el" href="classoops_1_1CostJbState.html#aac4821e9ce7b0d859ac53ce6ee7f4dc4">Geometry_</a> &amp;geom, const eckit::Configuration &amp;)=0</td></tr>
-<tr class="memdesc:a41b7d5130a6d426ecba05ef4d84c9418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize before the linear computations.  <a href="classoops_1_1CostJbState.html#a41b7d5130a6d426ecba05ef4d84c9418">More...</a><br /></td></tr>
-<tr class="separator:a41b7d5130a6d426ecba05ef4d84c9418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f03bfcef55d1cc499b96c2a4e23edc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">linearize</a> (const <a class="el" href="classoops_1_1CostJbState.html#a38880229abeb7275c1fbea7401174d78">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJbState.html#aac4821e9ce7b0d859ac53ce6ee7f4dc4">Geometry_</a> &amp;)=0</td></tr>
+<tr class="memdesc:a9f03bfcef55d1cc499b96c2a4e23edc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize before the linear computations.  <a href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">More...</a><br /></td></tr>
+<tr class="separator:a9f03bfcef55d1cc499b96c2a4e23edc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d5c02dd24cb57f1f900930abcb05b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJbState.html#ab4d5c02dd24cb57f1f900930abcb05b4">linearize</a> (const <a class="el" href="classoops_1_1CostJbState.html#a38880229abeb7275c1fbea7401174d78">State4D_</a> &amp;xx, const <a class="el" href="classoops_1_1CostJbState.html#aac4821e9ce7b0d859ac53ce6ee7f4dc4">Geometry_</a> &amp;geom, const eckit::Configuration &amp;)</td></tr>
+<tr class="separator:ab4d5c02dd24cb57f1f900930abcb05b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a865a2d98f493dd0f026b60f3f143d58a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJbState.html#a865a2d98f493dd0f026b60f3f143d58a">addGradient</a> (const <a class="el" href="classoops_1_1CostJbState.html#aac50ad61bd5721286dbf1a29b350ffd6">Increment4D_</a> &amp;, <a class="el" href="classoops_1_1CostJbState.html#aac50ad61bd5721286dbf1a29b350ffd6">Increment4D_</a> &amp;, <a class="el" href="classoops_1_1CostJbState.html#aac50ad61bd5721286dbf1a29b350ffd6">Increment4D_</a> &amp;) const =0</td></tr>
 <tr class="memdesc:a865a2d98f493dd0f026b60f3f143d58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add Jb gradient.  <a href="classoops_1_1CostJbState.html#a865a2d98f493dd0f026b60f3f143d58a">More...</a><br /></td></tr>
 <tr class="separator:a865a2d98f493dd0f026b60f3f143d58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -873,8 +875,61 @@ template&lt;typename MODEL &gt; </div>
 
 </div>
 </div>
-<a id="a41b7d5130a6d426ecba05ef4d84c9418"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41b7d5130a6d426ecba05ef4d84c9418">&#9670;&nbsp;</a></span>linearize()</h2>
+<a id="a9f03bfcef55d1cc499b96c2a4e23edc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f03bfcef55d1cc499b96c2a4e23edc8">&#9670;&nbsp;</a></span>linearize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODEL &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classoops_1_1CostJbState.html">oops::CostJbState</a>&lt; MODEL &gt;::linearize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1CostJbState.html#a38880229abeb7275c1fbea7401174d78">State4D_</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1CostJbState.html#aac4821e9ce7b0d859ac53ce6ee7f4dc4">Geometry_</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linearize before the linear computations. </p>
+
+<p>Implemented in <a class="el" href="classoops_1_1CostJb3D.html#a88d1b01ee4b08a34ff1e5e90e3d7675c">oops::CostJb3D&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1CostJb4D.html#ae9388e3da9c9f03d2e68ee6e8f9ae085">oops::CostJb4D&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1CostJbJq.html#a3b10a701b57ba845a2d2335fe3c25c00">oops::CostJbJq&lt; MODEL &gt;</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="CostJbState_8h_source.html#l00108">oops::CostJbState&lt; MODEL &gt;::linearize()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classoops_1_1CostJbState_a9f03bfcef55d1cc499b96c2a4e23edc8_icgraph.png" border="0" usemap="#classoops_1_1CostJbState_a9f03bfcef55d1cc499b96c2a4e23edc8_icgraph" alt=""/></div>
+<map name="classoops_1_1CostJbState_a9f03bfcef55d1cc499b96c2a4e23edc8_icgraph" id="classoops_1_1CostJbState_a9f03bfcef55d1cc499b96c2a4e23edc8_icgraph">
+<area shape="rect" title="Linearize before the linear computations." alt="" coords="188,5,323,47"/>
+<area shape="rect" href="classoops_1_1CostJbState.html#ab4d5c02dd24cb57f1f900930abcb05b4" title=" " alt="" coords="5,5,140,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab4d5c02dd24cb57f1f900930abcb05b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4d5c02dd24cb57f1f900930abcb05b4">&#9670;&nbsp;</a></span>linearize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -910,14 +965,28 @@ template&lt;typename MODEL &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Linearize before the linear computations. </p>
+<p>Reimplemented in <a class="el" href="classoops_1_1CostJb3D.html#acc965c81019ab122549161bb5c5e236f">oops::CostJb3D&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1CostJb4D.html#af2ce33f2a3cf19032535bc11edcc3c13">oops::CostJb4D&lt; MODEL &gt;</a>.</p>
 
-<p>Implemented in <a class="el" href="classoops_1_1CostJb3D.html#acc965c81019ab122549161bb5c5e236f">oops::CostJb3D&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1CostJb4D.html#af2ce33f2a3cf19032535bc11edcc3c13">oops::CostJb4D&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1CostJbJq.html#a7ba1e313c56c0aef82da9d328dd9f752">oops::CostJbJq&lt; MODEL &gt;</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJbState_8h_source.html#l00108">108</a> of file <a class="el" href="CostJbState_8h_source.html">CostJbState.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                                                                                                 {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">linearize</a>(xx,geom);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">oops::CostJbState&lt; MODEL &gt;::linearize()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classoops_1_1CostJbState_ab4d5c02dd24cb57f1f900930abcb05b4_cgraph.png" border="0" usemap="#classoops_1_1CostJbState_ab4d5c02dd24cb57f1f900930abcb05b4_cgraph" alt=""/></div>
+<map name="classoops_1_1CostJbState_ab4d5c02dd24cb57f1f900930abcb05b4_cgraph" id="classoops_1_1CostJbState_ab4d5c02dd24cb57f1f900930abcb05b4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,140,47"/>
+<area shape="rect" href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8" title="Linearize before the linear computations." alt="" coords="188,5,323,47"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1191,6 +1260,7 @@ template&lt;typename MODEL &gt; </div>
 <li>src/oops/assimilation/<a class="el" href="CostJbState_8h_source.html">CostJbState.h</a></li>
 </ul>
 </div><!-- contents -->
+<div class="ttc" id="aclassoops_1_1CostJbState_html_a9f03bfcef55d1cc499b96c2a4e23edc8"><div class="ttname"><a href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">oops::CostJbState::linearize</a></div><div class="ttdeci">virtual void linearize(const State4D_ &amp;, const Geometry_ &amp;)=0</div><div class="ttdoc">Linearize before the linear computations.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

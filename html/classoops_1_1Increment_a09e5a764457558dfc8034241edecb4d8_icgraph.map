@@ -1,5 +1,5 @@
 <map id="oops::Increment::diff" name="oops::Increment::diff">
-<area shape="rect" id="node1" title="Compute increment as a difference between two States." alt="" coords="264,46,401,73"/>
-<area shape="rect" id="node2" href="$classoops_1_1CostFct4DVarTrajHR.html#a22c1ae6b8c0ca291fbc468567d126b90" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="21,5,200,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1CostFct4DVarMFTemplate.html#ad45a7e63349c36995ecf6be81c551057" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="5,71,216,112"/>
+<area shape="rect" id="node1" title="Compute increment as a difference between two States." alt="" coords="232,46,369,73"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFct4DVarTrajHR.html#a22c1ae6b8c0ca291fbc468567d126b90" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFct4DVarMF.html#a0a6b2a4d0e8f0575b0c04a0d817c085c" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="16,71,173,112"/>
 </map>

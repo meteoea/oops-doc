@@ -88,8 +88,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2201b7c3f618c64644f8503b738417d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb3D.html#a2201b7c3f618c64644f8503b738417d2">computeIncrement</a> (const <a class="el" href="classoops_1_1CostJb3D.html#a95ea36776cbb92ef64faa092fea3ccd7">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJb3D.html#a95ea36776cbb92ef64faa092fea3ccd7">State4D_</a> &amp;, <a class="el" href="classoops_1_1CostJb3D.html#a2b9cb9b26d8dcfd9a6f5ab49cda854c7">Increment4D_</a> &amp;) const override</td></tr>
 <tr class="memdesc:a2201b7c3f618c64644f8503b738417d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get increment from state (usually first guess).  <a href="classoops_1_1CostJb3D.html#a2201b7c3f618c64644f8503b738417d2">More...</a><br /></td></tr>
 <tr class="separator:a2201b7c3f618c64644f8503b738417d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d1b01ee4b08a34ff1e5e90e3d7675c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb3D.html#a88d1b01ee4b08a34ff1e5e90e3d7675c">linearize</a> (const <a class="el" href="classoops_1_1CostJb3D.html#a95ea36776cbb92ef64faa092fea3ccd7">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">Geometry_</a> &amp;) override</td></tr>
+<tr class="memdesc:a88d1b01ee4b08a34ff1e5e90e3d7675c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize before the linear computations.  <a href="classoops_1_1CostJb3D.html#a88d1b01ee4b08a34ff1e5e90e3d7675c">More...</a><br /></td></tr>
+<tr class="separator:a88d1b01ee4b08a34ff1e5e90e3d7675c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc965c81019ab122549161bb5c5e236f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb3D.html#acc965c81019ab122549161bb5c5e236f">linearize</a> (const <a class="el" href="classoops_1_1CostJb3D.html#a95ea36776cbb92ef64faa092fea3ccd7">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">Geometry_</a> &amp;, const eckit::Configuration &amp;) override</td></tr>
-<tr class="memdesc:acc965c81019ab122549161bb5c5e236f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize before the linear computations.  <a href="classoops_1_1CostJb3D.html#acc965c81019ab122549161bb5c5e236f">More...</a><br /></td></tr>
 <tr class="separator:acc965c81019ab122549161bb5c5e236f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69fff409fc43971cef2ee2305fe58b92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb3D.html#a69fff409fc43971cef2ee2305fe58b92">addGradient</a> (const <a class="el" href="classoops_1_1CostJb3D.html#a2b9cb9b26d8dcfd9a6f5ab49cda854c7">Increment4D_</a> &amp;, <a class="el" href="classoops_1_1CostJb3D.html#a2b9cb9b26d8dcfd9a6f5ab49cda854c7">Increment4D_</a> &amp;, <a class="el" href="classoops_1_1CostJb3D.html#a2b9cb9b26d8dcfd9a6f5ab49cda854c7">Increment4D_</a> &amp;) const override</td></tr>
 <tr class="memdesc:a69fff409fc43971cef2ee2305fe58b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add Jb gradient.  <a href="classoops_1_1CostJb3D.html#a69fff409fc43971cef2ee2305fe58b92">More...</a><br /></td></tr>
@@ -542,16 +544,16 @@ template&lt;typename MODEL &gt; </div>
 <p>Construct \( J_b\). </p>
 <p>The B matrix (either <a class="el" href="classoops_1_1ErrorCovariance.html" title="Wrapper for model space error covariances.">ErrorCovariance</a> [modelled B matrix], <a class="el" href="classoops_1_1EnsembleCovariance.html" title="Generic ensemble based model space error covariance.">EnsembleCovariance</a> or <a class="el" href="classoops_1_1HybridCovariance.html" title="Generic hybrid static-ensemble model space error covariance.">HybridCovariance</a> is produced by the <a class="el" href="classoops_1_1CovarianceFactory.html" title="Covariance Factory.">CovarianceFactory</a> class.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00175">175</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    : <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>(<a class="code" href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">CovarianceFactory&lt;MODEL&gt;::create</a>(</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;          eckit::LocalConfiguration(config, <span class="stringliteral">&quot;Covariance&quot;</span>), resolouter, ctlvars,</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;          xb)),</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#aff9aea0eaf4bc6eca07f02fc6c860e85">winLength_</a>(len),</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#acfeb85f5af25a015cca3cf19ce4cccfe">controlvars_</a>(ctlvars),</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>(),</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>() {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;CostJb3D constructed.&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00176">176</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    : <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>(<a class="code" href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">CovarianceFactory&lt;MODEL&gt;::create</a>(</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;          eckit::LocalConfiguration(config, <span class="stringliteral">&quot;Covariance&quot;</span>), resolouter, ctlvars,</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;          xb)),</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#aff9aea0eaf4bc6eca07f02fc6c860e85">winLength_</a>(len),</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#acfeb85f5af25a015cca3cf19ce4cccfe">controlvars_</a>(ctlvars),</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>(),</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>() {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;CostJb3D constructed.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -635,10 +637,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a865a2d98f493dd0f026b60f3f143d58a">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00214">214</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                                                              {</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  grad -= gradJb;</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00228">228</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                                              {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  grad -= gradJb;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -682,12 +684,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a47a0bf6dba219a588dc31987c14bbc5c">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00231">231</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                                                       {</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  Log::warning() &lt;&lt; <span class="stringliteral">&quot;*** B inverse might not always exist ***&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;inverseMultiply(dxin[0], dxout[0]);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  Log::warning() &lt;&lt; <span class="stringliteral">&quot;*** B inverse might not always exist ***&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00245">245</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                                                       {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  Log::warning() &lt;&lt; <span class="stringliteral">&quot;*** B inverse might not always exist ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;inverseMultiply(dxin[0], dxout[0]);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  Log::warning() &lt;&lt; <span class="stringliteral">&quot;*** B inverse might not always exist ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -731,10 +733,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a56df544d59848968dd972cebeceaecc5">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00223">223</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                       {</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;multiply(dxin[0], dxout[0]);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00237">237</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                                                       {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;multiply(dxin[0], dxout[0]);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -778,10 +780,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a8a8324dd61a0451359ad539276cb2aa7">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00241">241</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                                                           {</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;multiplySqrt(dv[0], dxout[0]);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00255">255</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                                                           {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;multiplySqrt(dv[0], dxout[0]);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -825,10 +827,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a44a9d38e75f162ce109ce0131a0c1441">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00249">249</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                                                              {</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;multiplySqrtTrans(dxin[0], dv[0]);</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00263">263</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                                                              {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;multiplySqrtTrans(dxin[0], dv[0]);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -879,10 +881,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a91e9ccf300af5daa1667e8e7ad350649">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00205">205</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                                                               {</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  dx.diff(fg, xb);</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00219">219</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                                               {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  dx.diff(fg, xb);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="Increment4D_8h_source.html#l00214">oops::Increment4D&lt; MODEL &gt;::diff()</a>.</p>
 <div class="dynheader">
@@ -926,10 +928,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a3b5278a1348efb44261117e7152fcaff">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00137">137</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;{ <span class="keywordflow">return</span> *<a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00138">138</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;{ <span class="keywordflow">return</span> *<a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb3D_8h_source.html#l00162">oops::CostJb3D&lt; MODEL &gt;::B_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb3D_8h_source.html#l00163">oops::CostJb3D&lt; MODEL &gt;::B_</a>.</p>
 
 </div>
 </div>
@@ -997,10 +999,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a6508b8e4b8f6078336e842f754a7113b">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00117">117</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                                                       {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00118">118</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1033,13 +1035,76 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a46c2d3b789493a09541cc1ecba97b071">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00114">114</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{ <span class="keywordflow">return</span> 0; }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00115">115</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{ <span class="keywordflow">return</span> 0; }</div>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a88d1b01ee4b08a34ff1e5e90e3d7675c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d1b01ee4b08a34ff1e5e90e3d7675c">&#9670;&nbsp;</a></span>linearize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODEL &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classoops_1_1CostJb3D.html">oops::CostJb3D</a>&lt; MODEL &gt;::linearize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1CostJb3D.html#a95ea36776cbb92ef64faa092fea3ccd7">State4D_</a> &amp;&#160;</td>
+          <td class="paramname"><em>fg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">Geometry_</a> &amp;&#160;</td>
+          <td class="paramname"><em>resolinner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linearize before the linear computations. </p>
+<p>Set up the inner loop geometry and construct the B matrix</p>
+
+<p>Implements <a class="el" href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">oops::CostJbState&lt; MODEL &gt;</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00197">197</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                                             {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  ASSERT(fg.checkStatesNumber(1));</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>.reset(<span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">Geometry_</a>(resolinner));</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>.reset(<span class="keyword">new</span> util::DateTime(fg[0].validTime()));</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;linearize(fg[0], *<a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="State4D_8h_source.html#l00058">oops::State4D&lt; MODEL &gt;::checkStatesNumber()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classoops_1_1CostJb3D_a88d1b01ee4b08a34ff1e5e90e3d7675c_cgraph.png" border="0" usemap="#classoops_1_1CostJb3D_a88d1b01ee4b08a34ff1e5e90e3d7675c_cgraph" alt=""/></div>
+<map name="classoops_1_1CostJb3D_a88d1b01ee4b08a34ff1e5e90e3d7675c_cgraph" id="classoops_1_1CostJb3D_a88d1b01ee4b08a34ff1e5e90e3d7675c_cgraph">
+<area shape="rect" title="Linearize before the linear computations." alt="" coords="5,13,172,39"/>
+<area shape="rect" href="classoops_1_1State4D.html#aa91b6d67d3eeb16575b479c7008c1f3c" title="Get model space control variable." alt="" coords="220,5,403,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="acc965c81019ab122549161bb5c5e236f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc965c81019ab122549161bb5c5e236f">&#9670;&nbsp;</a></span>linearize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acc965c81019ab122549161bb5c5e236f">&#9670;&nbsp;</a></span>linearize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1080,25 +1145,23 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Linearize before the linear computations. </p>
+<p>Reimplemented from <a class="el" href="classoops_1_1CostJbState.html#ab4d5c02dd24cb57f1f900930abcb05b4">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p>Implements <a class="el" href="classoops_1_1CostJbState.html#a41b7d5130a6d426ecba05ef4d84c9418">oops::CostJbState&lt; MODEL &gt;</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00196">196</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                                                                                                                       {</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  ASSERT(fg.checkStatesNumber(1));</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>.reset(<span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">Geometry_</a>(resolinner));</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>.reset(<span class="keyword">new</span> util::DateTime(fg[0].validTime()));</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;linearize(fg[0], *<a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>, innerconf);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00210">210</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                                                                                                                       {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  ASSERT(fg.checkStatesNumber(1));</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>.reset(<span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">Geometry_</a>(resolinner));</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>.reset(<span class="keyword">new</span> util::DateTime(fg[0].validTime()));</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;linearize(fg[0], *<a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>, innerconf);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="State4D_8h_source.html#l00059">oops::State4D&lt; MODEL &gt;::checkStatesNumber()</a>.</p>
+<p class="reference">References <a class="el" href="State4D_8h_source.html#l00058">oops::State4D&lt; MODEL &gt;::checkStatesNumber()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classoops_1_1CostJb3D_acc965c81019ab122549161bb5c5e236f_cgraph.png" border="0" usemap="#classoops_1_1CostJb3D_acc965c81019ab122549161bb5c5e236f_cgraph" alt=""/></div>
 <map name="classoops_1_1CostJb3D_acc965c81019ab122549161bb5c5e236f_cgraph" id="classoops_1_1CostJb3D_acc965c81019ab122549161bb5c5e236f_cgraph">
-<area shape="rect" title="Linearize before the linear computations." alt="" coords="5,13,172,39"/>
+<area shape="rect" title=" " alt="" coords="5,13,172,39"/>
 <area shape="rect" href="classoops_1_1State4D.html#aa91b6d67d3eeb16575b479c7008c1f3c" title="Get model space control variable." alt="" coords="220,5,403,47"/>
 </map>
 </div>
@@ -1134,8 +1197,8 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a36cb329ace3cb31b7d3eafd7df0ca9a0">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00146">146</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;{ <span class="keywordflow">return</span> 1; }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00147">147</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{ <span class="keywordflow">return</span> 1; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1170,10 +1233,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#af7cfd33965a2c7de0212f1768e0896ec">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00273">273</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                   {</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#a4c8f761bbad63fb58003ef52970607c0">IncrCtlVec_</a>(*<span class="keyword">this</span>, *<a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>);</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00287">287</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                                   {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#a4c8f761bbad63fb58003ef52970607c0">IncrCtlVec_</a>(*<span class="keyword">this</span>, *<a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1206,12 +1269,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#abb1c5602997816cee6971b291ee618dd">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00157">157</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                    {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;newIncrEnsCtlVec();</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00158">158</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                                                    {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;newIncrEnsCtlVec();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb3D_8h_source.html#l00162">oops::CostJb3D&lt; MODEL &gt;::B_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb3D_8h_source.html#l00163">oops::CostJb3D&lt; MODEL &gt;::B_</a>.</p>
 
 </div>
 </div>
@@ -1244,12 +1307,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a21913479907fdc9b0168ac07c54564eb">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00152">152</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                    {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;newIncrModCtlVec();</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00153">153</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                    {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;newIncrModCtlVec();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb3D_8h_source.html#l00162">oops::CostJb3D&lt; MODEL &gt;::B_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb3D_8h_source.html#l00163">oops::CostJb3D&lt; MODEL &gt;::B_</a>.</p>
 
 </div>
 </div>
@@ -1284,11 +1347,11 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a896c33d08a9859513b394f4fc571de84">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00264">264</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                                                                             {</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#ac9ed309d66148f3179c7771076689136">Increment_</a> *incr = <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#ac9ed309d66148f3179c7771076689136">Increment_</a>(*<a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>, <a class="code" href="classoops_1_1CostJb3D.html#acfeb85f5af25a015cca3cf19ce4cccfe">controlvars_</a>, *<a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordflow">return</span> incr;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00278">278</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#ac9ed309d66148f3179c7771076689136">Increment_</a> *incr = <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb3D.html#ac9ed309d66148f3179c7771076689136">Increment_</a>(*<a class="code" href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">resol_</a>, <a class="code" href="classoops_1_1CostJb3D.html#acfeb85f5af25a015cca3cf19ce4cccfe">controlvars_</a>, *<a class="code" href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">time_</a>);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="keywordflow">return</span> incr;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1321,8 +1384,8 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a195ec66b403357eb6c2b67b82484c582">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00140">140</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;{ <span class="keywordflow">return</span> 1; }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00141">141</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;{ <span class="keywordflow">return</span> 1; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1356,10 +1419,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a06cd4bd20cd490a4ce0ac8ba91f9e1e7">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00257">257</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                                      {</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;randomize(dx[0]);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00271">271</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                                      {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <a class="code" href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">B_</a>-&gt;randomize(dx[0]);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1388,9 +1451,9 @@ template&lt;typename MODEL &gt; </div>
 
 <p>B matrix pointer. </p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00162">162</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00163">163</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CostJb3D_8h_source.html#l00137">oops::CostJb3D&lt; MODEL &gt;::covar()</a>, <a class="el" href="CostJb3D_8h_source.html#l00157">oops::CostJb3D&lt; MODEL &gt;::newIncrEnsCtlVec()</a>, and <a class="el" href="CostJb3D_8h_source.html#l00152">oops::CostJb3D&lt; MODEL &gt;::newIncrModCtlVec()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CostJb3D_8h_source.html#l00138">oops::CostJb3D&lt; MODEL &gt;::covar()</a>, <a class="el" href="CostJb3D_8h_source.html#l00158">oops::CostJb3D&lt; MODEL &gt;::newIncrEnsCtlVec()</a>, and <a class="el" href="CostJb3D_8h_source.html#l00153">oops::CostJb3D&lt; MODEL &gt;::newIncrModCtlVec()</a>.</p>
 
 </div>
 </div>
@@ -1418,7 +1481,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Control variables. </p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00164">164</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00165">165</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
 
 </div>
 </div>
@@ -1446,7 +1509,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Pointer to the geometry. </p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00165">165</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00166">166</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1537,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Valid time pointer. </p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00166">166</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00167">167</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
 
 </div>
 </div>
@@ -1502,7 +1565,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Window length. </p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00163">163</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb3D_8h_source.html#l00164">164</a> of file <a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a>.</p>
 
 </div>
 </div>
@@ -1510,15 +1573,15 @@ template&lt;typename MODEL &gt; </div>
 <li>src/oops/assimilation/<a class="el" href="CostJb3D_8h_source.html">CostJb3D.h</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclassoops_1_1CostJb3D_html_a8e496dc00b8e9433e467277ca1e834a3"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">oops::CostJb3D::resol_</a></div><div class="ttdeci">std::unique_ptr&lt; const Geometry_ &gt; resol_</div><div class="ttdoc">Pointer to the geometry.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00165">CostJb3D.h:165</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb3D_html_a9531017814a5f1cf2911d515761c2235"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">oops::CostJb3D::time_</a></div><div class="ttdeci">std::unique_ptr&lt; const util::DateTime &gt; time_</div><div class="ttdoc">Valid time pointer.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00166">CostJb3D.h:166</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb3D_html_acfeb85f5af25a015cca3cf19ce4cccfe"><div class="ttname"><a href="classoops_1_1CostJb3D.html#acfeb85f5af25a015cca3cf19ce4cccfe">oops::CostJb3D::controlvars_</a></div><div class="ttdeci">const Variables_ controlvars_</div><div class="ttdoc">Control variables.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00164">CostJb3D.h:164</a></div></div>
-<div class="ttc" id="aclassoops_1_1CovarianceFactory_html_acf991daa82e95df8ee05a5dba6170de4"><div class="ttname"><a href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">oops::CovarianceFactory::create</a></div><div class="ttdeci">static ModelSpaceCovarianceBase&lt; MODEL &gt; * create(const eckit::Configuration &amp;, const Geometry_ &amp;, const Variables_ &amp;, const State_ &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="ModelSpaceCovarianceBase_8h_source.html#l00157">ModelSpaceCovarianceBase.h:157</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb3D_html_a8e496dc00b8e9433e467277ca1e834a3"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a8e496dc00b8e9433e467277ca1e834a3">oops::CostJb3D::resol_</a></div><div class="ttdeci">std::unique_ptr&lt; const Geometry_ &gt; resol_</div><div class="ttdoc">Pointer to the geometry.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00166">CostJb3D.h:166</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb3D_html_a9531017814a5f1cf2911d515761c2235"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a9531017814a5f1cf2911d515761c2235">oops::CostJb3D::time_</a></div><div class="ttdeci">std::unique_ptr&lt; const util::DateTime &gt; time_</div><div class="ttdoc">Valid time pointer.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00167">CostJb3D.h:167</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb3D_html_acfeb85f5af25a015cca3cf19ce4cccfe"><div class="ttname"><a href="classoops_1_1CostJb3D.html#acfeb85f5af25a015cca3cf19ce4cccfe">oops::CostJb3D::controlvars_</a></div><div class="ttdeci">const Variables_ controlvars_</div><div class="ttdoc">Control variables.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00165">CostJb3D.h:165</a></div></div>
+<div class="ttc" id="aclassoops_1_1CovarianceFactory_html_acf991daa82e95df8ee05a5dba6170de4"><div class="ttname"><a href="classoops_1_1CovarianceFactory.html#acf991daa82e95df8ee05a5dba6170de4">oops::CovarianceFactory::create</a></div><div class="ttdeci">static ModelSpaceCovarianceBase&lt; MODEL &gt; * create(const eckit::Configuration &amp;, const Geometry_ &amp;, const Variables_ &amp;, const State_ &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="ModelSpaceCovarianceBase_8h_source.html#l00160">ModelSpaceCovarianceBase.h:160</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostJb3D_html_acbadb46a2707de22a78e162cc2262082"><div class="ttname"><a href="classoops_1_1CostJb3D.html#acbadb46a2707de22a78e162cc2262082">oops::CostJb3D::Geometry_</a></div><div class="ttdeci">Geometry&lt; MODEL &gt; Geometry_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00086">CostJb3D.h:86</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostJb3D_html_ac9ed309d66148f3179c7771076689136"><div class="ttname"><a href="classoops_1_1CostJb3D.html#ac9ed309d66148f3179c7771076689136">oops::CostJb3D::Increment_</a></div><div class="ttdeci">Increment&lt; MODEL &gt; Increment_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00080">CostJb3D.h:80</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostJb3D_html_a4c8f761bbad63fb58003ef52970607c0"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a4c8f761bbad63fb58003ef52970607c0">oops::CostJb3D::IncrCtlVec_</a></div><div class="ttdeci">IncrCtlVec&lt; MODEL &gt; IncrCtlVec_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00082">CostJb3D.h:82</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb3D_html_aff9aea0eaf4bc6eca07f02fc6c860e85"><div class="ttname"><a href="classoops_1_1CostJb3D.html#aff9aea0eaf4bc6eca07f02fc6c860e85">oops::CostJb3D::winLength_</a></div><div class="ttdeci">const util::Duration winLength_</div><div class="ttdoc">Window length.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00163">CostJb3D.h:163</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb3D_html_a43678f9aa63d223162d2de28df15754e"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">oops::CostJb3D::B_</a></div><div class="ttdeci">std::unique_ptr&lt; ModelSpaceCovarianceBase&lt; MODEL &gt; &gt; B_</div><div class="ttdoc">B matrix pointer.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00162">CostJb3D.h:162</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb3D_html_aff9aea0eaf4bc6eca07f02fc6c860e85"><div class="ttname"><a href="classoops_1_1CostJb3D.html#aff9aea0eaf4bc6eca07f02fc6c860e85">oops::CostJb3D::winLength_</a></div><div class="ttdeci">const util::Duration winLength_</div><div class="ttdoc">Window length.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00164">CostJb3D.h:164</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb3D_html_a43678f9aa63d223162d2de28df15754e"><div class="ttname"><a href="classoops_1_1CostJb3D.html#a43678f9aa63d223162d2de28df15754e">oops::CostJb3D::B_</a></div><div class="ttdeci">std::unique_ptr&lt; ModelSpaceCovarianceBase&lt; MODEL &gt; &gt; B_</div><div class="ttdoc">B matrix pointer.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb3D_8h_source.html#l00163">CostJb3D.h:163</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

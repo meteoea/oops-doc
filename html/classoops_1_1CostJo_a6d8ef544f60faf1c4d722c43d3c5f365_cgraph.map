@@ -1,4 +1,5 @@
 <map id="oops::CostJo::initialize" name="oops::CostJo::initialize">
-<area shape="rect" id="node1" title="Various set ups prior to the integration of the model." alt="" coords="5,13,155,39"/>
-<area shape="rect" id="node2" href="$classoops_1_1ControlVariable.html#ab0d586bcc35408b75555e9eafd6fd501" title="Read a control variable." alt="" coords="203,5,347,47"/>
+<area shape="rect" id="node1" title="Various set ups prior to the integration of the model." alt="" coords="5,42,155,69"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlVariable.html#ab0d586bcc35408b75555e9eafd6fd501" title="Read a control variable." alt="" coords="206,5,350,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Departures.html#ace0afd3172cab34defb8bc9f6a26059b" title="Read departures." alt="" coords="203,71,353,98"/>
 </map>

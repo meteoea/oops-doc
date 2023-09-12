@@ -88,8 +88,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32ebb993955bad430450e56b5dfba435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb4D.html#a32ebb993955bad430450e56b5dfba435">computeIncrement</a> (const <a class="el" href="classoops_1_1CostJb4D.html#a3c38198248d104b94f8b7d6b66ceb172">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJb4D.html#a3c38198248d104b94f8b7d6b66ceb172">State4D_</a> &amp;, <a class="el" href="classoops_1_1CostJb4D.html#ab2ea654e6fa9a88cd29380656379d681">Increment4D_</a> &amp;) const override</td></tr>
 <tr class="memdesc:a32ebb993955bad430450e56b5dfba435"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get increment from state (usually first guess).  <a href="classoops_1_1CostJb4D.html#a32ebb993955bad430450e56b5dfba435">More...</a><br /></td></tr>
 <tr class="separator:a32ebb993955bad430450e56b5dfba435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9388e3da9c9f03d2e68ee6e8f9ae085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb4D.html#ae9388e3da9c9f03d2e68ee6e8f9ae085">linearize</a> (const <a class="el" href="classoops_1_1CostJb4D.html#a3c38198248d104b94f8b7d6b66ceb172">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">Geometry_</a> &amp;) override</td></tr>
+<tr class="memdesc:ae9388e3da9c9f03d2e68ee6e8f9ae085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize before the linear computations.  <a href="classoops_1_1CostJb4D.html#ae9388e3da9c9f03d2e68ee6e8f9ae085">More...</a><br /></td></tr>
+<tr class="separator:ae9388e3da9c9f03d2e68ee6e8f9ae085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2ce33f2a3cf19032535bc11edcc3c13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb4D.html#af2ce33f2a3cf19032535bc11edcc3c13">linearize</a> (const <a class="el" href="classoops_1_1CostJb4D.html#a3c38198248d104b94f8b7d6b66ceb172">State4D_</a> &amp;, const <a class="el" href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">Geometry_</a> &amp;, const eckit::Configuration &amp;) override</td></tr>
-<tr class="memdesc:af2ce33f2a3cf19032535bc11edcc3c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linearize before the linear computations.  <a href="classoops_1_1CostJb4D.html#af2ce33f2a3cf19032535bc11edcc3c13">More...</a><br /></td></tr>
 <tr class="separator:af2ce33f2a3cf19032535bc11edcc3c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00c0023d580fd8d40c7543d1e401e9fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1CostJb4D.html#a00c0023d580fd8d40c7543d1e401e9fb">addGradient</a> (const <a class="el" href="classoops_1_1CostJb4D.html#ab2ea654e6fa9a88cd29380656379d681">Increment4D_</a> &amp;, <a class="el" href="classoops_1_1CostJb4D.html#ab2ea654e6fa9a88cd29380656379d681">Increment4D_</a> &amp;, <a class="el" href="classoops_1_1CostJb4D.html#ab2ea654e6fa9a88cd29380656379d681">Increment4D_</a> &amp;) const override</td></tr>
 <tr class="memdesc:a00c0023d580fd8d40c7543d1e401e9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add Jb gradient.  <a href="classoops_1_1CostJb4D.html#a00c0023d580fd8d40c7543d1e401e9fb">More...</a><br /></td></tr>
@@ -496,34 +498,34 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Construct \( J_b\). </p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00145">145</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    : <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>(), <a class="code" href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">controlvars_</a>(ctlvars), <a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>(), <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>() {</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="comment">// Create one row of blocks of the whole BMatrix, one object for each</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">// subwindow. Each object stands for all blocks in the same column of the B</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">// Matrix.</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">// It can be from any concrete class of ModelSpaceCovarianceBase,</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="comment">// according to the configuration file.</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration <a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>(config, <span class="stringliteral">&quot;Covariance&quot;</span>);</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>.reset(</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;      <a class="code" href="classoops_1_1Covariance4DFactory.html#ad06e1412028e465f02da32c12954dbf8">Covariance4DFactory&lt;MODEL&gt;::create</a>(<a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>, resolouter, <a class="code" href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">controlvars_</a>, xb));</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.clear();</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>.has(<span class="stringliteral">&quot;envar_times&quot;</span>)) {</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    std::vector&lt;eckit::LocalConfiguration&gt; envar_times;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>.get(<span class="stringliteral">&quot;envar_times&quot;</span>, envar_times);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> jsub = 0; jsub &lt; envar_times.size(); ++jsub) {</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;      <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.push_back(util::DateTime(envar_times[jsub].getString(<span class="stringliteral">&quot;reference_time&quot;</span>) ));</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  }</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jsub = 0; jsub &lt; xb.statesNumber(); ++jsub) {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.push_back(xb[jsub].validTime());</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  }</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;CostJb4D contructed.&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00146">146</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    : <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>(), <a class="code" href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">controlvars_</a>(ctlvars), <a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>(), <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>() {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">// Create one row of blocks of the whole BMatrix, one object for each</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">// subwindow. Each object stands for all blocks in the same column of the B</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">// Matrix.</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="comment">// It can be from any concrete class of ModelSpaceCovarianceBase,</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="comment">// according to the configuration file.</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="keyword">const</span> eckit::LocalConfiguration <a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>(config, <span class="stringliteral">&quot;Covariance&quot;</span>);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>.reset(</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      <a class="code" href="classoops_1_1Covariance4DFactory.html#ad06e1412028e465f02da32c12954dbf8">Covariance4DFactory&lt;MODEL&gt;::create</a>(<a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>, resolouter, <a class="code" href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">controlvars_</a>, xb));</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.clear();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>.has(<span class="stringliteral">&quot;envar_times&quot;</span>)) {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    std::vector&lt;eckit::LocalConfiguration&gt; envar_times;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <a class="code" href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">covar</a>.get(<span class="stringliteral">&quot;envar_times&quot;</span>, envar_times);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> jsub = 0; jsub &lt; envar_times.size(); ++jsub) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.push_back(util::DateTime(envar_times[jsub].getString(<span class="stringliteral">&quot;reference_time&quot;</span>) ));</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jsub = 0; jsub &lt; xb.statesNumber(); ++jsub) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.push_back(xb[jsub].validTime());</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;CostJb4D contructed.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00133">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>, <a class="el" href="CostJb4D_8h_source.html#l00134">oops::CostJb4D&lt; MODEL &gt;::controlvars_</a>, <a class="el" href="CostJb4D_8h_source.html#l00109">oops::CostJb4D&lt; MODEL &gt;::covar()</a>, <a class="el" href="State4D_8h_source.html#l00062">oops::State4D&lt; MODEL &gt;::statesNumber()</a>, and <a class="el" href="CostJb4D_8h_source.html#l00136">oops::CostJb4D&lt; MODEL &gt;::times_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00134">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>, <a class="el" href="CostJb4D_8h_source.html#l00135">oops::CostJb4D&lt; MODEL &gt;::controlvars_</a>, <a class="el" href="CostJb4D_8h_source.html#l00110">oops::CostJb4D&lt; MODEL &gt;::covar()</a>, <a class="el" href="State4D_8h_source.html#l00061">oops::State4D&lt; MODEL &gt;::statesNumber()</a>, and <a class="el" href="CostJb4D_8h_source.html#l00137">oops::CostJb4D&lt; MODEL &gt;::times_</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -616,10 +618,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a865a2d98f493dd0f026b60f3f143d58a">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00199">199</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                                              {</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  grad -= gradJb;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00209">209</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                                                              {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  grad -= gradJb;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -663,10 +665,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a47a0bf6dba219a588dc31987c14bbc5c">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00215">215</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                                                       {</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;inverseMultiply(dxin, dxout);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00225">225</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                                                       {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;inverseMultiply(dxin, dxout);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -710,10 +712,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a56df544d59848968dd972cebeceaecc5">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00207">207</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                                                       {</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;multiply(dxin, dxout);</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00217">217</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                                       {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;multiply(dxin, dxout);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -757,10 +759,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a8a8324dd61a0451359ad539276cb2aa7">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00223">223</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                           {</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;multiplySqrt(dvin[0], dxout);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00233">233</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                                                           {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;multiplySqrt(dvin[0], dxout);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -804,10 +806,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a44a9d38e75f162ce109ce0131a0c1441">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00231">231</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                                                                 {</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;multiplySqrtTrans(dxin, dvout[0]);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00241">241</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;multiplySqrtTrans(dxin, dvout[0]);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -857,17 +859,17 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a91e9ccf300af5daa1667e8e7ad350649">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00186">186</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                                                               {</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <span class="keywordflow">if</span> (xb.statesNumber() == 1) {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    dx.zero();</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    dx[0].diff(fg[0], xb[0]);</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    dx.diff(fg, xb);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  }</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00196">196</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                                                               {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  <span class="keywordflow">if</span> (xb.statesNumber() == 1) {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    dx.zero();</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    dx[0].diff(fg[0], xb[0]);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    dx.diff(fg, xb);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="Increment4D_8h_source.html#l00214">oops::Increment4D&lt; MODEL &gt;::diff()</a>, <a class="el" href="State4D_8h_source.html#l00062">oops::State4D&lt; MODEL &gt;::statesNumber()</a>, and <a class="el" href="Increment4D_8h_source.html#l00207">oops::Increment4D&lt; MODEL &gt;::zero()</a>.</p>
+<p class="reference">References <a class="el" href="Increment4D_8h_source.html#l00214">oops::Increment4D&lt; MODEL &gt;::diff()</a>, <a class="el" href="State4D_8h_source.html#l00061">oops::State4D&lt; MODEL &gt;::statesNumber()</a>, and <a class="el" href="Increment4D_8h_source.html#l00207">oops::Increment4D&lt; MODEL &gt;::zero()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -911,12 +913,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a3b5278a1348efb44261117e7152fcaff">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00109">109</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;covar(); }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00110">110</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;covar(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00133">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00134">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00145">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00146">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -993,10 +995,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a6508b8e4b8f6078336e842f754a7113b">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00096">96</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                       {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00097">97</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1029,13 +1031,61 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a46c2d3b789493a09541cc1ecba97b071">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00093">93</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{ <span class="keywordflow">return</span> 0; }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00094">94</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{ <span class="keywordflow">return</span> 0; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae9388e3da9c9f03d2e68ee6e8f9ae085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9388e3da9c9f03d2e68ee6e8f9ae085">&#9670;&nbsp;</a></span>linearize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODEL &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classoops_1_1CostJb4D.html">oops::CostJb4D</a>&lt; MODEL &gt;::linearize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1CostJb4D.html#a3c38198248d104b94f8b7d6b66ceb172">State4D_</a> &amp;&#160;</td>
+          <td class="paramname"><em>fg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">Geometry_</a> &amp;&#160;</td>
+          <td class="paramname"><em>resolinner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linearize before the linear computations. </p>
+
+<p>Implements <a class="el" href="classoops_1_1CostJbState.html#a9f03bfcef55d1cc499b96c2a4e23edc8">oops::CostJbState&lt; MODEL &gt;</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00179">179</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                                                             {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>.reset(<span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">Geometry_</a>(resolinner));</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;linearize(fg, *<a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <a id="af2ce33f2a3cf19032535bc11edcc3c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2ce33f2a3cf19032535bc11edcc3c13">&#9670;&nbsp;</a></span>linearize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ce33f2a3cf19032535bc11edcc3c13">&#9670;&nbsp;</a></span>linearize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1076,15 +1126,13 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Linearize before the linear computations. </p>
+<p>Reimplemented from <a class="el" href="classoops_1_1CostJbState.html#ab4d5c02dd24cb57f1f900930abcb05b4">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p>Implements <a class="el" href="classoops_1_1CostJbState.html#a41b7d5130a6d426ecba05ef4d84c9418">oops::CostJbState&lt; MODEL &gt;</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00177">177</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                                                      {</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>.reset(<span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">Geometry_</a>(resolinner));</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;linearize(fg, *<a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>, innerConf);</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00187">187</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>.reset(<span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">Geometry_</a>(resolinner));</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;linearize(fg, *<a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>, innerConf);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1117,8 +1165,8 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a36cb329ace3cb31b7d3eafd7df0ca9a0">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00119">119</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{ <span class="keywordflow">return</span> 1; }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00120">120</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;{ <span class="keywordflow">return</span> 1; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1152,10 +1200,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#af7cfd33965a2c7de0212f1768e0896ec">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00258">258</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                                   {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#a9f9ccb3a15d2f6f8d4767caf9fcee8a8">IncrCtlVec_</a>(*<span class="keyword">this</span>, <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>[isub]);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00268">268</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                   {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#a9f9ccb3a15d2f6f8d4767caf9fcee8a8">IncrCtlVec_</a>(*<span class="keyword">this</span>, <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>[isub]);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1188,12 +1236,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#abb1c5602997816cee6971b291ee618dd">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00128">128</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                    {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;newIncrEnsCtlVec();</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00129">129</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                                                    {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;newIncrEnsCtlVec();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00133">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00134">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>.</p>
 
 </div>
 </div>
@@ -1226,12 +1274,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a21913479907fdc9b0168ac07c54564eb">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00123">123</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                    {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;newIncrModCtlVec();</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00124">124</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                    {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">B4D_</a>-&gt;newIncrModCtlVec();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00133">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00134">oops::CostJb4D&lt; MODEL &gt;::B4D_</a>.</p>
 
 </div>
 </div>
@@ -1265,12 +1313,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a896c33d08a9859513b394f4fc571de84">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00248">248</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                   {</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#ac0bb8a1a6b394a6344f0376d322e4750">Increment_</a> *incr =</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#ac0bb8a1a6b394a6344f0376d322e4750">Increment_</a>(*<a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>, <a class="code" href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">controlvars_</a>, <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>[0], <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>[isub]);</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  <span class="keywordflow">return</span> incr;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00258">258</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                                   {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <a class="code" href="classoops_1_1CostJb4D.html#ac0bb8a1a6b394a6344f0376d322e4750">Increment_</a> *incr =</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="keyword">new</span> <a class="code" href="classoops_1_1CostJb4D.html#ac0bb8a1a6b394a6344f0376d322e4750">Increment_</a>(*<a class="code" href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">resol_</a>, <a class="code" href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">controlvars_</a>, <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>[0], <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>[isub]);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  <span class="keywordflow">return</span> incr;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1303,10 +1351,10 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a195ec66b403357eb6c2b67b82484c582">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00115">115</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.size(); }</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00116">116</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">times_</a>.size(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00136">oops::CostJb4D&lt; MODEL &gt;::times_</a>.</p>
+<p class="reference">References <a class="el" href="CostJb4D_8h_source.html#l00137">oops::CostJb4D&lt; MODEL &gt;::times_</a>.</p>
 
 </div>
 </div>
@@ -1340,12 +1388,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Implements <a class="el" href="classoops_1_1CostJbState.html#a06cd4bd20cd490a4ce0ac8ba91f9e1e7">oops::CostJbState&lt; MODEL &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00239">239</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                                      {</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  <span class="comment">/* TODO:</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment">    B4D_[jsub].randomize(dx[jsub]);</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">  */</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00249">249</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                                      {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="comment">/* TODO:</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment">    B4D_[jsub].randomize(dx[jsub]);</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment">  */</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1372,9 +1420,9 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00133">133</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00134">134</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00145">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>, <a class="el" href="CostJb4D_8h_source.html#l00109">oops::CostJb4D&lt; MODEL &gt;::covar()</a>, <a class="el" href="CostJb4D_8h_source.html#l00128">oops::CostJb4D&lt; MODEL &gt;::newIncrEnsCtlVec()</a>, and <a class="el" href="CostJb4D_8h_source.html#l00123">oops::CostJb4D&lt; MODEL &gt;::newIncrModCtlVec()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00146">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>, <a class="el" href="CostJb4D_8h_source.html#l00110">oops::CostJb4D&lt; MODEL &gt;::covar()</a>, <a class="el" href="CostJb4D_8h_source.html#l00129">oops::CostJb4D&lt; MODEL &gt;::newIncrEnsCtlVec()</a>, and <a class="el" href="CostJb4D_8h_source.html#l00124">oops::CostJb4D&lt; MODEL &gt;::newIncrModCtlVec()</a>.</p>
 
 </div>
 </div>
@@ -1400,9 +1448,9 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00134">134</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00135">135</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00145">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00146">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>.</p>
 
 </div>
 </div>
@@ -1428,7 +1476,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00135">135</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00136">136</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
 
 </div>
 </div>
@@ -1454,9 +1502,9 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00136">136</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CostJb4D_8h_source.html#l00137">137</a> of file <a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00145">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>, and <a class="el" href="CostJb4D_8h_source.html#l00115">oops::CostJb4D&lt; MODEL &gt;::nstates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CostJb4D_8h_source.html#l00146">oops::CostJb4D&lt; MODEL &gt;::CostJb4D()</a>, and <a class="el" href="CostJb4D_8h_source.html#l00116">oops::CostJb4D&lt; MODEL &gt;::nstates()</a>.</p>
 
 </div>
 </div>
@@ -1464,14 +1512,14 @@ template&lt;typename MODEL &gt; </div>
 <li>src/oops/assimilation/<a class="el" href="CostJb4D_8h_source.html">CostJb4D.h</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclassoops_1_1CostJb4D_html_afaeb7d683065a8e20e6ba6100608c2a6"><div class="ttname"><a href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">oops::CostJb4D::times_</a></div><div class="ttdeci">std::vector&lt; util::DateTime &gt; times_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00136">CostJb4D.h:136</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb4D_html_ac9162ceaaf9cfa5c3739070aebcc57b8"><div class="ttname"><a href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">oops::CostJb4D::resol_</a></div><div class="ttdeci">std::unique_ptr&lt; const Geometry_ &gt; resol_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00135">CostJb4D.h:135</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb4D_html_afaeb7d683065a8e20e6ba6100608c2a6"><div class="ttname"><a href="classoops_1_1CostJb4D.html#afaeb7d683065a8e20e6ba6100608c2a6">oops::CostJb4D::times_</a></div><div class="ttdeci">std::vector&lt; util::DateTime &gt; times_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00137">CostJb4D.h:137</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb4D_html_ac9162ceaaf9cfa5c3739070aebcc57b8"><div class="ttname"><a href="classoops_1_1CostJb4D.html#ac9162ceaaf9cfa5c3739070aebcc57b8">oops::CostJb4D::resol_</a></div><div class="ttdeci">std::unique_ptr&lt; const Geometry_ &gt; resol_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00136">CostJb4D.h:136</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostJb4D_html_a9c62a13086c894130906b5912532fe7f"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a9c62a13086c894130906b5912532fe7f">oops::CostJb4D::Geometry_</a></div><div class="ttdeci">Geometry&lt; MODEL &gt; Geometry_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00060">CostJb4D.h:60</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb4D_html_a800bbb22d15f6fd77763075690f712dd"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">oops::CostJb4D::covar</a></div><div class="ttdeci">const ModelSpaceCovarianceBase&lt; MODEL &gt; &amp; covar() const</div><div class="ttdoc">Access to B.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00109">CostJb4D.h:109</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb4D_html_a800bbb22d15f6fd77763075690f712dd"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a800bbb22d15f6fd77763075690f712dd">oops::CostJb4D::covar</a></div><div class="ttdeci">const ModelSpaceCovarianceBase&lt; MODEL &gt; &amp; covar() const</div><div class="ttdoc">Access to B.</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00110">CostJb4D.h:110</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostJb4D_html_a9f9ccb3a15d2f6f8d4767caf9fcee8a8"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a9f9ccb3a15d2f6f8d4767caf9fcee8a8">oops::CostJb4D::IncrCtlVec_</a></div><div class="ttdeci">IncrCtlVec&lt; MODEL &gt; IncrCtlVec_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00063">CostJb4D.h:63</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb4D_html_a427b32658145b834fc4d1e0489eb0c17"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">oops::CostJb4D::controlvars_</a></div><div class="ttdeci">const Variables_ controlvars_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00134">CostJb4D.h:134</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJb4D_html_a4a4ab20b26c17311d0169ad21cc9cef2"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">oops::CostJb4D::B4D_</a></div><div class="ttdeci">std::shared_ptr&lt; ModelSpaceCovariance4DBase&lt; MODEL &gt; &gt; B4D_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00133">CostJb4D.h:133</a></div></div>
-<div class="ttc" id="aclassoops_1_1Covariance4DFactory_html_ad06e1412028e465f02da32c12954dbf8"><div class="ttname"><a href="classoops_1_1Covariance4DFactory.html#ad06e1412028e465f02da32c12954dbf8">oops::Covariance4DFactory::create</a></div><div class="ttdeci">static ModelSpaceCovariance4DBase&lt; MODEL &gt; * create(const eckit::Configuration &amp;, const Geometry_ &amp;, const Variables_ &amp;, const State4D_ &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="ModelSpaceCovariance4DBase_8h_source.html#l00204">ModelSpaceCovariance4DBase.h:204</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb4D_html_a427b32658145b834fc4d1e0489eb0c17"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a427b32658145b834fc4d1e0489eb0c17">oops::CostJb4D::controlvars_</a></div><div class="ttdeci">const Variables_ controlvars_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00135">CostJb4D.h:135</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJb4D_html_a4a4ab20b26c17311d0169ad21cc9cef2"><div class="ttname"><a href="classoops_1_1CostJb4D.html#a4a4ab20b26c17311d0169ad21cc9cef2">oops::CostJb4D::B4D_</a></div><div class="ttdeci">std::shared_ptr&lt; ModelSpaceCovariance4DBase&lt; MODEL &gt; &gt; B4D_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00134">CostJb4D.h:134</a></div></div>
+<div class="ttc" id="aclassoops_1_1Covariance4DFactory_html_ad06e1412028e465f02da32c12954dbf8"><div class="ttname"><a href="classoops_1_1Covariance4DFactory.html#ad06e1412028e465f02da32c12954dbf8">oops::Covariance4DFactory::create</a></div><div class="ttdeci">static ModelSpaceCovariance4DBase&lt; MODEL &gt; * create(const eckit::Configuration &amp;, const Geometry_ &amp;, const Variables_ &amp;, const State4D_ &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="ModelSpaceCovariance4DBase_8h_source.html#l00208">ModelSpaceCovariance4DBase.h:208</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostJb4D_html_ac0bb8a1a6b394a6344f0376d322e4750"><div class="ttname"><a href="classoops_1_1CostJb4D.html#ac0bb8a1a6b394a6344f0376d322e4750">oops::CostJb4D::Increment_</a></div><div class="ttdeci">Increment&lt; MODEL &gt; Increment_</div><div class="ttdef"><b>Definition:</b> <a href="CostJb4D_8h_source.html#l00061">CostJb4D.h:61</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

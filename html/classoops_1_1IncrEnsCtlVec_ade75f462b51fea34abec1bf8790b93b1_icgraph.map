@@ -1,10 +1,8 @@
 <map id="oops::IncrEnsCtlVec::zero" name="oops::IncrEnsCtlVec::zero">
-<area shape="rect" id="node1" title=" " alt="" coords="249,232,388,273"/>
+<area shape="rect" id="node1" title=" " alt="" coords="249,159,388,200"/>
 <area shape="rect" id="node2" href="$classoops_1_1EnsembleCovariance4D.html#aaf3f527069da45dc6b76df54a2f294f2" title=" " alt="" coords="8,5,199,47"/>
 <area shape="rect" id="node3" href="$classoops_1_1EnsembleCovariance4DWithChangeOfVariable.html#a63107dcf9afe8baadfdc3a552079774c" title=" " alt="" coords="11,71,196,127"/>
 <area shape="rect" id="node4" href="$classoops_1_1EnsembleCovariance4DDistributed.html#a396922abd65e62d03f0c011b957d493f" title=" " alt="" coords="5,151,201,207"/>
-<area shape="rect" id="node5" href="$classoops_1_1EnsembleCovsInterpolSDL.html#ae7fd122d716ffeb9ab3a505336537dd1" title=" " alt="" coords="10,232,197,273"/>
-<area shape="rect" id="node6" href="$classoops_1_1EnsembleCovsInterpol.html#a32075524f1595b6dae514c143beb9d81" title=" " alt="" coords="10,297,197,339"/>
-<area shape="rect" id="node7" href="$classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d" title=" " alt="" coords="14,363,193,404"/>
-<area shape="rect" id="node8" href="$classoops_1_1EnsembleCovarianceSDL.html#a3067fbe0b6febd5225c388719fa577ef" title=" " alt="" coords="14,428,193,469"/>
+<area shape="rect" id="node5" href="$classoops_1_1EnsembleCovsInterpol.html#a32075524f1595b6dae514c143beb9d81" title=" " alt="" coords="10,232,197,273"/>
+<area shape="rect" id="node6" href="$classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d" title=" " alt="" coords="14,297,193,339"/>
 </map>

@@ -1,8 +1,0 @@
-<map id="oops::EnsembleCovsInterpolSDL::multiplySqrtTrans" name="oops::EnsembleCovsInterpolSDL::multiplySqrtTrans">
-<area shape="rect" id="node1" title=" " alt="" coords="5,115,192,157"/>
-<area shape="rect" id="node2" href="$classoops_1_1IncrCtlVec.html#acbbf0870eadc2bc8e1840687a25b1107" title="Return component acted upon the ensemble covariance matrix." alt="" coords="240,5,423,32"/>
-<area shape="rect" id="node3" href="$classoops_1_1Increment.html#a5e9283dc9145488271d4718a0aca0b6a" title="Hadamard product (element&#45;wise)" alt="" coords="255,57,407,98"/>
-<area shape="rect" id="node4" href="$classoops_1_1Increment.html#a2113f35bdc50063ce4117798efa79cd9" title="Return the valid time." alt="" coords="243,123,419,149"/>
-<area shape="rect" id="node5" href="$classoops_1_1IncrEnsCtlVec.html#ade75f462b51fea34abec1bf8790b93b1" title=" " alt="" coords="262,174,401,215"/>
-<area shape="rect" id="node6" href="$classoops_1_1Increment.html#a4236b44976d860fabc28a2b3f59101a1" title=" " alt="" coords="259,240,403,267"/>
-</map>

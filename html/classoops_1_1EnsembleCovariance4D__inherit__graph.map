@@ -1,4 +1,4 @@
 <map id="oops::EnsembleCovariance4D&lt; MODEL &gt;" name="oops::EnsembleCovariance4D&lt; MODEL &gt;">
-<area shape="rect" id="node1" title="Generic ensemble based model space error covariance." alt="" coords="23,307,218,604"/>
+<area shape="rect" id="node1" title="Generic ensemble based model space error covariance." alt="" coords="23,307,218,619"/>
 <area shape="rect" id="node2" href="$classoops_1_1ModelSpaceCovariance4DBase.html" title="Abstract base class for model space error covariances." alt="" coords="5,5,236,259"/>
 </map>

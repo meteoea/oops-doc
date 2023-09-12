@@ -1,8 +1,10 @@
 <map id="src/oops/assimilation/CostFct4DVarMF.h" name="src/oops/assimilation/CostFct4DVarMF.h">
 <area shape="rect" id="node1" title=" " alt="" coords="233,5,379,47"/>
-<area shape="rect" id="node2" href="$instantiateCostFactory_8h.html" title=" " alt="" coords="223,95,389,136"/>
-<area shape="rect" id="node3" href="$Variational_8h.html" title=" " alt="" coords="218,184,394,211"/>
-<area shape="rect" id="node4" href="$AssimEnsemble_8h.html" title=" " alt="" coords="5,266,215,293"/>
-<area shape="rect" id="node5" href="$Main4dvar_8cc.html" title=" " alt="" coords="239,259,373,300"/>
-<area shape="rect" id="node6" href="$qg4DVar_8cc.html" title=" " alt="" coords="398,266,545,293"/>
+<area shape="rect" id="node2" href="$CostFct4DVarHyb4D_8h.html" title=" " alt="" coords="111,95,269,136"/>
+<area shape="rect" id="node3" href="$instantiateCostFactory_8h.html" title=" " alt="" coords="223,184,389,225"/>
+<area shape="rect" id="node8" href="$CostFct4DVarTrajHR_8h.html" title=" " alt="" coords="344,95,503,136"/>
+<area shape="rect" id="node4" href="$Variational_8h.html" title=" " alt="" coords="218,273,394,300"/>
+<area shape="rect" id="node5" href="$AssimEnsemble_8h.html" title=" " alt="" coords="5,355,215,382"/>
+<area shape="rect" id="node6" href="$Main4dvar_8cc.html" title=" " alt="" coords="239,348,373,389"/>
+<area shape="rect" id="node7" href="$qg4DVar_8cc.html" title=" " alt="" coords="398,355,545,382"/>
 </map>

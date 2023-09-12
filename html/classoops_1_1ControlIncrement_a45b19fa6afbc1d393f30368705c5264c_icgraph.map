@@ -1,39 +1,39 @@
 <map id="oops::ControlIncrement::modVar" name="oops::ControlIncrement::modVar">
-<area shape="rect" id="node1" title="Get augmented model control increment." alt="" coords="732,1057,887,1099"/>
-<area shape="rect" id="node2" href="$classoops_1_1CostJbTotal.html#abd0f42665033911a7ce666751c0ba502" title=" " alt="" coords="513,5,645,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1CostFctWeak.html#a1ef2a0fdada46b9a5d67842608c6d7e9" title="Virtual method to add the increment to the state." alt="" coords="508,71,649,112"/>
-<area shape="rect" id="node4" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="512,136,645,177"/>
-<area shape="rect" id="node5" href="$classoops_1_1CostJbTotal.html#ae4cc2a0e863ff4c9946ad766fa718aaa" title="Compute Jb cost function value." alt="" coords="513,201,645,243"/>
-<area shape="rect" id="node6" href="$classoops_1_1CostJbTotal.html#aa6c7ef94aef05aa22127097c865dc65a" title="Various computations after the integration of the model." alt="" coords="513,267,645,308"/>
-<area shape="rect" id="node7" href="$classoops_1_1BMatrix.html#af326a336f1f969e5ee11e865ee1b1141" title=" " alt="" coords="499,398,658,425"/>
-<area shape="rect" id="node9" href="$classoops_1_1CostJbTotal.html#af554c6dbcc2a6f5499c265c719342725" title="Multiply by the covariance matrix." alt="" coords="513,332,645,373"/>
-<area shape="rect" id="node18" href="$classoops_1_1CostJbTotal.html#ad7638970eea30c0a412ff215dad50fcb" title="Multiply by the inverse covariance matrix." alt="" coords="513,449,645,491"/>
-<area shape="rect" id="node19" href="$classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600" title="Multiply by the square root of the covariance matrix." alt="" coords="513,567,645,608"/>
-<area shape="rect" id="node22" href="$classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="513,632,645,673"/>
-<area shape="rect" id="node24" href="$classoops_1_1BMatrix.html#a8e4d81520d880d75b38c5ea2f67438a2" title=" " alt="" coords="498,515,659,542"/>
-<area shape="rect" id="node25" href="$classoops_1_1CostJbTotal.html#a8524d2238ea9ff272ebd4e2e964413f0" title="Randomize (using the square root of the covariance matrix)" alt="" coords="513,697,645,739"/>
-<area shape="rect" id="node26" href="$classoops_1_1CostFct3DVar.html#a25c9fcc0140f32c467abf75183832d44" title="Run the adjoint model (virtual method)" alt="" coords="509,763,648,804"/>
-<area shape="rect" id="node27" href="$classoops_1_1CostFctWeak.html#aad51ce281b40be8c5feef2c34e816230" title="Run the adjoint model (virtual method)" alt="" coords="508,828,649,869"/>
-<area shape="rect" id="node28" href="$classoops_1_1CostFct4DVar.html#a86be57274afa9df9edeb76281ce62cc9" title="Run the adjoint model (virtual method)" alt="" coords="509,893,648,935"/>
-<area shape="rect" id="node29" href="$classoops_1_1CostFct4DVarHyb4D.html#a1d0fd0cc40459ffbaa786428ec93707e" title="Run the adjoint model with 4D Increment." alt="" coords="490,959,667,1000"/>
-<area shape="rect" id="node30" href="$classoops_1_1CostFct4DEnsVar.html#a2d19d9c4ef6309ee95b51f3602e80e32" title="Run the adjoint model (virtual method)" alt="" coords="499,1024,659,1065"/>
-<area shape="rect" id="node31" href="$classoops_1_1CostFct4DEnVar.html#a07778f7062813960eb0861504f49f941" title="Run the adjoint model (virtual method)" alt="" coords="502,1089,655,1131"/>
-<area shape="rect" id="node32" href="$classoops_1_1CostFct4DVarMFTemplate.html#a7c01adda989aca82e5c50fc6e82f6f5b" title="Run the adjoint model." alt="" coords="473,1155,684,1196"/>
-<area shape="rect" id="node33" href="$classoops_1_1CostFct3DVar.html#af14ee890e1cf09dab1f60c5eba00c47c" title="Run the tangent linear model (virtual method)" alt="" coords="509,1220,648,1261"/>
-<area shape="rect" id="node34" href="$classoops_1_1CostFctWeak.html#a5f1f96a40ba1fa777a7c800fa90d32d8" title="Run the tangent linear model (virtual method)" alt="" coords="508,1285,649,1327"/>
-<area shape="rect" id="node35" href="$classoops_1_1CostFct4DVar.html#a255956426f19a9efbd7d397fd25ced65" title="Run the tangent linear model (virtual method)" alt="" coords="509,1351,648,1392"/>
-<area shape="rect" id="node36" href="$classoops_1_1CostFct4DVarHyb4D.html#a8ee0b65a7052b5b5f55e41ed8a3736c1" title="Run the tangent linear model with 4D Increment." alt="" coords="490,1416,667,1457"/>
-<area shape="rect" id="node37" href="$classoops_1_1CostFct4DEnsVar.html#a558d17bdd57a5446891e008550b859ad" title="Run the tangent linear model (virtual method)" alt="" coords="499,1481,659,1523"/>
-<area shape="rect" id="node38" href="$classoops_1_1CostFct4DEnVar.html#a64ca0ad240fd595a8ff2c21c38a0178f" title="Run the tangent linear model (virtual method)" alt="" coords="502,1547,655,1588"/>
-<area shape="rect" id="node39" href="$classoops_1_1CostFct4DVarMFTemplate.html#a53f0d794bda3d9004e4efcbddf8d3b40" title="Run the tangent linear model." alt="" coords="473,1612,684,1653"/>
-<area shape="rect" id="node40" href="$classoops_1_1CostJbTotal.html#a8490b161a4803250c86c1e44b48f63a8" title="Write the increment." alt="" coords="513,1677,645,1719"/>
-<area shape="rect" id="node41" href="$classoops_1_1CostFct3DVar.html#a8297e39b7b9d8b8be837612ae8d350f3" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="509,1743,648,1784"/>
-<area shape="rect" id="node42" href="$classoops_1_1CostFctWeak.html#af2528021a32daa75c8d530a33022dc07" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="508,1808,649,1849"/>
-<area shape="rect" id="node43" href="$classoops_1_1CostFct4DVar.html#af5d49e520c1f209c11ad72f71d77ab70" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="509,1873,648,1915"/>
-<area shape="rect" id="node44" href="$classoops_1_1CostFct4DVarHyb4D.html#a8b82cdff88fad46270770e48b0b93bbc" title="Nullify the 4D increment prior to running the adjoint model." alt="" coords="490,1939,667,1980"/>
-<area shape="rect" id="node45" href="$classoops_1_1CostFct4DEnsVar.html#a05dc3bd773eea41c9020516969ae1521" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="499,2004,659,2045"/>
-<area shape="rect" id="node46" href="$classoops_1_1CostFct4DEnVar.html#ab8ab3c4c17548d58e9bc1c019cb9c8ca" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="502,2069,655,2111"/>
-<area shape="rect" id="node47" href="$classoops_1_1CostFct4DVarMFTemplate.html#af3d820f542c7e7efcf9077c0cd51bc40" title="Nullify the increment prior to running the adjoint model." alt="" coords="473,2135,684,2176"/>
+<area shape="rect" id="node1" title="Get augmented model control increment." alt="" coords="699,1057,853,1099"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostJbTotal.html#abd0f42665033911a7ce666751c0ba502" title=" " alt="" coords="496,5,628,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFctWeak.html#a1ef2a0fdada46b9a5d67842608c6d7e9" title="Virtual method to add the increment to the state." alt="" coords="491,71,633,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="495,136,629,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostJbTotal.html#ae4cc2a0e863ff4c9946ad766fa718aaa" title="Compute Jb cost function value." alt="" coords="496,201,628,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostJbTotal.html#aa6c7ef94aef05aa22127097c865dc65a" title="Various computations after the integration of the model." alt="" coords="496,267,628,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1BMatrix.html#af326a336f1f969e5ee11e865ee1b1141" title=" " alt="" coords="483,398,641,425"/>
+<area shape="rect" id="node9" href="$classoops_1_1CostJbTotal.html#af554c6dbcc2a6f5499c265c719342725" title="Multiply by the covariance matrix." alt="" coords="496,332,628,373"/>
+<area shape="rect" id="node18" href="$classoops_1_1CostJbTotal.html#ad7638970eea30c0a412ff215dad50fcb" title="Multiply by the inverse covariance matrix." alt="" coords="496,449,628,491"/>
+<area shape="rect" id="node19" href="$classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600" title="Multiply by the square root of the covariance matrix." alt="" coords="496,567,628,608"/>
+<area shape="rect" id="node22" href="$classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="496,632,628,673"/>
+<area shape="rect" id="node24" href="$classoops_1_1BMatrix.html#a8e4d81520d880d75b38c5ea2f67438a2" title=" " alt="" coords="481,515,643,542"/>
+<area shape="rect" id="node25" href="$classoops_1_1CostJbTotal.html#a8524d2238ea9ff272ebd4e2e964413f0" title="Randomize (using the square root of the covariance matrix)" alt="" coords="496,697,628,739"/>
+<area shape="rect" id="node26" href="$classoops_1_1CostFct3DVar.html#a25c9fcc0140f32c467abf75183832d44" title="Run the adjoint model (virtual method)" alt="" coords="493,763,631,804"/>
+<area shape="rect" id="node27" href="$classoops_1_1CostFctWeak.html#aad51ce281b40be8c5feef2c34e816230" title="Run the adjoint model (virtual method)" alt="" coords="491,828,633,869"/>
+<area shape="rect" id="node28" href="$classoops_1_1CostFct4DVar.html#a86be57274afa9df9edeb76281ce62cc9" title="Run the adjoint model (virtual method)" alt="" coords="493,893,631,935"/>
+<area shape="rect" id="node29" href="$classoops_1_1CostFct4DVarHyb4D.html#a1d0fd0cc40459ffbaa786428ec93707e" title="Run the adjoint model with 4D Increment." alt="" coords="473,959,651,1000"/>
+<area shape="rect" id="node30" href="$classoops_1_1CostFct4DEnsVar.html#a2d19d9c4ef6309ee95b51f3602e80e32" title="Run the adjoint model (virtual method)" alt="" coords="482,1024,642,1065"/>
+<area shape="rect" id="node31" href="$classoops_1_1CostFct4DEnVar.html#a07778f7062813960eb0861504f49f941" title="Run the adjoint model (virtual method)" alt="" coords="485,1089,639,1131"/>
+<area shape="rect" id="node32" href="$classoops_1_1CostFct4DVarMF.html#ae5fe034e1c11fd04e8716bce861a7a20" title="Run the adjoint model." alt="" coords="483,1155,641,1196"/>
+<area shape="rect" id="node33" href="$classoops_1_1CostFct3DVar.html#af14ee890e1cf09dab1f60c5eba00c47c" title="Run the tangent linear model (virtual method)" alt="" coords="493,1220,631,1261"/>
+<area shape="rect" id="node34" href="$classoops_1_1CostFct4DVarHyb4D.html#a8ee0b65a7052b5b5f55e41ed8a3736c1" title="Run the tangent linear model with 4D Increment." alt="" coords="473,1285,651,1327"/>
+<area shape="rect" id="node35" href="$classoops_1_1CostFctWeak.html#a5f1f96a40ba1fa777a7c800fa90d32d8" title="Run the tangent linear model (virtual method)" alt="" coords="491,1351,633,1392"/>
+<area shape="rect" id="node36" href="$classoops_1_1CostFct4DVar.html#a255956426f19a9efbd7d397fd25ced65" title="Run the tangent linear model (virtual method)" alt="" coords="493,1416,631,1457"/>
+<area shape="rect" id="node37" href="$classoops_1_1CostFct4DEnsVar.html#a558d17bdd57a5446891e008550b859ad" title="Run the tangent linear model (virtual method)" alt="" coords="482,1481,642,1523"/>
+<area shape="rect" id="node38" href="$classoops_1_1CostFct4DEnVar.html#a64ca0ad240fd595a8ff2c21c38a0178f" title="Run the tangent linear model (virtual method)" alt="" coords="485,1547,639,1588"/>
+<area shape="rect" id="node39" href="$classoops_1_1CostFct4DVarMF.html#a8b654233b92ced3da8862952cb03557c" title="Run the tangent linear model." alt="" coords="483,1612,641,1653"/>
+<area shape="rect" id="node40" href="$classoops_1_1CostJbTotal.html#a8490b161a4803250c86c1e44b48f63a8" title="Write the increment." alt="" coords="496,1677,628,1719"/>
+<area shape="rect" id="node41" href="$classoops_1_1CostFct3DVar.html#a8297e39b7b9d8b8be837612ae8d350f3" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="493,1743,631,1784"/>
+<area shape="rect" id="node42" href="$classoops_1_1CostFctWeak.html#af2528021a32daa75c8d530a33022dc07" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="491,1808,633,1849"/>
+<area shape="rect" id="node43" href="$classoops_1_1CostFct4DVar.html#af5d49e520c1f209c11ad72f71d77ab70" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="493,1873,631,1915"/>
+<area shape="rect" id="node44" href="$classoops_1_1CostFct4DVarHyb4D.html#a8b82cdff88fad46270770e48b0b93bbc" title="Nullify the 4D increment prior to running the adjoint model." alt="" coords="473,1939,651,1980"/>
+<area shape="rect" id="node45" href="$classoops_1_1CostFct4DEnsVar.html#a05dc3bd773eea41c9020516969ae1521" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="482,2004,642,2045"/>
+<area shape="rect" id="node46" href="$classoops_1_1CostFct4DEnVar.html#ab8ab3c4c17548d58e9bc1c019cb9c8ca" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="485,2069,639,2111"/>
+<area shape="rect" id="node47" href="$classoops_1_1CostFct4DVarMF.html#a40b55061887aec3791dd8125eee7fda7" title="Nullify the increment prior to running the adjoint model." alt="" coords="483,2135,641,2176"/>
 <area shape="rect" id="node8" href="$classoops_1_1DRPLanczosMinimizer.html#a6339485da6ba7f0309db9b004427cffc" title=" " alt="" coords="239,508,425,549"/>
 <area shape="rect" id="node10" href="$classoops_1_1BMatrix.html#ac7a169bdc944d77ed65cccd584ebca7e" title=" " alt="" coords="257,379,407,406"/>
 <area shape="rect" id="node17" href="$classoops_1_1LBHessianMatrix.html#ab1306ed7701729b87c281ea542a45591" title=" " alt="" coords="254,313,410,355"/>

@@ -68,27 +68,30 @@ $(function() {
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define OOPS_BASE_INSTANTIATEPOSTPROCESSORSTATEFACTORY_H_</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ObserverIAU_8h.html">oops/base/ObserverIAU.h</a>&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="oops_2interface_2State_8h.html">oops/interface/State.h</a>&quot;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PostProcessorFactory_8h.html">oops/base/PostProcessorFactory.h</a>&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="StateInfo_8h.html">oops/base/StateInfo.h</a>&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="StateWriter_8h.html">oops/base/StateWriter.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PostProcessorModel_8h.html">oops/interface/PostProcessorModel.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceoops.html">oops</a> {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> MODEL&gt;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="namespaceoops.html#a6a3e0983e64efa8fe0dcfd725cb0a848">   25</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceoops.html#a6a3e0983e64efa8fe0dcfd725cb0a848">instantiatePostProcessorStateFactory</a>() {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1StateInfo.html">StateInfo&lt;State&lt;MODEL&gt;</a> &gt; &gt;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      makerStateInfo__(<span class="stringliteral">&quot;state_info&quot;</span>);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1StateWriter.html">StateWriter&lt;State&lt;MODEL&gt;</a> &gt; &gt;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      makerStateWriter_(<span class="stringliteral">&quot;state_writer&quot;</span>);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1ObserverIAU.html">ObserverIAU&lt;MODEL, State&lt;MODEL&gt;</a> &gt; &gt;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      makerIAU_(<span class="stringliteral">&quot;IAU&quot;</span>);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}  <span class="comment">// namespace oops</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif  // OOPS_BASE_INSTANTIATEPOSTPROCESSORSTATEFACTORY_H_</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="HighToLow_8h.html">oops/base/HighToLow.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="oops_2interface_2State_8h.html">oops/interface/State.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PostProcessorFactory_8h.html">oops/base/PostProcessorFactory.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="StateInfo_8h.html">oops/base/StateInfo.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="StateWriter_8h.html">oops/base/StateWriter.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PostProcessorModel_8h.html">oops/interface/PostProcessorModel.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceoops.html">oops</a> {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> MODEL&gt;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespaceoops.html#a6a3e0983e64efa8fe0dcfd725cb0a848">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceoops.html#a6a3e0983e64efa8fe0dcfd725cb0a848">instantiatePostProcessorStateFactory</a>() {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1StateInfo.html">StateInfo&lt;State&lt;MODEL&gt;</a> &gt; &gt;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      makerStateInfo__(<span class="stringliteral">&quot;state_info&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1StateWriter.html">StateWriter&lt;State&lt;MODEL&gt;</a> &gt; &gt;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      makerStateWriter_(<span class="stringliteral">&quot;state_writer&quot;</span>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1ObserverIAU.html">ObserverIAU&lt;MODEL, State&lt;MODEL&gt;</a> &gt; &gt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      makerIAU_(<span class="stringliteral">&quot;IAU&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">static</span> <a class="code" href="classoops_1_1PostProcessorMaker.html">PostProcessorMaker&lt;MODEL, State&lt;MODEL&gt;</a>, <a class="code" href="classoops_1_1HighToLow.html">HighToLow&lt;MODEL, State&lt;MODEL&gt;</a> &gt; &gt;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      makerHTL_(<span class="stringliteral">&quot;high_to_low&quot;</span>);      </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}  <span class="comment">// namespace oops</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif  // OOPS_BASE_INSTANTIATEPOSTPROCESSORSTATEFACTORY_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aPostProcessorModel_8h_html"><div class="ttname"><a href="PostProcessorModel_8h.html">PostProcessorModel.h</a></div></div>
 <div class="ttc" id="anamespaceoops_html"><div class="ttname"><a href="namespaceoops.html">oops</a></div><div class="ttdoc">The namespace for the main oops code.</div><div class="ttdef"><b>Definition:</b> <a href="BMatrix_8h_source.html#l00020">BMatrix.h:20</a></div></div>
@@ -98,9 +101,11 @@ $(function() {
 <div class="ttc" id="aclassoops_1_1StateWriter_html"><div class="ttname"><a href="classoops_1_1StateWriter.html">oops::StateWriter</a></div><div class="ttdoc">Handles writing-out of forecast fields.</div><div class="ttdef"><b>Definition:</b> <a href="StateWriter_8h_source.html#l00027">StateWriter.h:27</a></div></div>
 <div class="ttc" id="aoops_2interface_2State_8h_html"><div class="ttname"><a href="oops_2interface_2State_8h.html">State.h</a></div></div>
 <div class="ttc" id="aStateInfo_8h_html"><div class="ttname"><a href="StateInfo_8h.html">StateInfo.h</a></div></div>
-<div class="ttc" id="anamespaceoops_html_a6a3e0983e64efa8fe0dcfd725cb0a848"><div class="ttname"><a href="namespaceoops.html#a6a3e0983e64efa8fe0dcfd725cb0a848">oops::instantiatePostProcessorStateFactory</a></div><div class="ttdeci">void instantiatePostProcessorStateFactory()</div><div class="ttdef"><b>Definition:</b> <a href="instantiatePostProcessorStateFactory_8h_source.html#l00025">instantiatePostProcessorStateFactory.h:25</a></div></div>
+<div class="ttc" id="aHighToLow_8h_html"><div class="ttname"><a href="HighToLow_8h.html">HighToLow.h</a></div></div>
+<div class="ttc" id="anamespaceoops_html_a6a3e0983e64efa8fe0dcfd725cb0a848"><div class="ttname"><a href="namespaceoops.html#a6a3e0983e64efa8fe0dcfd725cb0a848">oops::instantiatePostProcessorStateFactory</a></div><div class="ttdeci">void instantiatePostProcessorStateFactory()</div><div class="ttdef"><b>Definition:</b> <a href="instantiatePostProcessorStateFactory_8h_source.html#l00026">instantiatePostProcessorStateFactory.h:26</a></div></div>
 <div class="ttc" id="aclassoops_1_1ObserverIAU_html"><div class="ttname"><a href="classoops_1_1ObserverIAU.html">oops::ObserverIAU</a></div><div class="ttdoc">Compute time average of states or increments during model run.</div><div class="ttdef"><b>Definition:</b> <a href="ObserverIAU_8h_source.html#l00040">ObserverIAU.h:40</a></div></div>
 <div class="ttc" id="aclassoops_1_1StateInfo_html"><div class="ttname"><a href="classoops_1_1StateInfo.html">oops::StateInfo</a></div><div class="ttdoc">Handles diagnostic prints of forecast fields.</div><div class="ttdef"><b>Definition:</b> <a href="StateInfo_8h_source.html#l00029">StateInfo.h:29</a></div></div>
+<div class="ttc" id="aclassoops_1_1HighToLow_html"><div class="ttname"><a href="classoops_1_1HighToLow.html">oops::HighToLow</a></div><div class="ttdoc">Compute time average of states or increments during model run.</div><div class="ttdef"><b>Definition:</b> <a href="HighToLow_8h_source.html#l00041">HighToLow.h:41</a></div></div>
 <div class="ttc" id="aclassoops_1_1PostProcessorMaker_html"><div class="ttname"><a href="classoops_1_1PostProcessorMaker.html">oops::PostProcessorMaker</a></div><div class="ttdef"><b>Definition:</b> <a href="PostProcessorFactory_8h_source.html#l00055">PostProcessorFactory.h:55</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

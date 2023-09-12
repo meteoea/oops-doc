@@ -1,6 +1,6 @@
 <map id="oops::SQRTPLanczosMinimizer&lt; MODEL &gt;" name="oops::SQRTPLanczosMinimizer&lt; MODEL &gt;">
-<area shape="rect" id="node1" title="SQRTPLanczosMinimizer." alt="" coords="5,1056,211,1456"/>
-<area shape="rect" id="node2" href="$classoops_1_1SQRTMinimizer.html" title="Abstract base class for square root minimizers." alt="" coords="24,476,192,1008"/>
+<area shape="rect" id="node1" title="SQRTPLanczosMinimizer." alt="" coords="5,1071,211,1471"/>
+<area shape="rect" id="node2" href="$classoops_1_1SQRTMinimizer.html" title="Abstract base class for square root minimizers." alt="" coords="24,476,192,1023"/>
 <area shape="rect" id="node3" href="$classoops_1_1Minimizer.html" title="Abstract base class for minimizers." alt="" coords="19,131,197,428"/>
 <area shape="rect" id="node4" title=" " alt="" coords="59,5,157,83"/>
 </map>

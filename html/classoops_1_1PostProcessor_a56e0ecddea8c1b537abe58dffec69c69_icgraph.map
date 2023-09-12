@@ -1,15 +1,16 @@
 <map id="oops::PostProcessor::process" name="oops::PostProcessor::process">
-<area shape="rect" id="node1" title="Calls process method of individual processors." alt="" coords="465,313,608,355"/>
-<area shape="rect" id="node2" href="$classoops_1_1Model.html#ac53afddeb4398d3f4ffd8ac5148ed6d0" title="Run the forecast." alt="" coords="269,229,413,255"/>
-<area shape="rect" id="node11" href="$classoops_1_1LinearModel.html#abed64b693e5ca135a5e5fd036ec35113" title="Run the adjoint forecast." alt="" coords="274,280,407,321"/>
-<area shape="rect" id="node12" href="$classoops_1_1LinearModel.html#aed32a45374b383770ff968fe8172d724" title="Run the tangent linear forecast." alt="" coords="274,345,407,387"/>
-<area shape="rect" id="node13" href="$classoops_1_1CostFct4DEnVar.html#a499bc216ee13afecab0bfcf92223e0bf" title="Run the non&#45;linear model (virtual method)" alt="" coords="264,411,417,452"/>
-<area shape="rect" id="node3" href="$classoops_1_1DualResForecast.html#a3c94c61b462cbbf479267f26904f263f" title=" " alt="" coords="33,5,189,47"/>
-<area shape="rect" id="node4" href="$classoops_1_1EnsForecast.html#a15aa0882d0a647a8e4364f8eae5b4a92" title=" " alt="" coords="43,71,178,112"/>
-<area shape="rect" id="node5" href="$classoops_1_1Forecast.html#af13b6aee5f6f7a10127fdc986180f5f6" title=" " alt="" coords="31,137,190,163"/>
-<area shape="rect" id="node6" href="$classoops_1_1ExternalDFI.html#a331046e926b5ef4d275b685d87b72007" title=" " alt="" coords="46,188,175,229"/>
-<area shape="rect" id="node7" href="$classoops_1_1GenEnsPertB.html#a80de26974aaf5bd9c2697309627ada85" title=" " alt="" coords="40,253,181,295"/>
-<area shape="rect" id="node8" href="$classoops_1_1HofX.html#a32e2fec79f7295bfb61359ef8ecad592" title=" " alt="" coords="42,319,179,346"/>
-<area shape="rect" id="node9" href="$classoops_1_1MakeObs.html#aed35579425bd5095acbeabcbec4c9384" title=" " alt="" coords="29,370,192,397"/>
-<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarMFTemplate.html#a726c80052c3e5de960985b7fa9989564" title="Run the non&#45;linear model (Trajectory)" alt="" coords="5,421,216,463"/>
+<area shape="rect" id="node1" title="Calls process method of individual processors." alt="" coords="433,345,576,387"/>
+<area shape="rect" id="node2" href="$classoops_1_1Model.html#ac53afddeb4398d3f4ffd8ac5148ed6d0" title="Run the forecast." alt="" coords="237,261,381,287"/>
+<area shape="rect" id="node12" href="$classoops_1_1LinearModel.html#abed64b693e5ca135a5e5fd036ec35113" title="Run the adjoint forecast." alt="" coords="242,312,375,353"/>
+<area shape="rect" id="node13" href="$classoops_1_1LinearModel.html#aed32a45374b383770ff968fe8172d724" title="Run the tangent linear forecast." alt="" coords="242,377,375,419"/>
+<area shape="rect" id="node14" href="$classoops_1_1CostFct4DEnVar.html#a499bc216ee13afecab0bfcf92223e0bf" title="Run the non&#45;linear model (virtual method)" alt="" coords="232,443,385,484"/>
+<area shape="rect" id="node3" href="$classoops_1_1DualResForecast.html#a3c94c61b462cbbf479267f26904f263f" title=" " alt="" coords="17,5,173,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1EnsForecast.html#a15aa0882d0a647a8e4364f8eae5b4a92" title=" " alt="" coords="27,71,162,112"/>
+<area shape="rect" id="node5" href="$classoops_1_1Forecast.html#af13b6aee5f6f7a10127fdc986180f5f6" title=" " alt="" coords="15,137,174,163"/>
+<area shape="rect" id="node6" href="$classoops_1_1ExternalDFI.html#a331046e926b5ef4d275b685d87b72007" title=" " alt="" coords="30,188,159,229"/>
+<area shape="rect" id="node7" href="$classoops_1_1GenEnsPertB.html#a80de26974aaf5bd9c2697309627ada85" title=" " alt="" coords="24,253,165,295"/>
+<area shape="rect" id="node8" href="$classoops_1_1HofX.html#a32e2fec79f7295bfb61359ef8ecad592" title=" " alt="" coords="26,319,163,346"/>
+<area shape="rect" id="node9" href="$classoops_1_1MakeObs.html#aed35579425bd5095acbeabcbec4c9384" title=" " alt="" coords="13,370,176,397"/>
+<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarTrajHR.html#a7c4ae909393cb470512d124e967ed585" title="Specific linearization for ARPEGE 4D&#45;Var with trajectory from high resolution." alt="" coords="5,421,184,463"/>
+<area shape="rect" id="node11" href="$classoops_1_1CostFct4DVarMF.html#aff829a306be737410971cc74aa29750c" title="Run the non&#45;linear model (Trajectory)" alt="" coords="16,487,173,528"/>
 </map>

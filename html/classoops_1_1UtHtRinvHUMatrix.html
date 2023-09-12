@@ -68,15 +68,15 @@ Inheritance diagram for oops::UtHtRinvHUMatrix&lt; MODEL &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classoops_1_1UtHtRinvHUMatrix__inherit__graph.png" border="0" usemap="#oops_1_1UtHtRinvHUMatrix_3_01MODEL_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="oops_1_1UtHtRinvHUMatrix_3_01MODEL_01_4_inherit__map" id="oops_1_1UtHtRinvHUMatrix_3_01MODEL_01_4_inherit__map">
-<area shape="rect" title="The &#160;matrix." alt="" coords="5,131,171,384"/>
+<area shape="rect" title="The &#160;matrix." alt="" coords="5,131,171,369"/>
 <area shape="rect" title=" " alt="" coords="39,5,137,83"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af97d8563336b85c81c6b03fb38f2c3ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#af97d8563336b85c81c6b03fb38f2c3ca">UtHtRinvHUMatrix</a> (const <a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#af760c4b1348b7faf82d79cc8fb8df5e6">CostFct_</a> &amp;j, const eckit::Configuration &amp;config)</td></tr>
-<tr class="separator:af97d8563336b85c81c6b03fb38f2c3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac90702a9503d3b70c4f449d7a8e6ba02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#ac90702a9503d3b70c4f449d7a8e6ba02">UtHtRinvHUMatrix</a> (const <a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#af760c4b1348b7faf82d79cc8fb8df5e6">CostFct_</a> &amp;j, const bool diags=false)</td></tr>
+<tr class="separator:ac90702a9503d3b70c4f449d7a8e6ba02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55fd4c37307162bbbf0512c44f59b170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a55fd4c37307162bbbf0512c44f59b170">multiply</a> (const <a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a111e0d332a9f9590fa97b914a59e5842">CtrlVec_</a> &amp;dv, <a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a111e0d332a9f9590fa97b914a59e5842">CtrlVec_</a> &amp;dz) const</td></tr>
 <tr class="separator:a55fd4c37307162bbbf0512c44f59b170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f038b3e4a1055fad4a02ef0fb6d289"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a49f038b3e4a1055fad4a02ef0fb6d289">computeDiagnostics</a> (std::vector&lt; double &gt; &amp;ss, const bool &amp;convergenceReached) const</td></tr>
@@ -99,8 +99,6 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad444206fe1ee3d6a1b9863296f7d53bb"><td class="memItemLeft" align="right" valign="top">const eckit::LocalConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#ad444206fe1ee3d6a1b9863296f7d53bb">config_</a></td></tr>
-<tr class="separator:ad444206fe1ee3d6a1b9863296f7d53bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a983e7d6b5bc24024e825fc8f6f0416"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#af760c4b1348b7faf82d79cc8fb8df5e6">CostFct_</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a></td></tr>
 <tr class="separator:a7a983e7d6b5bc24024e825fc8f6f0416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11ef9bc09935fd0a38be6bf2bbed3098"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a23a4218c9b094001dafc5576da567dc0">CtrlInc_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a></td></tr>
@@ -127,7 +125,7 @@ class oops::UtHtRinvHUMatrix&lt; MODEL &gt;</h3>
 <p>The \( U^T H^T R^{-1} H U\) matrix. </p>
 <p>The solvers represent matrices as objects that implement a "multiply" method. This class defines objects that apply a generalized \( U^T H^T R^{-1} H U\) matrix that also includes the equivalent operators for the other terms of the cost function. </p>
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00044">44</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00043">43</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="af760c4b1348b7faf82d79cc8fb8df5e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af760c4b1348b7faf82d79cc8fb8df5e6">&#9670;&nbsp;</a></span>CostFct_</h2>
@@ -151,7 +149,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00048">48</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00047">47</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -177,7 +175,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00049">49</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00048">48</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -203,7 +201,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00046">46</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00045">45</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -229,7 +227,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00047">47</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00046">46</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -255,7 +253,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00050">50</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00049">49</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -281,13 +279,13 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00045">45</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00044">44</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af97d8563336b85c81c6b03fb38f2c3ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af97d8563336b85c81c6b03fb38f2c3ca">&#9670;&nbsp;</a></span>UtHtRinvHUMatrix()</h2>
+<a id="ac90702a9503d3b70c4f449d7a8e6ba02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac90702a9503d3b70c4f449d7a8e6ba02">&#9670;&nbsp;</a></span>UtHtRinvHUMatrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,8 +304,8 @@ template&lt;typename MODEL &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const eckit::Configuration &amp;&#160;</td>
-          <td class="paramname"><em>config</em>&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>diags</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -322,17 +320,16 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00075">75</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    : <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>(j),</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>(j.jb().getFirstGuessIncrement(), <span class="keyword">false</span>),</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">mdx_</a>(j.jb().getFirstGuessIncrement(), <span class="keyword">false</span>),</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>(j.jb().getFirstGuessIncrement(), <span class="keyword">false</span>),</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>(),</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>(),</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>(),</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">diags_</a>(config.has(<span class="stringliteral">&quot;onlineDiagnostics&quot;</span>)),</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#ad444206fe1ee3d6a1b9863296f7d53bb">config_</a>(config),</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a>(0) {}</div>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00073">73</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    : <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>(j),</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>(j.jb().getFirstGuessIncrement(), <span class="keyword">false</span>),</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">mdx_</a>(j.jb().getFirstGuessIncrement(), <span class="keyword">false</span>),</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>(j.jb().getFirstGuessIncrement(), <span class="keyword">false</span>),</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>(),</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>(),</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>(),</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">diags_</a>(diags),</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a>(0) {}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -365,64 +362,60 @@ template&lt;typename MODEL &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00140">140</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                                                 {</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">diags_</a> &amp;&amp; (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a> &lt;= 2 || convergenceReached)) {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    Log::info() &lt;&lt; <span class="stringliteral">&quot;Online diagnostics:&quot;</span> &lt;&lt; std::endl</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                &lt;&lt; <span class="stringliteral">&quot;------------------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="comment">// Quadratic JO-table</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jj = 0; jj &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">nterms</a>(); ++jj) {</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#acfd54af8fe3cac45d8abb7abe6007264">classname</a>() == <span class="stringliteral">&quot;Jo&quot;</span>) {</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keyword">const</span> <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a649d784b299faf86ca093b59da7413ea">CostJo_</a> &amp;jo = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a649d784b299faf86ca093b59da7413ea">CostJo_</a> &amp;<span class="keyword">&gt;</span>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj));</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="comment">// We would like to compute H dx = H U dv</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="comment">// Note that dv = sum_i=1^N dv[ii] ss[ii]</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        DualVector&lt;MODEL&gt; wwhudv(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>[0]);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        DualVector&lt;MODEL&gt; wwhudvii(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>[0]);</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        DualVector&lt;MODEL&gt; dd;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        DualVector&lt;MODEL&gt; zz;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        wwhudv.zero();</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        wwhudvii.zero();</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> ii = 0; ii &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a>; ++ii) {</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;          <span class="comment">// compute H U dv[i] ss[i]</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;          wwhudvii = <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>[ii];</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;          wwhudvii *= ss[ii];</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;          <span class="comment">// compute H dx = H U dv = sum_i=1^N H U dv[ii] ss[ii]</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;          wwhudv += wwhudvii;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="comment">// Release d = y - H_NL(x)</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        dd.append(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a8ad6ac0fa63b6a48f6d1e8a1196f3337">newDepartures</a>());</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="comment">// Compute dp = y - H_NL(x) - H(dx) = d - H(dx)</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        dd -= wwhudv;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="comment">// Compute R^-1 (dp)</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        zz.append(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a0e7d83cef3fb9932a98736aad9e78a7d">multiplyCoInv</a>(*dd.getv(jj)));</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">// print JO table</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        jo.printJo(<span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">Departures_</a> &amp;<span class="keyword">&gt;</span>(*dd.getv(jj)),</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                   <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">Departures_</a> &amp;<span class="keyword">&gt;</span>(*zz.getv(jj)),</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                   CostJo_::OS::Quadratic);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#ad444206fe1ee3d6a1b9863296f7d53bb">config_</a>.has(<span class="stringliteral">&quot;onlineDiagnostics.residue&quot;</span>)) {</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;          <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">Departures_</a> &amp;<span class="keyword">&gt;</span>(*dd.getv(jj)).save(</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            eckit::LocalConfiguration(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#ad444206fe1ee3d6a1b9863296f7d53bb">config_</a>, <span class="stringliteral">&quot;onlineDiagnostics.residue&quot;</span>));</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        }</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        Log::info() &lt;&lt; <span class="stringliteral">&quot;----------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      }</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00137">137</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">diags_</a> &amp;&amp; (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a> &lt;= 2 || convergenceReached)) {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    Log::info() &lt;&lt; <span class="stringliteral">&quot;Online diagnostics:&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                &lt;&lt; <span class="stringliteral">&quot;------------------&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="comment">// Quadratic JO-table</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jj = 0; jj &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">nterms</a>(); ++jj) {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#acfd54af8fe3cac45d8abb7abe6007264">classname</a>() == <span class="stringliteral">&quot;Jo&quot;</span>) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keyword">const</span> <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a649d784b299faf86ca093b59da7413ea">CostJo_</a> &amp;jo = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a649d784b299faf86ca093b59da7413ea">CostJo_</a> &amp;<span class="keyword">&gt;</span>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj));</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="comment">// We would like to compute H dx = H U dv</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="comment">// Note that dv = sum_i=1^N dv[ii] ss[ii]</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        DualVector&lt;MODEL&gt; wwhudv(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>[0]);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        DualVector&lt;MODEL&gt; wwhudvii(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>[0]);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        DualVector&lt;MODEL&gt; dd;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        DualVector&lt;MODEL&gt; zz;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        wwhudv.zero();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        wwhudvii.zero();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> ii = 0; ii &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a>; ++ii) {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;          <span class="comment">// compute H U dv[i] ss[i]</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;          wwhudvii = <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>[ii];</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;          wwhudvii *= ss[ii];</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;          <span class="comment">// compute H dx = H U dv = sum_i=1^N H U dv[ii] ss[ii]</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;          wwhudv += wwhudvii;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="comment">// Release d = y - H_NL(x)</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        dd.append(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a8ad6ac0fa63b6a48f6d1e8a1196f3337">newDepartures</a>());</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="comment">// Compute dp = y - H_NL(x) - H(dx) = d - H(dx)</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        dd -= wwhudv;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="comment">// Compute R^-1 (dp)</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        zz.append(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a0e7d83cef3fb9932a98736aad9e78a7d">multiplyCoInv</a>(*dd.getv(jj)));</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="comment">// print JO table</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        jo.printJo(<span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">Departures_</a> &amp;<span class="keyword">&gt;</span>(*dd.getv(jj)),</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                   <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span><a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">Departures_</a> &amp;<span class="keyword">&gt;</span>(*zz.getv(jj)),</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                   CostJo_::OS::Quadratic);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        Log::info() &lt;&lt; <span class="stringliteral">&quot;----------&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="comment">// Online adjoint test</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="comment">// &lt;G dx, dy&gt;, where dy = Rinv H dx</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordtype">double</span> adj_tst_fwd = <a class="code" href="dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a">dot_product</a>(*<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>, *<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="comment">// &lt;dx, Gt dy&gt; , where dy = Rinv H dx</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordtype">double</span> adj_tst_bwd = <a class="code" href="dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a">dot_product</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>, <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>);</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="comment">// Online adjoint test</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="comment">// &lt;G dx, dy&gt;, where dy = Rinv H dx</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">double</span> adj_tst_fwd = <a class="code" href="dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a">dot_product</a>(*<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>, *<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="comment">// &lt;dx, Gt dy&gt; , where dy = Rinv H dx</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">double</span> adj_tst_bwd = <a class="code" href="dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a">dot_product</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>, <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    Log::info() &lt;&lt; <span class="stringliteral">&quot;Online adjoint test, iteration: &quot;</span> &lt;&lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a> &lt;&lt; std::endl</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                &lt;&lt; util::PrintAdjTest(adj_tst_fwd, adj_tst_bwd, <span class="stringliteral">&quot;G&quot;</span>)</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                &lt;&lt; <span class="stringliteral">&quot;----------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  }</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;}</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    Log::info() &lt;&lt; <span class="stringliteral">&quot;Online adjoint test, iteration: &quot;</span> &lt;&lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                &lt;&lt; util::PrintAdjTest(adj_tst_fwd, adj_tst_bwd, <span class="stringliteral">&quot;G&quot;</span>)</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                &lt;&lt; <span class="stringliteral">&quot;----------&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="DualVector_8h_source.html#l00110">oops::DualVector&lt; MODEL &gt;::append()</a>, <a class="el" href="dot__product_8h_source.html#l00017">dot_product()</a>, <a class="el" href="DualVector_8h_source.html#l00129">oops::DualVector&lt; MODEL &gt;::getv()</a>, <a class="el" href="CostJo_8h_source.html#l00748">oops::CostJo&lt; MODEL &gt;::printJo()</a>, and <a class="el" href="DualVector_8h_source.html#l00203">oops::DualVector&lt; MODEL &gt;::zero()</a>.</p>
+<p class="reference">References <a class="el" href="DualVector_8h_source.html#l00110">oops::DualVector&lt; MODEL &gt;::append()</a>, <a class="el" href="dot__product_8h_source.html#l00017">dot_product()</a>, <a class="el" href="DualVector_8h_source.html#l00129">oops::DualVector&lt; MODEL &gt;::getv()</a>, <a class="el" href="CostJo_8h_source.html#l00757">oops::CostJo&lt; MODEL &gt;::printJo()</a>, and <a class="el" href="DualVector_8h_source.html#l00203">oops::DualVector&lt; MODEL &gt;::zero()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="SQRTPLanczosMinimizer_8h_source.html#l00150">oops::SQRTPLanczosMinimizer&lt; MODEL &gt;::solve()</a>.</p>
 <div class="dynheader">
@@ -480,52 +473,52 @@ template&lt;typename MODEL &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00090">90</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                              {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="comment">// Increment counter</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a>++;</div>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00087">87</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                              {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="comment">// Increment counter</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">iter_</a>++;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="comment">// Multiply by the square root of the covariance</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45">jb</a>().<a class="code" href="classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600">multiplyBsqrt</a>(dvin, <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="comment">// Multiply by the square root of the covariance</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45">jb</a>().<a class="code" href="classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600">multiplyBsqrt</a>(dvin, <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="comment">// Setup TL terms of cost function</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  PostProcessorTL&lt;Increment_&gt; costtl;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jj = 0; jj &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">nterms</a>(); ++jj) {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    costtl.enrollProcessor(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a653aa78ac4ec1b64f33840e07f0f14ac">setupTL</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>));</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  }</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="comment">// Run TLM</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">mdx_</a> = <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#ad83281587aa637c33be0f28fc30373be">runTL</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">mdx_</a>, costtl);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="comment">// Get TLM outputs, multiply by covariance inverses, and setup ADJ forcing</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="comment">// terms</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a04e734ad4bf35fec87331ba5bddf4cb0">zeroAD</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  PostProcessorAD&lt;Increment_&gt; costad;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="comment">// Setup TL terms of cost function</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  PostProcessorTL&lt;Increment_&gt; costtl;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jj = 0; jj &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">nterms</a>(); ++jj) {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    costtl.enrollProcessor(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a653aa78ac4ec1b64f33840e07f0f14ac">setupTL</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="comment">// Run TLM</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">mdx_</a> = <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">dx_</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#ad83281587aa637c33be0f28fc30373be">runTL</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">mdx_</a>, costtl);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="comment">// Get TLM outputs, multiply by covariance inverses, and setup ADJ forcing</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="comment">// terms</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a04e734ad4bf35fec87331ba5bddf4cb0">zeroAD</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  PostProcessorAD&lt;Increment_&gt; costad;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>.reset(<span class="keyword">new</span> DualVector&lt;MODEL&gt;());</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>.reset(<span class="keyword">new</span> DualVector&lt;MODEL&gt;());</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>.reset(<span class="keyword">new</span> DualVector&lt;MODEL&gt;());</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>.reset(<span class="keyword">new</span> DualVector&lt;MODEL&gt;());</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jj = 0; jj &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">nterms</a>(); ++jj) {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>-&gt;append(costtl.releaseOutputFromTL(jj));</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">diags_</a> &amp;&amp; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#acfd54af8fe3cac45d8abb7abe6007264">classname</a>() == <span class="stringliteral">&quot;Jo&quot;</span>) {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="comment">// Required for diagnostic quadratic JO-table</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="comment">//  save H dx[i]= H U dv[i], where</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="comment">//       dx = sum_i=1^N dx[i] = U sum_i=1^N dv[i] ss[i]</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      DualVector&lt;MODEL&gt; wwhudvii;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      wwhudvii.append(costtl.releaseOutputFromTL(jj));</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>.push_back(wwhudvii);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>-&gt;append(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a0e7d83cef3fb9932a98736aad9e78a7d">multiplyCoInv</a>(*<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>-&gt;getv(jj)));</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    costad.enrollProcessor(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a7de1981a3da6b9c391406999d6c4ef36">setupAD</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>-&gt;getv(jj), <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>));</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> jj = 0; jj &lt; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">nterms</a>(); ++jj) {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>-&gt;append(costtl.releaseOutputFromTL(jj));</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">diags_</a> &amp;&amp; <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#acfd54af8fe3cac45d8abb7abe6007264">classname</a>() == <span class="stringliteral">&quot;Jo&quot;</span>) {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="comment">// Required for diagnostic quadratic JO-table</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      <span class="comment">//  save H dx[i]= H U dv[i], where</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="comment">//       dx = sum_i=1^N dx[i] = U sum_i=1^N dv[i] ss[i]</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      DualVector&lt;MODEL&gt; wwhudvii;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      wwhudvii.append(costtl.releaseOutputFromTL(jj));</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">wwhudvvec_</a>.push_back(wwhudvii);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>-&gt;append(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a0e7d83cef3fb9932a98736aad9e78a7d">multiplyCoInv</a>(*<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">ww_</a>-&gt;getv(jj)));</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    costad.enrollProcessor(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">jterm</a>(jj).<a class="code" href="classoops_1_1CostTermBase.html#a7de1981a3da6b9c391406999d6c4ef36">setupAD</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">zz_</a>-&gt;getv(jj), <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>));</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="comment">// Run ADJ</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3e40a4b04c5c45124eb166fb5406cb32">runAD</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>, costad);</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="comment">// Run ADJ</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a3e40a4b04c5c45124eb166fb5406cb32">runAD</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>, costad);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="comment">// Multiply by the transpose of the square root of the covariance</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45">jb</a>().<a class="code" href="classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b">multiplyBsqrtTrans</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>, dvout);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="comment">// Multiply by the transpose of the square root of the covariance</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">j_</a>.<a class="code" href="classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45">jb</a>().<a class="code" href="classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b">multiplyBsqrtTrans</a>(<a class="code" href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">dz_</a>, dvout);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="DualVector_8h_source.html#l00110">oops::DualVector&lt; MODEL &gt;::append()</a>, <a class="el" href="PostProcessorAD_8h_source.html#l00038">oops::PostProcessorAD&lt; INCR &gt;::enrollProcessor()</a>, <a class="el" href="PostProcessorTL_8h_source.html#l00055">oops::PostProcessorTL&lt; INCR &gt;::enrollProcessor()</a>, and <a class="el" href="PostProcessorTL_8h_source.html#l00068">oops::PostProcessorTL&lt; INCR &gt;::releaseOutputFromTL()</a>.</p>
 
@@ -559,32 +552,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad444206fe1ee3d6a1b9863296f7d53bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad444206fe1ee3d6a1b9863296f7d53bb">&#9670;&nbsp;</a></span>config_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename MODEL &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const eckit::LocalConfiguration <a class="el" href="classoops_1_1UtHtRinvHUMatrix.html">oops::UtHtRinvHUMatrix</a>&lt; MODEL &gt;::config_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00060">60</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
-
-</div>
-</div>
 <a id="a56f33b8bd2767390133e9b8e7ad6302e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56f33b8bd2767390133e9b8e7ad6302e">&#9670;&nbsp;</a></span>diags_</h2>
 
@@ -607,7 +574,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00068">68</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00066">66</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -633,7 +600,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00062">62</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00060">60</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -659,7 +626,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00064">64</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00062">62</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -685,7 +652,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00069">69</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00067">67</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +678,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00061">61</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00059">59</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -737,7 +704,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00063">63</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00061">61</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -763,7 +730,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00065">65</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00063">63</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -789,7 +756,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00067">67</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00065">65</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -815,7 +782,7 @@ template&lt;typename MODEL &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00066">66</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="UtHtRinvHUMatrix_8h_source.html#l00064">64</a> of file <a class="el" href="UtHtRinvHUMatrix_8h_source.html">UtHtRinvHUMatrix.h</a>.</p>
 
 </div>
 </div>
@@ -824,31 +791,30 @@ template&lt;typename MODEL &gt; </div>
 </ul>
 </div><!-- contents -->
 <div class="ttc" id="aclassoops_1_1CostFunction_html_a4dee360528ce876c3d1e4b7f217b802a"><div class="ttname"><a href="classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a">oops::CostFunction::jterm</a></div><div class="ttdeci">const CostBase_ &amp; jterm(const unsigned ii) const</div><div class="ttdoc">Access terms of the cost function other than .</div><div class="ttdef"><b>Definition:</b> <a href="CostFunction_8h_source.html#l00150">CostFunction.h:150</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJbTotal_html_a469c194404e7346e95b9147bda3a5600"><div class="ttname"><a href="classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600">oops::CostJbTotal::multiplyBsqrt</a></div><div class="ttdeci">void multiplyBsqrt(const CtrlVec_ &amp;, CtrlInc_ &amp;) const</div><div class="ttdoc">Multiply by the square root of the covariance matrix.</div><div class="ttdef"><b>Definition:</b> <a href="CostJbTotal_8h_source.html#l00498">CostJbTotal.h:498</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJbTotal_html_a469c194404e7346e95b9147bda3a5600"><div class="ttname"><a href="classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600">oops::CostJbTotal::multiplyBsqrt</a></div><div class="ttdeci">void multiplyBsqrt(const CtrlVec_ &amp;, CtrlInc_ &amp;) const</div><div class="ttdoc">Multiply by the square root of the covariance matrix.</div><div class="ttdef"><b>Definition:</b> <a href="CostJbTotal_8h_source.html#l00530">CostJbTotal.h:530</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostTermBase_html_a0e7d83cef3fb9932a98736aad9e78a7d"><div class="ttname"><a href="classoops_1_1CostTermBase.html#a0e7d83cef3fb9932a98736aad9e78a7d">oops::CostTermBase::multiplyCoInv</a></div><div class="ttdeci">virtual GeneralizedDepartures * multiplyCoInv(const GeneralizedDepartures &amp;) const =0</div><div class="ttdoc">Multiply by inverse covariance (or weight) matrix.</div></div>
 <div class="ttc" id="aclassoops_1_1CostFunction_html_a3e40a4b04c5c45124eb166fb5406cb32"><div class="ttname"><a href="classoops_1_1CostFunction.html#a3e40a4b04c5c45124eb166fb5406cb32">oops::CostFunction::runAD</a></div><div class="ttdeci">virtual void runAD(CtrlInc_ &amp;, PostProcessorAD&lt; Increment_ &gt; &amp;, PostProcessor&lt; Increment_ &gt; post=PostProcessor&lt; Increment_ &gt;(), const bool idModel=false) const =0</div><div class="ttdoc">Run the adjoint model (virtual method)</div></div>
 <div class="ttc" id="aclassoops_1_1CostFunction_html_a31214b40b102ae7965c54354ec6cce45"><div class="ttname"><a href="classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45">oops::CostFunction::jb</a></div><div class="ttdeci">const JbTotal_ &amp; jb() const</div><div class="ttdoc">Access .</div><div class="ttdef"><b>Definition:</b> <a href="CostFunction_8h_source.html#l00147">CostFunction.h:147</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a9d647ba52b67af0863d3bf3e0ee80e29"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">oops::UtHtRinvHUMatrix::iter_</a></div><div class="ttdeci">unsigned iter_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00069">UtHtRinvHUMatrix.h:69</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a9d647ba52b67af0863d3bf3e0ee80e29"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a9d647ba52b67af0863d3bf3e0ee80e29">oops::UtHtRinvHUMatrix::iter_</a></div><div class="ttdeci">unsigned iter_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00067">UtHtRinvHUMatrix.h:67</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostTermBase_html_a7de1981a3da6b9c391406999d6c4ef36"><div class="ttname"><a href="classoops_1_1CostTermBase.html#a7de1981a3da6b9c391406999d6c4ef36">oops::CostTermBase::setupAD</a></div><div class="ttdeci">virtual PostADPtr_ setupAD(std::shared_ptr&lt; const GeneralizedDepartures &gt;, ControlIncrement&lt; MODEL &gt; &amp;) const =0</div><div class="ttdoc">Return a post-processor-ad to be attached to the AD run.</div></div>
 <div class="ttc" id="aclassoops_1_1CostFunction_html_a04e734ad4bf35fec87331ba5bddf4cb0"><div class="ttname"><a href="classoops_1_1CostFunction.html#a04e734ad4bf35fec87331ba5bddf4cb0">oops::CostFunction::zeroAD</a></div><div class="ttdeci">virtual void zeroAD(CtrlInc_ &amp;) const =0</div><div class="ttdoc">Nullify the increment prior to running the adjoint model (virtual method)</div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a649d784b299faf86ca093b59da7413ea"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a649d784b299faf86ca093b59da7413ea">oops::UtHtRinvHUMatrix::CostJo_</a></div><div class="ttdeci">CostJo&lt; MODEL &gt; CostJo_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00049">UtHtRinvHUMatrix.h:49</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a649d784b299faf86ca093b59da7413ea"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a649d784b299faf86ca093b59da7413ea">oops::UtHtRinvHUMatrix::CostJo_</a></div><div class="ttdeci">CostJo&lt; MODEL &gt; CostJo_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00048">UtHtRinvHUMatrix.h:48</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostFunction_html_a3acfb71d2502722de8f248bcbe1cf13f"><div class="ttname"><a href="classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f">oops::CostFunction::nterms</a></div><div class="ttdeci">unsigned nterms() const</div><div class="ttdoc">Return the numer of other cost function terms .</div><div class="ttdef"><b>Definition:</b> <a href="CostFunction_8h_source.html#l00153">CostFunction.h:153</a></div></div>
-<div class="ttc" id="aclassoops_1_1CostJbTotal_html_ae0ef3f699d0ef970f1929f0587833a8b"><div class="ttname"><a href="classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b">oops::CostJbTotal::multiplyBsqrtTrans</a></div><div class="ttdeci">void multiplyBsqrtTrans(const CtrlInc_ &amp;, CtrlVec_ &amp;) const</div><div class="ttdoc">Multiply by the transpose of the square root of the covariance matrix.</div><div class="ttdef"><b>Definition:</b> <a href="CostJbTotal_8h_source.html#l00508">CostJbTotal.h:508</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a0bba92d9bd79c2effd9157efdc8bc475"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">oops::UtHtRinvHUMatrix::ww_</a></div><div class="ttdeci">std::unique_ptr&lt; DualVector&lt; MODEL &gt; &gt; ww_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00065">UtHtRinvHUMatrix.h:65</a></div></div>
+<div class="ttc" id="aclassoops_1_1CostJbTotal_html_ae0ef3f699d0ef970f1929f0587833a8b"><div class="ttname"><a href="classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b">oops::CostJbTotal::multiplyBsqrtTrans</a></div><div class="ttdeci">void multiplyBsqrtTrans(const CtrlInc_ &amp;, CtrlVec_ &amp;) const</div><div class="ttdoc">Multiply by the transpose of the square root of the covariance matrix.</div><div class="ttdef"><b>Definition:</b> <a href="CostJbTotal_8h_source.html#l00540">CostJbTotal.h:540</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a0bba92d9bd79c2effd9157efdc8bc475"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a0bba92d9bd79c2effd9157efdc8bc475">oops::UtHtRinvHUMatrix::ww_</a></div><div class="ttdeci">std::unique_ptr&lt; DualVector&lt; MODEL &gt; &gt; ww_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00063">UtHtRinvHUMatrix.h:63</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostTermBase_html_a8ad6ac0fa63b6a48f6d1e8a1196f3337"><div class="ttname"><a href="classoops_1_1CostTermBase.html#a8ad6ac0fa63b6a48f6d1e8a1196f3337">oops::CostTermBase::newDepartures</a></div><div class="ttdeci">virtual GeneralizedDepartures * newDepartures() const =0</div><div class="ttdoc">Provide departures (for example a Departure for Jo).</div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a633d76aa8552d8a8fac6e1e41b4dac77"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">oops::UtHtRinvHUMatrix::Departures_</a></div><div class="ttdeci">Departures&lt; MODEL &gt; Departures_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00050">UtHtRinvHUMatrix.h:50</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_aa8d26b5376a46564e2b898667691de7b"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">oops::UtHtRinvHUMatrix::zz_</a></div><div class="ttdeci">std::unique_ptr&lt; DualVector&lt; MODEL &gt; &gt; zz_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00066">UtHtRinvHUMatrix.h:66</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a633d76aa8552d8a8fac6e1e41b4dac77"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a633d76aa8552d8a8fac6e1e41b4dac77">oops::UtHtRinvHUMatrix::Departures_</a></div><div class="ttdeci">Departures&lt; MODEL &gt; Departures_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00049">UtHtRinvHUMatrix.h:49</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_aa8d26b5376a46564e2b898667691de7b"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#aa8d26b5376a46564e2b898667691de7b">oops::UtHtRinvHUMatrix::zz_</a></div><div class="ttdeci">std::unique_ptr&lt; DualVector&lt; MODEL &gt; &gt; zz_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00064">UtHtRinvHUMatrix.h:64</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostTermBase_html_a653aa78ac4ec1b64f33840e07f0f14ac"><div class="ttname"><a href="classoops_1_1CostTermBase.html#a653aa78ac4ec1b64f33840e07f0f14ac">oops::CostTermBase::setupTL</a></div><div class="ttdeci">virtual PostTLPtr_ setupTL(const ControlIncrement&lt; MODEL &gt; &amp;) const =0</div><div class="ttdoc">Return a post-processor-tl to be attached to the TL run.</div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a11ef9bc09935fd0a38be6bf2bbed3098"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">oops::UtHtRinvHUMatrix::dx_</a></div><div class="ttdeci">CtrlInc_ dx_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00062">UtHtRinvHUMatrix.h:62</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_ad444206fe1ee3d6a1b9863296f7d53bb"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#ad444206fe1ee3d6a1b9863296f7d53bb">oops::UtHtRinvHUMatrix::config_</a></div><div class="ttdeci">const eckit::LocalConfiguration config_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00060">UtHtRinvHUMatrix.h:60</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a11ef9bc09935fd0a38be6bf2bbed3098"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a11ef9bc09935fd0a38be6bf2bbed3098">oops::UtHtRinvHUMatrix::dx_</a></div><div class="ttdeci">CtrlInc_ dx_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00060">UtHtRinvHUMatrix.h:60</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostTermBase_html_acfd54af8fe3cac45d8abb7abe6007264"><div class="ttname"><a href="classoops_1_1CostTermBase.html#acfd54af8fe3cac45d8abb7abe6007264">oops::CostTermBase::classname</a></div><div class="ttdeci">virtual const std::string classname() const =0</div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a85293ee17225bcc59a0f51ac6087467f"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">oops::UtHtRinvHUMatrix::mdx_</a></div><div class="ttdeci">CtrlInc_ mdx_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00063">UtHtRinvHUMatrix.h:63</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a7a983e7d6b5bc24024e825fc8f6f0416"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">oops::UtHtRinvHUMatrix::j_</a></div><div class="ttdeci">const CostFct_ &amp; j_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00061">UtHtRinvHUMatrix.h:61</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a8e57ff7040b62a8a9b5b3a91d1b56907"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">oops::UtHtRinvHUMatrix::dz_</a></div><div class="ttdeci">CtrlInc_ dz_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00064">UtHtRinvHUMatrix.h:64</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_abac4fbc38f9a86ae0527aaa59f4187b9"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">oops::UtHtRinvHUMatrix::wwhudvvec_</a></div><div class="ttdeci">std::vector&lt; DualVector&lt; MODEL &gt; &gt; wwhudvvec_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00067">UtHtRinvHUMatrix.h:67</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a85293ee17225bcc59a0f51ac6087467f"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a85293ee17225bcc59a0f51ac6087467f">oops::UtHtRinvHUMatrix::mdx_</a></div><div class="ttdeci">CtrlInc_ mdx_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00061">UtHtRinvHUMatrix.h:61</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a7a983e7d6b5bc24024e825fc8f6f0416"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a7a983e7d6b5bc24024e825fc8f6f0416">oops::UtHtRinvHUMatrix::j_</a></div><div class="ttdeci">const CostFct_ &amp; j_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00059">UtHtRinvHUMatrix.h:59</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a8e57ff7040b62a8a9b5b3a91d1b56907"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a8e57ff7040b62a8a9b5b3a91d1b56907">oops::UtHtRinvHUMatrix::dz_</a></div><div class="ttdeci">CtrlInc_ dz_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00062">UtHtRinvHUMatrix.h:62</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_abac4fbc38f9a86ae0527aaa59f4187b9"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#abac4fbc38f9a86ae0527aaa59f4187b9">oops::UtHtRinvHUMatrix::wwhudvvec_</a></div><div class="ttdeci">std::vector&lt; DualVector&lt; MODEL &gt; &gt; wwhudvvec_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00065">UtHtRinvHUMatrix.h:65</a></div></div>
 <div class="ttc" id="aclassoops_1_1CostFunction_html_ad83281587aa637c33be0f28fc30373be"><div class="ttname"><a href="classoops_1_1CostFunction.html#ad83281587aa637c33be0f28fc30373be">oops::CostFunction::runTL</a></div><div class="ttdeci">virtual void runTL(CtrlInc_ &amp;, PostProcessorTL&lt; Increment_ &gt; &amp;, PostProcessor&lt; Increment_ &gt; post=PostProcessor&lt; Increment_ &gt;(), const bool idModel=false) const =0</div><div class="ttdoc">Run the tangent linear model (virtual method)</div></div>
 <div class="ttc" id="adot__product_8h_html_af0275315d135f0b993246c2ff4b1f40a"><div class="ttname"><a href="dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a">dot_product</a></div><div class="ttdeci">double dot_product(const T &amp;x, const T &amp;y)</div><div class="ttdoc">Syntactic sugar to let us use a more mathematical notation for dot products.</div><div class="ttdef"><b>Definition:</b> <a href="dot__product_8h_source.html#l00017">dot_product.h:17</a></div></div>
-<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a56f33b8bd2767390133e9b8e7ad6302e"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">oops::UtHtRinvHUMatrix::diags_</a></div><div class="ttdeci">bool diags_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00068">UtHtRinvHUMatrix.h:68</a></div></div>
+<div class="ttc" id="aclassoops_1_1UtHtRinvHUMatrix_html_a56f33b8bd2767390133e9b8e7ad6302e"><div class="ttname"><a href="classoops_1_1UtHtRinvHUMatrix.html#a56f33b8bd2767390133e9b8e7ad6302e">oops::UtHtRinvHUMatrix::diags_</a></div><div class="ttdeci">bool diags_</div><div class="ttdef"><b>Definition:</b> <a href="UtHtRinvHUMatrix_8h_source.html#l00066">UtHtRinvHUMatrix.h:66</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

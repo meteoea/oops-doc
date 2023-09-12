@@ -1,4 +1,4 @@
 <map id="oops::EnsembleCovariance4DScaleDependent&lt; MODEL &gt;" name="oops::EnsembleCovariance4DScaleDependent&lt; MODEL &gt;">
-<area shape="rect" id="node1" title="Wraps the model space error covariance." alt="" coords="15,307,226,663"/>
+<area shape="rect" id="node1" title="Wraps the model space error covariance." alt="" coords="15,307,226,677"/>
 <area shape="rect" id="node2" href="$classoops_1_1ModelSpaceCovariance4DBase.html" title="Abstract base class for model space error covariances." alt="" coords="5,5,236,259"/>
 </map>

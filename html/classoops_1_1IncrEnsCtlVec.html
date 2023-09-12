@@ -101,12 +101,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7b11eb955900c91a2ee1f9d17d4c3df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1IncrEnsCtlVec.html#ae7b11eb955900c91a2ee1f9d17d4c3df">axpy</a> (const double &amp;, const <a class="el" href="classoops_1_1IncrEnsCtlVec.html">IncrEnsCtlVec</a> &amp;, const bool check=true)</td></tr>
 <tr class="memdesc:ae7b11eb955900c91a2ee1f9d17d4c3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( dv_1 = dv_1 * c dv_2 \)  <a href="classoops_1_1IncrEnsCtlVec.html#ae7b11eb955900c91a2ee1f9d17d4c3df">More...</a><br /></td></tr>
 <tr class="separator:ae7b11eb955900c91a2ee1f9d17d4c3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaaa2af88aef7b6edc837d5ebe9e93b8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1IncrEnsCtlVec.html#adaaa2af88aef7b6edc837d5ebe9e93b8">local_dot_product_with</a> (const <a class="el" href="classoops_1_1IncrEnsCtlVec.html">IncrEnsCtlVec</a> &amp;) const</td></tr>
-<tr class="memdesc:adaaa2af88aef7b6edc837d5ebe9e93b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( &lt;dv_1,dv_1&gt; = dv_1^T dv_1 \) <br  />
-  <a href="classoops_1_1IncrEnsCtlVec.html#adaaa2af88aef7b6edc837d5ebe9e93b8">More...</a><br /></td></tr>
-<tr class="separator:adaaa2af88aef7b6edc837d5ebe9e93b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf55524fb65f63a1dcb83ffb774a037"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1IncrEnsCtlVec.html#a6bf55524fb65f63a1dcb83ffb774a037">dot_product_with</a> (const <a class="el" href="classoops_1_1IncrEnsCtlVec.html">IncrEnsCtlVec</a> &amp;, const bool local=false) const</td></tr>
+<tr class="memdesc:a6bf55524fb65f63a1dcb83ffb774a037"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( &lt;dv_1,dv_1&gt; = dv_1^T dv_1 \) <br  />
+  <a href="classoops_1_1IncrEnsCtlVec.html#a6bf55524fb65f63a1dcb83ffb774a037">More...</a><br /></td></tr>
+<tr class="separator:a6bf55524fb65f63a1dcb83ffb774a037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa98c65a07a91855df3f6cc742266761"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1IncrEnsCtlVec.html#aaa98c65a07a91855df3f6cc742266761">schur_product_with</a> (const <a class="el" href="classoops_1_1IncrEnsCtlVec.html">IncrEnsCtlVec</a> &amp;)</td></tr>
-<tr class="memdesc:aaa98c65a07a91855df3f6cc742266761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hadamard product (element-wise) ( local in this PE )  <a href="classoops_1_1IncrEnsCtlVec.html#aaa98c65a07a91855df3f6cc742266761">More...</a><br /></td></tr>
+<tr class="memdesc:aaa98c65a07a91855df3f6cc742266761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hadamard product (element-wise)  <a href="classoops_1_1IncrEnsCtlVec.html#aaa98c65a07a91855df3f6cc742266761">More...</a><br /></td></tr>
 <tr class="separator:aaa98c65a07a91855df3f6cc742266761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a609775485018caeca887cc424e7c4e6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1IncrEnsCtlVec.html#a609775485018caeca887cc424e7c4e6a">random</a> ()</td></tr>
 <tr class="memdesc:a609775485018caeca887cc424e7c4e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random control vector.  <a href="classoops_1_1IncrEnsCtlVec.html#a609775485018caeca887cc424e7c4e6a">More...</a><br /></td></tr>
@@ -656,8 +656,8 @@ template&lt;typename MODEL &gt; </div>
 
 </div>
 </div>
-<a id="adaaa2af88aef7b6edc837d5ebe9e93b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaaa2af88aef7b6edc837d5ebe9e93b8">&#9670;&nbsp;</a></span>local_dot_product_with()</h2>
+<a id="a6bf55524fb65f63a1dcb83ffb774a037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf55524fb65f63a1dcb83ffb774a037">&#9670;&nbsp;</a></span>dot_product_with()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,11 +665,21 @@ template&lt;typename MODEL &gt; </div>
 template&lt;typename MODEL &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classoops_1_1IncrEnsCtlVec.html">oops::IncrEnsCtlVec</a>&lt; MODEL &gt;::local_dot_product_with </td>
+          <td class="memname">double <a class="el" href="classoops_1_1IncrEnsCtlVec.html">oops::IncrEnsCtlVec</a>&lt; MODEL &gt;::dot_product_with </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classoops_1_1IncrEnsCtlVec.html">IncrEnsCtlVec</a>&lt; MODEL &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dx</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>local</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -678,14 +688,14 @@ template&lt;typename MODEL &gt; </div>
  </p>
 
 <p class="definition">Definition at line <a class="el" href="IncrEnsCtlVec_8h_source.html#l00256">256</a> of file <a class="el" href="IncrEnsCtlVec_8h_source.html">IncrEnsCtlVec.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                                                                                  {</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;IncrEnsCtlVec&lt;MODEL&gt;::local_dot_product_with starting&quot;</span></div>
+<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;IncrEnsCtlVec&lt;MODEL&gt;::dot_product_with starting&quot;</span> </div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;               &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  util::Timer timer(<a class="code" href="classoops_1_1IncrEnsCtlVec.html#a362ae94765f49db899b08799b8f74f0c">classname</a>(), <span class="stringliteral">&quot;local_dot_product_with&quot;</span>);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  util::Timer timer(<a class="code" href="classoops_1_1IncrEnsCtlVec.html#a362ae94765f49db899b08799b8f74f0c">classname</a>(), <span class="stringliteral">&quot;dot_product_with&quot;</span>);</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <span class="keywordtype">double</span> zz = 0;</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="classoops_1_1IncrEnsCtlVec.html#a4017904bc038d0df6b157735dd10f6fd">incrEnsCtlVec_</a> != 0) </div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    zz = <a class="code" href="classoops_1_1IncrEnsCtlVec.html#a4017904bc038d0df6b157735dd10f6fd">incrEnsCtlVec_</a>-&gt;local_dot_product_with(*dx.incrEnsCtlVec_);</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;IncrEnsCtlVec&lt;MODEL&gt;::local_dot_product_with done&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    zz = <a class="code" href="classoops_1_1IncrEnsCtlVec.html#a4017904bc038d0df6b157735dd10f6fd">incrEnsCtlVec_</a>-&gt;dot_product_with(*dx.incrEnsCtlVec_, local);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;IncrEnsCtlVec&lt;MODEL&gt;::dot_product_with done&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="keywordflow">return</span> zz;</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;}</div>
 </div><!-- fragment -->
@@ -961,7 +971,7 @@ template&lt;typename MODEL &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Hadamard product (element-wise) ( local in this PE ) </p>
+<p>Hadamard product (element-wise) </p>
 
 <p class="definition">Definition at line <a class="el" href="IncrEnsCtlVec_8h_source.html#l00270">270</a> of file <a class="el" href="IncrEnsCtlVec_8h_source.html">IncrEnsCtlVec.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                                                     {</div>
@@ -1031,20 +1041,18 @@ template&lt;typename MODEL &gt; </div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  Log::trace() &lt;&lt; <span class="stringliteral">&quot;IncrEnsCtlVec&lt;MODEL&gt;::zero done&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="EnsembleCovariance4D_8h_source.html#l00197">oops::EnsembleCovariance4D&lt; MODEL &gt;::advectedMultiplySqrtTrans()</a>, <a class="el" href="EnsembleCovariance4DWithChangeOfVariable_8h_source.html#l00270">oops::EnsembleCovariance4DWithChangeOfVariable&lt; MODEL &gt;::advectedMultiplySqrtTrans()</a>, <a class="el" href="EnsembleCovariance4DDistributed_8h_source.html#l00197">oops::EnsembleCovariance4DDistributed&lt; MODEL &gt;::advectedMultiplySqrtTrans()</a>, <a class="el" href="EnsembleCovsInterpolSDL_8h_source.html#l00337">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;::multiplySqrtTrans()</a>, <a class="el" href="EnsembleCovsInterpol_8h_source.html#l00214">oops::EnsembleCovsInterpol&lt; MODEL &gt;::multiplySqrtTrans()</a>, <a class="el" href="EnsembleCovariance_8h_source.html#l00202">oops::EnsembleCovariance&lt; MODEL &gt;::multiplySqrtTrans()</a>, and <a class="el" href="EnsembleCovarianceSDL_8h_source.html#l00279">oops::EnsembleCovarianceSDL&lt; MODEL &gt;::multiplySqrtTrans()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EnsembleCovariance4D_8h_source.html#l00205">oops::EnsembleCovariance4D&lt; MODEL &gt;::advectedMultiplySqrtTrans()</a>, <a class="el" href="EnsembleCovariance4DWithChangeOfVariable_8h_source.html#l00273">oops::EnsembleCovariance4DWithChangeOfVariable&lt; MODEL &gt;::advectedMultiplySqrtTrans()</a>, <a class="el" href="EnsembleCovariance4DDistributed_8h_source.html#l00206">oops::EnsembleCovariance4DDistributed&lt; MODEL &gt;::advectedMultiplySqrtTrans()</a>, <a class="el" href="EnsembleCovsInterpol_8h_source.html#l00223">oops::EnsembleCovsInterpol&lt; MODEL &gt;::multiplySqrtTrans()</a>, and <a class="el" href="EnsembleCovariance_8h_source.html#l00200">oops::EnsembleCovariance&lt; MODEL &gt;::multiplySqrtTrans()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classoops_1_1IncrEnsCtlVec_ade75f462b51fea34abec1bf8790b93b1_icgraph.png" border="0" usemap="#classoops_1_1IncrEnsCtlVec_ade75f462b51fea34abec1bf8790b93b1_icgraph" alt=""/></div>
 <map name="classoops_1_1IncrEnsCtlVec_ade75f462b51fea34abec1bf8790b93b1_icgraph" id="classoops_1_1IncrEnsCtlVec_ade75f462b51fea34abec1bf8790b93b1_icgraph">
-<area shape="rect" title=" " alt="" coords="249,232,388,273"/>
+<area shape="rect" title=" " alt="" coords="249,159,388,200"/>
 <area shape="rect" href="classoops_1_1EnsembleCovariance4D.html#aaf3f527069da45dc6b76df54a2f294f2" title=" " alt="" coords="8,5,199,47"/>
 <area shape="rect" href="classoops_1_1EnsembleCovariance4DWithChangeOfVariable.html#a63107dcf9afe8baadfdc3a552079774c" title=" " alt="" coords="11,71,196,127"/>
 <area shape="rect" href="classoops_1_1EnsembleCovariance4DDistributed.html#a396922abd65e62d03f0c011b957d493f" title=" " alt="" coords="5,151,201,207"/>
-<area shape="rect" href="classoops_1_1EnsembleCovsInterpolSDL.html#ae7fd122d716ffeb9ab3a505336537dd1" title=" " alt="" coords="10,232,197,273"/>
-<area shape="rect" href="classoops_1_1EnsembleCovsInterpol.html#a32075524f1595b6dae514c143beb9d81" title=" " alt="" coords="10,297,197,339"/>
-<area shape="rect" href="classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d" title=" " alt="" coords="14,363,193,404"/>
-<area shape="rect" href="classoops_1_1EnsembleCovarianceSDL.html#a3067fbe0b6febd5225c388719fa577ef" title=" " alt="" coords="14,428,193,469"/>
+<area shape="rect" href="classoops_1_1EnsembleCovsInterpol.html#a32075524f1595b6dae514c143beb9d81" title=" " alt="" coords="10,232,197,273"/>
+<area shape="rect" href="classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d" title=" " alt="" coords="14,297,193,339"/>
 </map>
 </div>
 
@@ -1077,7 +1085,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="IncrEnsCtlVec_8h_source.html#l00124">124</a> of file <a class="el" href="IncrEnsCtlVec_8h_source.html">IncrEnsCtlVec.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="IncrEnsCtlVec_8h_source.html#l00245">oops::IncrEnsCtlVec&lt; MODEL &gt;::axpy()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00116">oops::IncrEnsCtlVec&lt; MODEL &gt;::ctlVec()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00132">oops::IncrEnsCtlVec&lt; MODEL &gt;::IncrEnsCtlVec()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00256">oops::IncrEnsCtlVec&lt; MODEL &gt;::local_dot_product_with()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00210">oops::IncrEnsCtlVec&lt; MODEL &gt;::operator+=()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00222">oops::IncrEnsCtlVec&lt; MODEL &gt;::operator-=()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00198">oops::IncrEnsCtlVec&lt; MODEL &gt;::operator=()</a>, and <a class="el" href="IncrEnsCtlVec_8h_source.html#l00270">oops::IncrEnsCtlVec&lt; MODEL &gt;::schur_product_with()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="IncrEnsCtlVec_8h_source.html#l00245">oops::IncrEnsCtlVec&lt; MODEL &gt;::axpy()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00116">oops::IncrEnsCtlVec&lt; MODEL &gt;::ctlVec()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00256">oops::IncrEnsCtlVec&lt; MODEL &gt;::dot_product_with()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00132">oops::IncrEnsCtlVec&lt; MODEL &gt;::IncrEnsCtlVec()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00210">oops::IncrEnsCtlVec&lt; MODEL &gt;::operator+=()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00222">oops::IncrEnsCtlVec&lt; MODEL &gt;::operator-=()</a>, <a class="el" href="IncrEnsCtlVec_8h_source.html#l00198">oops::IncrEnsCtlVec&lt; MODEL &gt;::operator=()</a>, and <a class="el" href="IncrEnsCtlVec_8h_source.html#l00270">oops::IncrEnsCtlVec&lt; MODEL &gt;::schur_product_with()</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,6 @@
 <map id="oops::SQRTBPCGMinimizer&lt; MODEL &gt;" name="oops::SQRTBPCGMinimizer&lt; MODEL &gt;">
-<area shape="rect" id="node1" title="SQRTBPCG Minimizer." alt="" coords="5,1056,189,1353"/>
-<area shape="rect" id="node2" href="$classoops_1_1SQRTMinimizer.html" title="Abstract base class for square root minimizers." alt="" coords="13,476,181,1008"/>
+<area shape="rect" id="node1" title="SQRTBPCG Minimizer." alt="" coords="5,1071,189,1368"/>
+<area shape="rect" id="node2" href="$classoops_1_1SQRTMinimizer.html" title="Abstract base class for square root minimizers." alt="" coords="13,476,181,1023"/>
 <area shape="rect" id="node3" href="$classoops_1_1Minimizer.html" title="Abstract base class for minimizers." alt="" coords="8,131,187,428"/>
 <area shape="rect" id="node4" title=" " alt="" coords="48,5,147,83"/>
 </map>

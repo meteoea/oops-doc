@@ -1,5 +1,4 @@
 <map id="oops::Increment::write" name="oops::Increment::write">
-<area shape="rect" id="node1" title="Write increment." alt="" coords="264,46,412,73"/>
-<area shape="rect" id="node2" href="$classoops_1_1CostFct4DVarMFTemplate.html#ad45a7e63349c36995ecf6be81c551057" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="5,5,216,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1CostFunction.html#ab990f92a2ee09606884854e35ca67024" title="Re&#45;centre the background." alt="" coords="39,71,183,112"/>
+<area shape="rect" id="node1" title="Write increment." alt="" coords="197,13,345,39"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#ab990f92a2ee09606884854e35ca67024" title="Re&#45;centre the background." alt="" coords="5,5,149,47"/>
 </map>

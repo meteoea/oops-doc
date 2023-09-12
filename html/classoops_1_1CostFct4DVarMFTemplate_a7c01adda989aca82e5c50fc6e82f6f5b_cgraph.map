@@ -1,5 +1,0 @@
-<map id="oops::CostFct4DVarMFTemplate::runAD" name="oops::CostFct4DVarMFTemplate::runAD">
-<area shape="rect" id="node1" title="Run the adjoint model." alt="" coords="5,39,216,80"/>
-<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="264,5,419,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="264,71,419,112"/>
-</map>

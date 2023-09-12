@@ -1,0 +1,5 @@
+<map id="oops::CostFct4DVarMF::newJb" name="oops::CostFct4DVarMF::newJb">
+<area shape="rect" id="node1" title="Create the &#160;term of the cost function." alt="" coords="5,39,163,80"/>
+<area shape="rect" id="node2" href="$classoops_1_1State4D.html#aa91b6d67d3eeb16575b479c7008c1f3c" title="Get model space control variable." alt="" coords="211,5,393,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="230,71,374,112"/>
+</map>

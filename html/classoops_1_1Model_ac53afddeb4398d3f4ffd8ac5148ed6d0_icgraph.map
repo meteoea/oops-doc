@@ -1,11 +1,12 @@
 <map id="oops::Model::forecast" name="oops::Model::forecast">
-<area shape="rect" id="node1" title="Run the forecast." alt="" coords="264,229,408,255"/>
-<area shape="rect" id="node2" href="$classoops_1_1DualResForecast.html#a3c94c61b462cbbf479267f26904f263f" title=" " alt="" coords="33,5,189,47"/>
-<area shape="rect" id="node3" href="$classoops_1_1EnsForecast.html#a15aa0882d0a647a8e4364f8eae5b4a92" title=" " alt="" coords="43,71,178,112"/>
-<area shape="rect" id="node4" href="$classoops_1_1Forecast.html#af13b6aee5f6f7a10127fdc986180f5f6" title=" " alt="" coords="31,137,190,163"/>
-<area shape="rect" id="node5" href="$classoops_1_1ExternalDFI.html#a331046e926b5ef4d275b685d87b72007" title=" " alt="" coords="46,188,175,229"/>
-<area shape="rect" id="node6" href="$classoops_1_1GenEnsPertB.html#a80de26974aaf5bd9c2697309627ada85" title=" " alt="" coords="40,253,181,295"/>
-<area shape="rect" id="node7" href="$classoops_1_1HofX.html#a32e2fec79f7295bfb61359ef8ecad592" title=" " alt="" coords="42,319,179,346"/>
-<area shape="rect" id="node8" href="$classoops_1_1MakeObs.html#aed35579425bd5095acbeabcbec4c9384" title=" " alt="" coords="29,370,192,397"/>
-<area shape="rect" id="node9" href="$classoops_1_1CostFct4DVarMFTemplate.html#a726c80052c3e5de960985b7fa9989564" title="Run the non&#45;linear model (Trajectory)" alt="" coords="5,421,216,463"/>
+<area shape="rect" id="node1" title="Run the forecast." alt="" coords="232,261,376,287"/>
+<area shape="rect" id="node2" href="$classoops_1_1DualResForecast.html#a3c94c61b462cbbf479267f26904f263f" title=" " alt="" coords="17,5,173,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1EnsForecast.html#a15aa0882d0a647a8e4364f8eae5b4a92" title=" " alt="" coords="27,71,162,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1Forecast.html#af13b6aee5f6f7a10127fdc986180f5f6" title=" " alt="" coords="15,137,174,163"/>
+<area shape="rect" id="node5" href="$classoops_1_1ExternalDFI.html#a331046e926b5ef4d275b685d87b72007" title=" " alt="" coords="30,188,159,229"/>
+<area shape="rect" id="node6" href="$classoops_1_1GenEnsPertB.html#a80de26974aaf5bd9c2697309627ada85" title=" " alt="" coords="24,253,165,295"/>
+<area shape="rect" id="node7" href="$classoops_1_1HofX.html#a32e2fec79f7295bfb61359ef8ecad592" title=" " alt="" coords="26,319,163,346"/>
+<area shape="rect" id="node8" href="$classoops_1_1MakeObs.html#aed35579425bd5095acbeabcbec4c9384" title=" " alt="" coords="13,370,176,397"/>
+<area shape="rect" id="node9" href="$classoops_1_1CostFct4DVarTrajHR.html#a7c4ae909393cb470512d124e967ed585" title="Specific linearization for ARPEGE 4D&#45;Var with trajectory from high resolution." alt="" coords="5,421,184,463"/>
+<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarMF.html#aff829a306be737410971cc74aa29750c" title="Run the non&#45;linear model (Trajectory)" alt="" coords="16,487,173,528"/>
 </map>

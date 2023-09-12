@@ -67,14 +67,12 @@ Inheritance diagram for oops::ModelSpaceCovarianceBase&lt; MODEL &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classoops_1_1ModelSpaceCovarianceBase__inherit__graph.png" border="0" usemap="#oops_1_1ModelSpaceCovarianceBase_3_01MODEL_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="oops_1_1ModelSpaceCovarianceBase_3_01MODEL_01_4_inherit__map" id="oops_1_1ModelSpaceCovarianceBase_3_01MODEL_01_4_inherit__map">
-<area shape="rect" title="Abstract base class for model space error covariances." alt="" coords="635,5,850,215"/>
-<area shape="rect" href="classoops_1_1EnsembleCovariance.html" title="Generic ensemble based model space error covariance." alt="" coords="5,277,184,575"/>
-<area shape="rect" href="classoops_1_1EnsembleCovarianceSDL.html" title="Generic ensemble based model space error covariance." alt="" coords="209,263,405,589"/>
-<area shape="rect" href="classoops_1_1EnsembleCovsInterpol.html" title="Generic ensemble based model space error covariance." alt="" coords="429,270,616,582"/>
-<area shape="rect" href="classoops_1_1EnsembleCovsInterpolSDL.html" title="Wraps the model space error covariance." alt="" coords="641,263,845,589"/>
-<area shape="rect" href="classoops_1_1ErrorCovariance.html" title="Wrapper for model space error covariances." alt="" coords="869,277,1019,575"/>
-<area shape="rect" href="classoops_1_1HybridCovariance.html" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="1043,299,1202,553"/>
-<area shape="rect" href="classoops_1_1HybridCovarianceGeneralCoeff.html" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="1227,285,1445,567"/>
+<area shape="rect" title="Abstract base class for model space error covariances." alt="" coords="387,5,602,229"/>
+<area shape="rect" href="classoops_1_1EnsembleCovariance.html" title="Generic ensemble based model space error covariance." alt="" coords="5,285,184,597"/>
+<area shape="rect" href="classoops_1_1EnsembleCovsInterpol.html" title="Generic ensemble based model space error covariance." alt="" coords="208,277,395,604"/>
+<area shape="rect" href="classoops_1_1ErrorCovariance.html" title="Wrapper for model space error covariances." alt="" coords="419,292,570,589"/>
+<area shape="rect" href="classoops_1_1HybridCovariance.html" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="594,314,753,567"/>
+<area shape="rect" href="classoops_1_1HybridCovarianceGeneralCoeff.html" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="777,292,996,589"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -83,9 +81,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1590e236715fa1325634e0f28c65a072"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a1590e236715fa1325634e0f28c65a072">~ModelSpaceCovarianceBase</a> ()</td></tr>
 <tr class="memdesc:a1590e236715fa1325634e0f28c65a072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classoops_1_1ModelSpaceCovarianceBase.html#a1590e236715fa1325634e0f28c65a072">More...</a><br /></td></tr>
 <tr class="separator:a1590e236715fa1325634e0f28c65a072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac227a76785b3b32022e4d20b789e7870"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ac227a76785b3b32022e4d20b789e7870">linearize</a> (const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ae8a0c9e71d3b6c7e2d0c1e08529be634">State_</a> &amp;, const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a46ba5bfeb66e91ddb8a8a822fd2e317d">Geometry_</a> &amp;, const eckit::Configuration &amp;)=0</td></tr>
-<tr class="memdesc:ac227a76785b3b32022e4d20b789e7870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the inner loop resolution B matrix.  <a href="classoops_1_1ModelSpaceCovarianceBase.html#ac227a76785b3b32022e4d20b789e7870">More...</a><br /></td></tr>
-<tr class="separator:ac227a76785b3b32022e4d20b789e7870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52f106b98a7da8333f1e1a8b0fb95a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3">linearize</a> (const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ae8a0c9e71d3b6c7e2d0c1e08529be634">State_</a> &amp;, const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a46ba5bfeb66e91ddb8a8a822fd2e317d">Geometry_</a> &amp;)=0</td></tr>
+<tr class="memdesc:ac52f106b98a7da8333f1e1a8b0fb95a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the inner loop resolution B matrix.  <a href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3">More...</a><br /></td></tr>
+<tr class="separator:ac52f106b98a7da8333f1e1a8b0fb95a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e54d455cdfad76fe3838fcf846ec50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a87e54d455cdfad76fe3838fcf846ec50">linearize</a> (const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ae8a0c9e71d3b6c7e2d0c1e08529be634">State_</a> &amp;xx, const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a46ba5bfeb66e91ddb8a8a822fd2e317d">Geometry_</a> &amp;geom, const eckit::Configuration &amp;)</td></tr>
+<tr class="separator:a87e54d455cdfad76fe3838fcf846ec50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e607b6cfb44595f8136e84b5564e4d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a9e607b6cfb44595f8136e84b5564e4d3">multiply</a> (const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a6607f70ef4671e70cc4eaf94acf0a1a3">Increment_</a> &amp;, <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a6607f70ef4671e70cc4eaf94acf0a1a3">Increment_</a> &amp;) const =0</td></tr>
 <tr class="memdesc:a9e607b6cfb44595f8136e84b5564e4d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( dx_1 = B dx_2 \)  <a href="classoops_1_1ModelSpaceCovarianceBase.html#a9e607b6cfb44595f8136e84b5564e4d3">More...</a><br /></td></tr>
 <tr class="separator:a9e607b6cfb44595f8136e84b5564e4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -392,12 +392,12 @@ template&lt;typename MODEL &gt; </div>
 
 <p>\( dx_1 = B^{-1} dx_2 \) </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a9ce7c1590e49ddefbcdd5c6c5dfed70d">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#a57bb1656b121492278bd7fe376318033">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a9fa77829111b7ad2ab3cf99041346efa">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#ac6144294bc8b6b20a40499c8ce30971e">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#abce2a76fa7a4ea65074e70cc6746fc03">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a6ca7ba4d6ea97e180fddba3c4ba50630">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#a92c22504f60522bd93f4b74d928cade1">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a9ce7c1590e49ddefbcdd5c6c5dfed70d">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a9fa77829111b7ad2ab3cf99041346efa">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#ac6144294bc8b6b20a40499c8ce30971e">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a6ca7ba4d6ea97e180fddba3c4ba50630">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovariance.html#abce2a76fa7a4ea65074e70cc6746fc03">oops::HybridCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
-<a id="ac227a76785b3b32022e4d20b789e7870"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac227a76785b3b32022e4d20b789e7870">&#9670;&nbsp;</a></span>linearize()</h2>
+<a id="ac52f106b98a7da8333f1e1a8b0fb95a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52f106b98a7da8333f1e1a8b0fb95a3">&#9670;&nbsp;</a></span>linearize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,12 +417,6 @@ template&lt;typename MODEL &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a46ba5bfeb66e91ddb8a8a822fd2e317d">Geometry_</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const eckit::Configuration &amp;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -440,7 +434,80 @@ template&lt;typename MODEL &gt; </div>
 
 <p>Set up the inner loop resolution B matrix. </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#ae58876c9366376d7961533388b74ef5b">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#a5abd3cbb32475877e8b5ed0bd629c6ff">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#ab421a8814a203f684fbca89c290fbb14">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a3ae306a13256bdd2f41817fc33be1f55">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#a0949633b24dc8f0f3fe4fb781605f187">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#aa8b2b036f663b2a3ba0efea9fd9e4247">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#a7216b656b27fb3e6d22d3d591fe65e46">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a5e2309a4bece9af2950b89a6c188278f">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a04fd8cc047c8d3fec653ed1c2366b8ac">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#ab35e9c8454a0c243ac7ac8dd2aa3034b">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#a8cd71aafa08556a7fe341a1082bc73fb">oops::HybridCovariance&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a955ef34ee7e43eeaee37c2f39b17fef1">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ModelSpaceCovarianceBase_8h_source.html#l00070">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;::linearize()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classoops_1_1ModelSpaceCovarianceBase_ac52f106b98a7da8333f1e1a8b0fb95a3_icgraph.png" border="0" usemap="#classoops_1_1ModelSpaceCovarianceBase_ac52f106b98a7da8333f1e1a8b0fb95a3_icgraph" alt=""/></div>
+<map name="classoops_1_1ModelSpaceCovarianceBase_ac52f106b98a7da8333f1e1a8b0fb95a3_icgraph" id="classoops_1_1ModelSpaceCovarianceBase_ac52f106b98a7da8333f1e1a8b0fb95a3_icgraph">
+<area shape="rect" title="Set up the inner loop resolution B matrix." alt="" coords="247,5,440,47"/>
+<area shape="rect" href="classoops_1_1ModelSpaceCovarianceBase.html#a87e54d455cdfad76fe3838fcf846ec50" title=" " alt="" coords="5,5,199,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a87e54d455cdfad76fe3838fcf846ec50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e54d455cdfad76fe3838fcf846ec50">&#9670;&nbsp;</a></span>linearize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MODEL &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html">oops::ModelSpaceCovarianceBase</a>&lt; MODEL &gt;::linearize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ae8a0c9e71d3b6c7e2d0c1e08529be634">State_</a> &amp;&#160;</td>
+          <td class="paramname"><em>xx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#a46ba5bfeb66e91ddb8a8a822fd2e317d">Geometry_</a> &amp;&#160;</td>
+          <td class="paramname"><em>geom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const eckit::Configuration &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#ae58876c9366376d7961533388b74ef5b">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a3ae306a13256bdd2f41817fc33be1f55">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#aa8b2b036f663b2a3ba0efea9fd9e4247">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="ModelSpaceCovarianceBase_8h_source.html#l00070">70</a> of file <a class="el" href="ModelSpaceCovarianceBase_8h_source.html">ModelSpaceCovarianceBase.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                                                                {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3">linearize</a>(xx,geom);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  }  </div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3">oops::ModelSpaceCovarianceBase&lt; MODEL &gt;::linearize()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classoops_1_1ModelSpaceCovarianceBase_a87e54d455cdfad76fe3838fcf846ec50_cgraph.png" border="0" usemap="#classoops_1_1ModelSpaceCovarianceBase_a87e54d455cdfad76fe3838fcf846ec50_cgraph" alt=""/></div>
+<map name="classoops_1_1ModelSpaceCovarianceBase_a87e54d455cdfad76fe3838fcf846ec50_cgraph" id="classoops_1_1ModelSpaceCovarianceBase_a87e54d455cdfad76fe3838fcf846ec50_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,199,47"/>
+<area shape="rect" href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3" title="Set up the inner loop resolution B matrix." alt="" coords="247,5,440,47"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -482,7 +549,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>\( dx_1 = B dx_2 \) </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a4bb5bef9bcc2569fd8a3a0073282869e">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#a2985a41d55359d83821b84c35bc80789">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#ab868d796ea36fad9863c030aaaf2cbc7">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a276aa1c2db1e043d7a00f3800584e700">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#aff69c3db237ec75f9d4cf241c4184b02">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#aa7e4eb835d082f2281678c1882073a35">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#a547eb5170e2c4a920d89b726ef600f67">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a4bb5bef9bcc2569fd8a3a0073282869e">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#ab868d796ea36fad9863c030aaaf2cbc7">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a276aa1c2db1e043d7a00f3800584e700">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#aa7e4eb835d082f2281678c1882073a35">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovariance.html#aff69c3db237ec75f9d4cf241c4184b02">oops::HybridCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
@@ -524,7 +591,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>\( dx = B^{1/2} dv \) </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a753f5e328e00818a81eaabf8d8eb7dc8">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#ab0f5c2f647d757a68a3de946d44010ff">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a96bc7ff945526820271ad8c12b699212">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a1df89fbdb91bea0e8c015b4618ed4f03">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#ac2aa2f336d3cb8cf7a1f99605c9225e0">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a4e041b67a0f83063e7cf88bf4a44f818">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#a0c03b914da570a1580be244e0137daef">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a753f5e328e00818a81eaabf8d8eb7dc8">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a96bc7ff945526820271ad8c12b699212">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a1df89fbdb91bea0e8c015b4618ed4f03">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a4e041b67a0f83063e7cf88bf4a44f818">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovariance.html#ac2aa2f336d3cb8cf7a1f99605c9225e0">oops::HybridCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
@@ -566,7 +633,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>\( dv = [B^{1/2}]^T dx \) </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#a3067fbe0b6febd5225c388719fa577ef">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a3796df7cc16c98f30143226464bfaba7">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a32075524f1595b6dae514c143beb9d81">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#a37c69e1fc3953d8f6d14ddb41845f4ac">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a78b17d04d5c64f97cd5117c78f47197a">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#ae7fd122d716ffeb9ab3a505336537dd1">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a3796df7cc16c98f30143226464bfaba7">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a32075524f1595b6dae514c143beb9d81">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a78b17d04d5c64f97cd5117c78f47197a">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovariance.html#a37c69e1fc3953d8f6d14ddb41845f4ac">oops::HybridCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
@@ -596,7 +663,7 @@ template&lt;typename MODEL &gt; </div>
 </div><div class="memdoc">
 <p>Return a new control vector corresponding to the localised sampled component of a B matrix </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a122f6754ba4b72bca0169855e6cf74ce">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#a6469d45a61647007cd6c15b615bf9ab4">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a66618b4dcc35ab6f380a6cea06818109">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a252d977282470153317256ba39889ca4">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#aa292d786ef3b001927a1be693f87a4c3">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#ab817bbadaa1367c79b7feed6c24295ed">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1ErrorCovariance.html#a9d1329c04989d3b1992dc36de54c2c15">oops::ErrorCovariance&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a122f6754ba4b72bca0169855e6cf74ce">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a66618b4dcc35ab6f380a6cea06818109">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#a252d977282470153317256ba39889ca4">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#aa292d786ef3b001927a1be693f87a4c3">oops::HybridCovariance&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1ErrorCovariance.html#a9d1329c04989d3b1992dc36de54c2c15">oops::ErrorCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
@@ -626,7 +693,7 @@ template&lt;typename MODEL &gt; </div>
 </div><div class="memdoc">
 <p>Return a new control vector corresponding to the modelled component of a B matrix </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#ae9257235498d46aa65fb44517b43d263">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#aa65d59f7136971a4a89b6502a172d1bf">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#aebeecff3fbdc1656c4b8100362335920">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#ad51535f1da6f19863a99f2a062f7e1ea">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#aa557d7b281e92c24d73a69db335e36c7">oops::HybridCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#a9e202a0ebb49c28d4792bd0e24412f09">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1ErrorCovariance.html#a68423f2259023dce8a9ee57e7a514b45">oops::ErrorCovariance&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#ae9257235498d46aa65fb44517b43d263">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#aebeecff3fbdc1656c4b8100362335920">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#ad51535f1da6f19863a99f2a062f7e1ea">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#aa557d7b281e92c24d73a69db335e36c7">oops::HybridCovariance&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1ErrorCovariance.html#a68423f2259023dce8a9ee57e7a514b45">oops::ErrorCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
@@ -658,7 +725,7 @@ template&lt;typename MODEL &gt; </div>
 
 <p>\( dx = B^{1/2} dv_{random} \) </p>
 
-<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a51a69346f4381eeb552ddd8e6fe6f7aa">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovarianceSDL.html#a843586d58b7ad51c7f1a0e47b13178bd">oops::EnsembleCovarianceSDL&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a1a522d10c81613b89bf8e9f05307b7bd">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a9da7dcaec97f59f1d6a8c63cca01b0b9">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#afdfd235c0ec8a8a883855f8e359cb15e">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovariance.html#a441c0b6f9c4ceaa7d3b987e61e29777e">oops::HybridCovariance&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1EnsembleCovsInterpolSDL.html#a801fc5390cf91495387f5d520d886c2f">oops::EnsembleCovsInterpolSDL&lt; MODEL &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classoops_1_1EnsembleCovariance.html#a51a69346f4381eeb552ddd8e6fe6f7aa">oops::EnsembleCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1ErrorCovariance.html#a1a522d10c81613b89bf8e9f05307b7bd">oops::ErrorCovariance&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1EnsembleCovsInterpol.html#a9da7dcaec97f59f1d6a8c63cca01b0b9">oops::EnsembleCovsInterpol&lt; MODEL &gt;</a>, <a class="el" href="classoops_1_1HybridCovarianceGeneralCoeff.html#afdfd235c0ec8a8a883855f8e359cb15e">oops::HybridCovarianceGeneralCoeff&lt; MODEL &gt;</a>, and <a class="el" href="classoops_1_1HybridCovariance.html#a441c0b6f9c4ceaa7d3b987e61e29777e">oops::HybridCovariance&lt; MODEL &gt;</a>.</p>
 
 </div>
 </div>
@@ -666,6 +733,7 @@ template&lt;typename MODEL &gt; </div>
 <li>src/oops/base/<a class="el" href="ModelSpaceCovarianceBase_8h_source.html">ModelSpaceCovarianceBase.h</a></li>
 </ul>
 </div><!-- contents -->
+<div class="ttc" id="aclassoops_1_1ModelSpaceCovarianceBase_html_ac52f106b98a7da8333f1e1a8b0fb95a3"><div class="ttname"><a href="classoops_1_1ModelSpaceCovarianceBase.html#ac52f106b98a7da8333f1e1a8b0fb95a3">oops::ModelSpaceCovarianceBase::linearize</a></div><div class="ttdeci">virtual void linearize(const State_ &amp;, const Geometry_ &amp;)=0</div><div class="ttdoc">Set up the inner loop resolution B matrix.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">
