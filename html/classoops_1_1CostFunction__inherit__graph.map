@@ -1,0 +1,13 @@
+<map id="oops::CostFunction&lt; MODEL &gt;" name="oops::CostFunction&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Abstract base class for a cost function." alt="" coords="427,131,602,677"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFct3DVar.html" title="3D&#45;Var Cost Function" alt="" coords="5,799,144,1111"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFct4DEnsVar.html" title="4D&#45;Ens&#45;Var Cost Function" alt="" coords="168,791,328,1118"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostFct4DEnVar.html" title="4D&#45;Ens&#45;Var Cost Function" alt="" coords="353,791,506,1118"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFct4DVar.html" title="Strong Constraint 4D&#45;Var Cost Function." alt="" coords="531,813,669,1096"/>
+<area shape="rect" id="node7" href="$classoops_1_1CostFct4DVarMFTemplate.html" title="4D&#45;Var Cost Function in the ARPEGE" alt="" coords="693,725,904,1184"/>
+<area shape="rect" id="node11" href="$classoops_1_1CostFctWeak.html" title="Weak Constraint 4D&#45;Var Cost Function." alt="" coords="927,777,1070,1133"/>
+<area shape="rect" id="node2" title=" " alt="" coords="465,5,564,83"/>
+<area shape="rect" id="node8" href="$classoops_1_1CostFct4DVarHyb4D.html" title="4DVarHyb4D Cost Function in the ARPEGE" alt="" coords="518,1239,695,1478"/>
+<area shape="rect" id="node9" href="$classoops_1_1CostFct4DVarMF.html" title="Strong Constraint 4D&#45;Var Cost Function." alt="" coords="720,1298,877,1419"/>
+<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarTrajHR.html" title="4D&#45;Var Cost Function in the ARPEGE" alt="" coords="901,1232,1080,1485"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="oops::ObsAuxIncrement::obsauxincrement" name="oops::ObsAuxIncrement::obsauxincrement">
+<area shape="rect" id="node1" title="Return a constant reference to the model specific object." alt="" coords="220,463,380,504"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxIncrement.html#a00e7c934ed1ffa141af9ff61b19ed27a" title=" " alt="" coords="9,5,169,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxIncrement.html#a657b99a374af285c9a4d6b4b7229e06a" title=" " alt="" coords="9,71,169,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxCovariance.html#a30e25828e483a1a839e8baa95f14a7ea" title=" " alt="" coords="5,136,172,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxCovariance.html#a8e0b38fbe1975708e9c12f8988a7a665" title=" " alt="" coords="5,201,172,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1ObsAuxCovariance.html#a4a7cf2f9c14f87d26ab4673b69106c20" title=" " alt="" coords="5,267,172,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1ObsAuxCovariance.html#ab2fe3d40b3cb34b25cb361294562566a" title=" " alt="" coords="5,332,172,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1LinearObsOperator.html#af536fec9fbf7a4d52c2ecd072ed62eca" title="Evaluate the adjoint of the bias observation operator." alt="" coords="5,397,172,439"/>
+<area shape="rect" id="node9" href="$classoops_1_1LinearObsOperator.html#ace9635366664ddb8b5520f529997cc04" title="Evaluate the linear bias operator." alt="" coords="5,463,172,504"/>
+<area shape="rect" id="node10" href="$classoops_1_1LinearObsOperator.html#a43565c0f08bc044a1d0850fea28e0624" title="Evaluate the adjoint of the linear observation operator ." alt="" coords="5,528,172,569"/>
+<area shape="rect" id="node11" href="$classoops_1_1LinearObsOperator.html#a108803e72eea1b8ef76a83078b93cd8e" title="Evaluate the linear observation operator ." alt="" coords="5,593,172,635"/>
+<area shape="rect" id="node12" href="$classoops_1_1ObsAuxIncrement.html#ab648434093c95af9d7f835552d8bbbed" title=" " alt="" coords="9,659,169,700"/>
+<area shape="rect" id="node13" href="$namespaceoops.html#a0ea3d1e28459294bdab6d5cb9591eee3" title=" " alt="" coords="29,725,148,751"/>
+<area shape="rect" id="node14" href="$classoops_1_1ObsAuxIncrement.html#a58a84aecfd9457850573ed36f5e348bb" title=" " alt="" coords="9,776,169,817"/>
+<area shape="rect" id="node15" href="$classoops_1_1ObsAuxIncrement.html#a1457a3fa4a15c89c1283a7d022010c34" title=" " alt="" coords="9,841,169,883"/>
+<area shape="rect" id="node16" href="$classoops_1_1ObsAuxCovariance.html#a4c3bf833ce1f6b1cbbfcd1ac3e7ab783" title=" " alt="" coords="5,907,172,948"/>
+</map>

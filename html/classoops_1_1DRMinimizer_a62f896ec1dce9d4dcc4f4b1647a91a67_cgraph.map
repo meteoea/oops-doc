@@ -1,0 +1,5 @@
+<map id="oops::DRMinimizer::checkpoint" name="oops::DRMinimizer::checkpoint">
+<area shape="rect" id="node1" title="Checkpointing, restart." alt="" coords="5,23,140,65"/>
+<area shape="rect" id="node2" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="203,5,294,32"/>
+<area shape="rect" id="node3" href="$namespaceutil.html#a6f3485a2993a330fd9409cca6a86b0c6" title="Formatting numerical types with full precision for output." alt="" coords="188,56,309,83"/>
+</map>

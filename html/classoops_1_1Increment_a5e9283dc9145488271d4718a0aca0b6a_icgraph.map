@@ -1,0 +1,21 @@
+<map id="oops::Increment::schur_product_with" name="oops::Increment::schur_product_with">
+<area shape="rect" id="node1" title="Hadamard product (element&#45;wise)" alt="" coords="247,561,399,603"/>
+<area shape="rect" id="node2" href="$classoops_1_1EnsembleCovsInterpolSDL.html#a547eb5170e2c4a920d89b726ef600f67" title=" " alt="" coords="9,5,195,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1EnsembleCovarianceSDL.html#a2985a41d55359d83821b84c35bc80789" title=" " alt="" coords="13,71,191,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1EnsembleCovariance.html#a4bb5bef9bcc2569fd8a3a0073282869e" title=" " alt="" coords="13,136,191,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1EnsembleCovsInterpolSDL.html#a0c03b914da570a1580be244e0137daef" title=" " alt="" coords="9,201,195,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1EnsembleCovariance.html#a753f5e328e00818a81eaabf8d8eb7dc8" title=" " alt="" coords="13,267,191,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1EnsembleCovarianceSDL.html#ab0f5c2f647d757a68a3de946d44010ff" title=" " alt="" coords="13,332,191,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1EnsembleCovsInterpolSDL.html#ae7fd122d716ffeb9ab3a505336537dd1" title=" " alt="" coords="9,397,195,439"/>
+<area shape="rect" id="node9" href="$classoops_1_1EnsembleCovarianceSDL.html#a3067fbe0b6febd5225c388719fa577ef" title=" " alt="" coords="13,463,191,504"/>
+<area shape="rect" id="node10" href="$classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d" title=" " alt="" coords="13,528,191,569"/>
+<area shape="rect" id="node11" href="$classoops_1_1EnsembleCovsInterpolSDL.html#a801fc5390cf91495387f5d520d886c2f" title=" " alt="" coords="9,593,195,635"/>
+<area shape="rect" id="node12" href="$classoops_1_1EnsembleCovarianceSDL.html#a843586d58b7ad51c7f1a0e47b13178bd" title=" " alt="" coords="13,659,191,700"/>
+<area shape="rect" id="node13" href="$classoops_1_1EnsembleCovariance.html#a51a69346f4381eeb552ddd8e6fe6f7aa" title=" " alt="" coords="13,724,191,765"/>
+<area shape="rect" id="node14" href="$classoops_1_1EnsembleCovariance4D.html#aa8700545edcf1051abd972ae6e894ca9" title=" " alt="" coords="9,789,195,831"/>
+<area shape="rect" id="node15" href="$classoops_1_1EnsembleCovsInterpol.html#ac0c0b5f617d15ac816113de4347e5f76" title=" " alt="" coords="9,855,195,896"/>
+<area shape="rect" id="node16" href="$classoops_1_1EnsembleCovariance4DScaleDependent.html#aaf0a4c8071079ab503818b2cce46ac2e" title=" " alt="" coords="6,920,198,961"/>
+<area shape="rect" id="node17" href="$classoops_1_1EnsembleCovariance4DWithChangeOfVariable.html#a056be28149ed92d1f7323b66e34deb31" title=" " alt="" coords="9,986,195,1042"/>
+<area shape="rect" id="node18" href="$classoops_1_1EnsembleCovsInterpol4D.html#a95c6a51b9c100fc77c20a4b830d7f7a5" title=" " alt="" coords="5,1067,199,1108"/>
+<area shape="rect" id="node19" href="$classoops_1_1EnsembleCovariance4DDistributed.html#a93a75ff288e7877e90b8add923a6d846" title=" " alt="" coords="9,1132,195,1173"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="oops::LinearObsOperator::setTrajectory" name="oops::LinearObsOperator::setTrajectory">
+<area shape="rect" id="node1" title="Set the linearisation trajectory." alt="" coords="5,27,172,69"/>
+<area shape="rect" id="node2" href="$classoops_1_1GeoVaLs.html#a316e5d7a37ce737da2d48f0da90c4176" title="Return model&#45;specific geovals." alt="" coords="220,5,383,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxControl.html#aa59fc212bcd7b725367d144665d8d84a" title="Return a constant reference to the model specific object." alt="" coords="230,57,373,98"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxControl.html#ad9ab8f371fe45faec10436fc3e3b3a36" title="Return a constant reference to the model specific object." alt="" coords="431,64,597,91"/>
+</map>

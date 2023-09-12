@@ -1,0 +1,8 @@
+<map id="oops::AssimEnsemble::execute" name="oops::AssimEnsemble::execute">
+<area shape="rect" id="node1" title=" " alt="" coords="5,93,156,135"/>
+<area shape="rect" id="node2" href="$classoops_1_1Variational.html#a69e5853d2928c26095edb5ddb361fb25" title="Execute a variational application." alt="" coords="204,93,327,135"/>
+<area shape="rect" id="node3" href="$classoops_1_1IncrementalAssimilation.html#aa2208c1e2194e66f93a01599374321a2" title="Perform incremental assimilation." alt="" coords="375,5,569,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1PostProcessor.html#a2e1e3cbf40ede8e32a372d8b5b2c270d" title="Adds a post processor to the vector of post&#45;processors." alt="" coords="617,35,760,76"/>
+<area shape="rect" id="node5" href="$classoops_1_1IncrementalAssimilation.html#a80539f179b8f438781b89edef70fc1fa" title="Return the analysis." alt="" coords="375,123,569,164"/>
+<area shape="rect" id="node6" href="$classoops_1_1IncrementalAssimilation.html#a77074c56fa3fc7ec5b17f39fa62122c3" title="Skip the final non&#45;linear trajectory." alt="" coords="375,188,569,229"/>
+</map>

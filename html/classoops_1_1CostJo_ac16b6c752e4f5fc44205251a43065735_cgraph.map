@@ -1,0 +1,4 @@
+<map id="oops::CostJo::initializeTraj" name="oops::CostJo::initializeTraj">
+<area shape="rect" id="node1" title="Various set ups prior to the linearisation trajectory computation." alt="" coords="5,13,176,39"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlVariable.html#aa37049addedf7f5a0904813ec56d7618" title="Returns the auxiliary observation space component of the control variable." alt="" coords="224,5,368,47"/>
+</map>

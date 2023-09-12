@@ -1,0 +1,7 @@
+<map id="oops::DualMinimizer&lt; MODEL &gt;" name="oops::DualMinimizer&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Dual Minimizer." alt="" coords="104,476,241,685"/>
+<area shape="rect" id="node4" href="$classoops_1_1RPCGMinimizer.html" title="RPCG Minimizer." alt="" coords="5,733,153,869"/>
+<area shape="rect" id="node5" href="$classoops_1_1RPLanczosMinimizer.html" title="RLanczos Minimizer." alt="" coords="178,733,357,869"/>
+<area shape="rect" id="node2" href="$classoops_1_1Minimizer.html" title="Abstract base class for minimizers." alt="" coords="83,131,262,428"/>
+<area shape="rect" id="node3" title=" " alt="" coords="123,5,222,83"/>
+</map>

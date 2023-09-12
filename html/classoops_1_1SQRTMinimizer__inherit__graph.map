@@ -1,0 +1,10 @@
+<map id="oops::SQRTMinimizer&lt; MODEL &gt;" name="oops::SQRTMinimizer&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Abstract base class for square root minimizers." alt="" coords="456,476,624,1008"/>
+<area shape="rect" id="node4" href="$classoops_1_1SQRTBPCGMinimizer.html" title="SQRTBPCG Minimizer." alt="" coords="5,1107,189,1405"/>
+<area shape="rect" id="node5" href="$classoops_1_1SQRTBPFOMMinimizer.html" title="SQRTBPFOM Minimizer." alt="" coords="213,1056,408,1456"/>
+<area shape="rect" id="node6" href="$classoops_1_1SQRTBPLanczosMinimizer.html" title="SQRTBPLanczos Minimizer." alt="" coords="433,1056,647,1456"/>
+<area shape="rect" id="node7" href="$classoops_1_1SQRTPCGMinimizer.html" title="SQRTPCG Minimizer." alt="" coords="671,1107,846,1405"/>
+<area shape="rect" id="node8" href="$classoops_1_1SQRTPLanczosMinimizer.html" title="SQRTPLanczosMinimizer." alt="" coords="871,1056,1076,1456"/>
+<area shape="rect" id="node2" href="$classoops_1_1Minimizer.html" title="Abstract base class for minimizers." alt="" coords="451,131,629,428"/>
+<area shape="rect" id="node3" title=" " alt="" coords="491,5,589,83"/>
+</map>

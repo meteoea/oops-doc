@@ -1,0 +1,6 @@
+<map id="oops::ModelAuxControl::ModelAuxControl" name="oops::ModelAuxControl::ModelAuxControl">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,64,160,105"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxControl.html#a759b6004cf6de00db26adde299db4445" title=" " alt="" coords="216,5,371,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Geometry.html#a18e63dbcd70034be85ae0ba416aef536" title="Interfacing &#45; returns a constant reference to model specific geometry." alt="" coords="208,71,379,98"/>
+<area shape="rect" id="node4" href="$classoops_1_1Model.html#a8458bbb07031de2096ca727edea7adc0" title="Return a constant reference to the model specific model object." alt="" coords="227,122,359,149"/>
+</map>

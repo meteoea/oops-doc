@@ -1,0 +1,12 @@
+<map id="oops::CostJbTotal::finalize" name="oops::CostJbTotal::finalize">
+<area shape="rect" id="node1" title="Various computations after the integration of the model." alt="" coords="5,169,137,211"/>
+<area shape="rect" id="node2" href="$classoops_1_1JqTerm.html#a2be8ab729ffa222111009b84730637da" title=" " alt="" coords="185,5,376,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxIncrements.html#a224cfdb7d8cb6d7d71920bd613ad73b8" title=" " alt="" coords="197,71,364,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1ModelAuxIncrement.html#abf20e2345ba6ab0e17df72337b1bb29d" title=" " alt="" coords="195,136,366,177"/>
+<area shape="rect" id="node8" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="203,201,358,243"/>
+<area shape="rect" id="node9" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="203,267,358,308"/>
+<area shape="rect" id="node10" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="203,332,358,373"/>
+<area shape="rect" id="node3" href="$classoops_1_1Increment4D.html#aab2949435832b5e1eb699433bc965d94" title="Compute 4D increment as a difference between two 4D states." alt="" coords="425,13,578,39"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxControls.html#aec989498e63cc255bd32db9d4f6a47a0" title="Return the size." alt="" coords="426,71,577,112"/>
+<area shape="rect" id="node7" href="$classoops_1_1ModelAuxControl.html#a2ce4d9e9509061647213fe18e8a2f14f" title="Return a constant reference to the encapsulated model specific object." alt="" coords="424,136,579,177"/>
+</map>

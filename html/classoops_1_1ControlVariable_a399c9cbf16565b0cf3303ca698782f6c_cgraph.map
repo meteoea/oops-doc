@@ -1,0 +1,6 @@
+<map id="oops::ControlVariable::ControlVariable" name="oops::ControlVariable::ControlVariable">
+<area shape="rect" id="node1" title="The arguments define the number of sub&#45;windows and the resolution." alt="" coords="5,35,149,76"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxControlEstimator.html#a5e8ce8b53d910f17929ee3c1041f3afb" title="Methods." alt="" coords="197,35,407,76"/>
+<area shape="rect" id="node3" href="$classoops_1_1ModelAuxControl.html#a2ce4d9e9509061647213fe18e8a2f14f" title="Return a constant reference to the encapsulated model specific object." alt="" coords="455,5,609,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1State.html#a604088ba96bafab8955158221be192f8" title="Return a reference to the model specific state." alt="" coords="471,71,593,98"/>
+</map>

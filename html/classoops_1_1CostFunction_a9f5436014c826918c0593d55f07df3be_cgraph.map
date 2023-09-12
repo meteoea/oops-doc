@@ -1,0 +1,6 @@
+<map id="oops::CostFunction::linearize" name="oops::CostFunction::linearize">
+<area shape="rect" id="node1" title="Linearise the cost function: set up the quadratic cost function." alt="" coords="5,71,139,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1PostProcessor.html#a2e1e3cbf40ede8e32a372d8b5b2c270d" title="Adds a post processor to the vector of post&#45;processors." alt="" coords="187,5,330,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlVariable.html#a08f7e7049122bfabb08770b9724bf094" title="Returns the auxiliary model space component of the control variable." alt="" coords="187,71,331,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="187,136,331,177"/>
+</map>

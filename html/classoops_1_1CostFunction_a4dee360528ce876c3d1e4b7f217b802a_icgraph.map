@@ -1,0 +1,12 @@
+<map id="oops::CostFunction::jterm" name="oops::CostFunction::jterm">
+<area shape="rect" id="node1" title="Access terms of the cost function other than ." alt="" coords="453,180,587,221"/>
+<area shape="rect" id="node2" href="$classoops_1_1RinvMatrix.html#a61e4a71018eb143d440784f17cf08fca" title=" " alt="" coords="238,78,405,105"/>
+<area shape="rect" id="node5" href="$classoops_1_1HtMatrix.html#aed0d6981224f758c2b8db11ad5abdbff" title=" " alt="" coords="244,187,399,214"/>
+<area shape="rect" id="node8" href="$classoops_1_1HMatrix.html#ac6c2bd6065dfd5fed26a62d22293a2b7" title=" " alt="" coords="246,137,397,163"/>
+<area shape="rect" id="node9" href="$classoops_1_1LBHessianMatrix.html#ab1306ed7701729b87c281ea542a45591" title=" " alt="" coords="243,239,399,280"/>
+<area shape="rect" id="node10" href="$classoops_1_1RMatrix.html#a1c28c930f287bead69c3d30590a8233f" title=" " alt="" coords="237,305,405,331"/>
+<area shape="rect" id="node3" href="$classoops_1_1RPCGMinimizer.html#a64cb89d1a2f7b0946b3b727cae38f1ba" title=" " alt="" coords="23,5,171,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1RPLanczosMinimizer.html#a7fe11fbe0bfaec3af4212f5411610e18" title=" " alt="" coords="8,71,187,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1Minimizer.html#a02f86245f08d74a4e09111ae2c8fc443" title="Perform observation operator adjoint tests." alt="" coords="5,137,189,163"/>
+<area shape="rect" id="node7" href="$classoops_1_1DualMinimizer.html#a3cf6d56e66d48c5aa41d9c1f7d5a4237" title="Minimizer the quadratic cost function (virtual method)" alt="" coords="29,188,166,229"/>
+</map>

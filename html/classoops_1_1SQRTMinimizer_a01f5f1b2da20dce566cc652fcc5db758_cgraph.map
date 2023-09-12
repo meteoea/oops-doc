@@ -1,0 +1,6 @@
+<map id="oops::SQRTMinimizer::enforceObsAuxFormulation" name="oops::SQRTMinimizer::enforceObsAuxFormulation">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,191,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlVector.html#a7a46f9167ba94fc58b7bcfd311ff6298" title="Get augmented observation control vector." alt="" coords="245,5,380,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxCtlVecs.html#a0589fb5ed3b01d2cb7b31033b3c8d1ff" title="Return the size." alt="" coords="239,71,387,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxCtlVecs.html#a746e0d6796d404c0a15e61d67805043a" title=" " alt="" coords="239,136,387,177"/>
+</map>

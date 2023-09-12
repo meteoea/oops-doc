@@ -1,0 +1,5 @@
+<map id="oops::CostJbTotal::finalizeTraj" name="oops::CostJbTotal::finalizeTraj">
+<area shape="rect" id="node1" title="Various computations after the linearisation trajectory computation." alt="" coords="5,5,137,47"/>
+<area shape="rect" id="node2" href="$classoops_1_1JqTerm.html#a2be8ab729ffa222111009b84730637da" title=" " alt="" coords="185,5,376,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Increment4D.html#aab2949435832b5e1eb699433bc965d94" title="Compute 4D increment as a difference between two 4D states." alt="" coords="424,13,577,39"/>
+</map>

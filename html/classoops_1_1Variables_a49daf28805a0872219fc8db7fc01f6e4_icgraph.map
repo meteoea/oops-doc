@@ -1,0 +1,12 @@
+<map id="oops::Variables::variables" name="oops::Variables::variables">
+<area shape="rect" id="node1" title="Interfacing." alt="" coords="651,173,819,199"/>
+<area shape="rect" id="node2" href="$classoops_1_1ErrorCovariance.html#a0d64bfad94ac949a556e9706f2f522f2" title=" " alt="" coords="439,5,587,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1State.html#a74d5cc924337aca655faaa544135b634" title="Interpolate full fields (for forcing linearisation trajectory)" alt="" coords="439,71,587,98"/>
+<area shape="rect" id="node6" href="$classoops_1_1GeoVaLs.html#afcec44cf2c725cedbab64656333cfc44" title="Constructor (takes an Increment)" alt="" coords="427,122,599,149"/>
+<area shape="rect" id="node7" href="$classoops_1_1Increment.html#a2471561d09fe171143395f93254f13a3" title="Constructor [1]." alt="" coords="424,173,603,199"/>
+<area shape="rect" id="node8" href="$classoops_1_1Interpolator.html#a5772e32a311cb0e19edf3cc21d9286d2" title=" " alt="" coords="453,224,574,265"/>
+<area shape="rect" id="node9" href="$classoops_1_1Increment.html#accd9454678748b7d33ed67719dd3319b" title="Return maximum value." alt="" coords="441,290,585,317"/>
+<area shape="rect" id="node10" href="$classoops_1_1Increment.html#a2b9bf4c69c1995cc3a929e0af3a4f84c" title="Return minimum value." alt="" coords="443,341,584,367"/>
+<area shape="rect" id="node4" href="$classoops_1_1DualConfigModel.html#a1473199004605fff0bb61436140fd874" title=" " alt="" coords="223,64,376,105"/>
+<area shape="rect" id="node5" href="$classoops_1_1DualConfigForecast.html#a52f120b1f4f789af7d220888ed98f391" title=" " alt="" coords="5,64,175,105"/>
+</map>

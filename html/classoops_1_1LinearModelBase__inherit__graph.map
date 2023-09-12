@@ -1,0 +1,11 @@
+<map id="oops::LinearModelBase&lt; MODEL &gt;" name="oops::LinearModelBase&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Base class for encapsulation of the linear forecast model." alt="" coords="181,132,338,488"/>
+<area shape="rect" id="node4" href="$classoops_1_1LinearModelId.html" title="Encapsulates the linear forecast model." alt="" coords="5,580,156,877"/>
+<area shape="rect" id="node5" href="$classoops_1_1LinearModelBase.html" title=" " alt="" coords="181,551,338,907"/>
+<area shape="rect" id="node8" href="$classoops_1_1LinearModelBase.html" title=" " alt="" coords="362,551,519,907"/>
+<area shape="rect" id="node2" title=" " alt="" coords="151,5,247,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="271,5,370,83"/>
+<area shape="rect" id="node6" title="QG linear identity model definition." alt="" coords="124,956,219,1033"/>
+<area shape="rect" id="node7" title="QG linear model definition." alt="" coords="243,956,327,1033"/>
+<area shape="rect" id="node9" title="Lorenz 95 linear model definition." alt="" coords="378,956,503,1033"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="oops::CostFct4DVarMFTemplate::addIncr" name="oops::CostFct4DVarMFTemplate::addIncr">
+<area shape="rect" id="node1" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="5,123,216,164"/>
+<area shape="rect" id="node2" href="$classoops_1_1State4D.html#aa91b6d67d3eeb16575b479c7008c1f3c" title="Get model space control variable." alt="" coords="264,5,447,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Increment.html#a09e5a764457558dfc8034241edecb4d8" title="Compute increment as a difference between two States." alt="" coords="287,71,424,98"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="283,123,427,164"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="278,188,433,229"/>
+<area shape="rect" id="node7" href="$classoops_1_1Increment.html#abf4010d338c2e9a81c799a412ab5d858" title="Write increment." alt="" coords="281,254,429,281"/>
+<area shape="rect" id="node4" href="$classoops_1_1State.html#a604088ba96bafab8955158221be192f8" title="Return a reference to the model specific state." alt="" coords="495,71,617,98"/>
+</map>

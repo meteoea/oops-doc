@@ -1,0 +1,5 @@
+<map id="oops::ControlVariable::obsVar" name="oops::ControlVariable::obsVar">
+<area shape="rect" id="node1" title="Returns the auxiliary observation space component of the control variable." alt="" coords="224,35,368,76"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="24,5,157,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJo.html#ac16b6c752e4f5fc44205251a43065735" title="Various set ups prior to the linearisation trajectory computation." alt="" coords="5,71,176,98"/>
+</map>

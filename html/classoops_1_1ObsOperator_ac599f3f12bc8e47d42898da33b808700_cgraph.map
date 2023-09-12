@@ -1,0 +1,7 @@
+<map id="oops::ObsOperator::obsEquiv" name="oops::ObsOperator::obsEquiv">
+<area shape="rect" id="node1" title="Evaluate the non&#45;linear observation operator ." alt="" coords="5,57,141,98"/>
+<area shape="rect" id="node2" href="$classoops_1_1GeoVaLs.html#a316e5d7a37ce737da2d48f0da90c4176" title="Return model&#45;specific geovals." alt="" coords="199,5,361,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxControl.html#aa59fc212bcd7b725367d144665d8d84a" title="Return a constant reference to the model specific object." alt="" coords="209,57,351,98"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsVector.html#a676f088d671a5306647d2360111c3cb5" title="Return a constant reference to the model&#45;specific observation vector." alt="" coords="189,123,371,149"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxControl.html#ad9ab8f371fe45faec10436fc3e3b3a36" title="Return a constant reference to the model specific object." alt="" coords="419,64,585,91"/>
+</map>

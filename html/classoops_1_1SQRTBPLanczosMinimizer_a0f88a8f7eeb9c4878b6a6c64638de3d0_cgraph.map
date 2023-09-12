@@ -1,0 +1,25 @@
+<map id="oops::SQRTBPLanczosMinimizer::solve" name="oops::SQRTBPLanczosMinimizer::solve">
+<area shape="rect" id="node1" title=" " alt="" coords="5,495,220,537"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlVector.html#ae35905990b5de8ee662b7c6f0e35d151" title=" " alt="" coords="283,227,418,269"/>
+<area shape="rect" id="node3" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="523,5,614,32"/>
+<area shape="rect" id="node4" href="$namespaceutil.html#a6f3485a2993a330fd9409cca6a86b0c6" title="Formatting numerical types with full precision for output." alt="" coords="290,503,411,529"/>
+<area shape="rect" id="node5" href="$classoops_1_1JbMatrix.html#aeb7fe19da2f7de2b346a77681b30e29e" title=" " alt="" coords="273,344,428,371"/>
+<area shape="rect" id="node17" href="$classoops_1_1UtHtRinvHUMatrix.html#a55fd4c37307162bbbf0512c44f59b170" title=" " alt="" coords="268,630,433,671"/>
+<area shape="rect" id="node22" href="$namespaceoops.html#a66926fcf20aeeb6e8fa117095b35b3a8" title=" " alt="" coords="285,696,416,723"/>
+<area shape="rect" id="node23" href="$classoops_1_1ControlVector.html#ade5d9d9a034002b477e6a407fd91c23e" title=" " alt="" coords="283,747,418,789"/>
+<area shape="rect" id="node6" href="$classoops_1_1ObsAuxCovariances.html#a1edec80913fbbd731387e1de95e35296" title=" " alt="" coords="481,434,656,475"/>
+<area shape="rect" id="node8" href="$classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45" title="Access ." alt="" coords="494,56,643,83"/>
+<area shape="rect" id="node9" href="$classoops_1_1CostJbTotal.html#a41afe4cae614d95dcb23d7d732b1b8d9" title=" " alt="" coords="503,107,635,149"/>
+<area shape="rect" id="node10" href="$classoops_1_1ControlVector.html#afd97c8c04a6467b6b23edf5ec740add0" title="Get augmented model control vector." alt="" coords="501,173,636,214"/>
+<area shape="rect" id="node11" href="$classoops_1_1ObsAuxCovariances.html#ac59a9de0e5a1ed8d2fc530d617d49220" title=" " alt="" coords="481,499,656,541"/>
+<area shape="rect" id="node13" href="$classoops_1_1ObsAuxCovariances.html#aee002af8b02e783a4cad8145cb5799ea" title=" " alt="" coords="481,565,656,606"/>
+<area shape="rect" id="node14" href="$classoops_1_1ControlVector.html#a7a46f9167ba94fc58b7bcfd311ff6298" title="Get augmented observation control vector." alt="" coords="501,238,636,279"/>
+<area shape="rect" id="node15" href="$classoops_1_1ControlVector.html#af7de74c97ebb28f9003fec919f91dcb3" title="Get state control vector." alt="" coords="501,303,636,345"/>
+<area shape="rect" id="node16" href="$classoops_1_1ObsAuxIncrements.html#ad32962e51a7fc2e95e80e81f652ac751" title=" " alt="" coords="485,369,652,410"/>
+<area shape="rect" id="node7" href="$classoops_1_1ObsAuxIncrements.html#a3adcda43b5c1630b029f1f853721c93b" title="Return the size." alt="" coords="704,499,871,541"/>
+<area shape="rect" id="node12" href="$classoops_1_1ObsAuxCtlVecs.html#a0589fb5ed3b01d2cb7b31033b3c8d1ff" title="Return the size." alt="" coords="713,565,861,606"/>
+<area shape="rect" id="node18" href="$classoops_1_1DualVector.html#a71176330c74c3b7a5098f773f3aae978" title=" " alt="" coords="485,761,653,788"/>
+<area shape="rect" id="node19" href="$classoops_1_1PostProcessorAD.html#a7c1e57a09fbec28669ee2c3114cf5b29" title=" " alt="" coords="489,813,649,854"/>
+<area shape="rect" id="node20" href="$classoops_1_1PostProcessorTL.html#adb26af4d78ec46f4db6b9d8f8715e8e6" title="Adds a post processor to the vector of post&#45;processors." alt="" coords="489,630,648,671"/>
+<area shape="rect" id="node21" href="$classoops_1_1PostProcessorTL.html#a371f5df998e2512ece511565e521aac3" title="Release the dual space output of the post&#45;processor." alt="" coords="489,695,648,737"/>
+</map>

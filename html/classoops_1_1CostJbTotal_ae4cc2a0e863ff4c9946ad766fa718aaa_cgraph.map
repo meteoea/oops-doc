@@ -1,0 +1,7 @@
+<map id="oops::CostJbTotal::evaluate" name="oops::CostJbTotal::evaluate">
+<area shape="rect" id="node1" title="Compute Jb cost function value." alt="" coords="5,90,137,131"/>
+<area shape="rect" id="node2" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="217,5,308,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="185,57,340,98"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="185,122,340,163"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="185,187,340,229"/>
+</map>

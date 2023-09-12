@@ -1,0 +1,9 @@
+<map id="oops::CostJbTotal::writeIncrement" name="oops::CostJbTotal::writeIncrement">
+<area shape="rect" id="node1" title="Write the increment." alt="" coords="5,169,137,211"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="193,5,348,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="193,71,348,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="193,136,348,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxIncrements.html#a7f1a69d6285ca2d651dce83c5e000b92" title="Write control increment." alt="" coords="187,201,354,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1ModelAuxIncrement.html#aa7827887dd7ac8edb92203f8a99e909f" title="Write increment." alt="" coords="185,267,356,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1Increment4D.html#a0ffb7b05f40ebb97893e0b8cf5f598e2" title="Write increment." alt="" coords="203,332,339,373"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="oops::ObservationSpace::ObservationSpace" name="oops::ObservationSpace::ObservationSpace">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,35,168,76"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObservationSpace.html#a3b0dd61b17df6160514f811ffead9d55" title=" " alt="" coords="220,5,383,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Geometry.html#a18e63dbcd70034be85ae0ba416aef536" title="Interfacing &#45; returns a constant reference to model specific geometry." alt="" coords="216,71,387,98"/>
+</map>

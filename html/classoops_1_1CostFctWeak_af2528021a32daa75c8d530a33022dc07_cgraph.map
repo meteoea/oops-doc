@@ -1,0 +1,11 @@
+<map id="oops::CostFctWeak::zeroAD" name="oops::CostFctWeak::zeroAD">
+<area shape="rect" id="node1" title="Nullify the increment prior to running the adjoint model (virtual method)" alt="" coords="5,221,147,263"/>
+<area shape="rect" id="node2" href="$classoops_1_1Increment4D.html#ae20eaafa76e401b597dcdd40c1b2f79f" title="Return the index of the first Increment." alt="" coords="212,5,348,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Increment4D.html#a90a7e06d0b3928e52f00ce6bb8bba0ce" title="Return the index of the last Increment." alt="" coords="201,71,359,98"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="203,123,357,164"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="203,188,357,229"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="203,253,357,295"/>
+<area shape="rect" id="node7" href="$classoops_1_1ObsAuxIncrements.html#ad32962e51a7fc2e95e80e81f652ac751" title=" " alt="" coords="197,319,363,360"/>
+<area shape="rect" id="node8" href="$classoops_1_1ModelAuxIncrement.html#aab3ae4b1e754aaab3a984bc6fd5fc50b" title=" " alt="" coords="195,384,365,425"/>
+<area shape="rect" id="node9" href="$classoops_1_1Increment4D.html#a6cb42404f5d669e782c15458cbbd49a3" title=" " alt="" coords="200,450,360,477"/>
+</map>

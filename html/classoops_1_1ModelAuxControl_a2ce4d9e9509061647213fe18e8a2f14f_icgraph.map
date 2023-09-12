@@ -1,0 +1,13 @@
+<map id="oops::ModelAuxControl::modelauxcontrol" name="oops::ModelAuxControl::modelauxcontrol">
+<area shape="rect" id="node1" title="Return a constant reference to the encapsulated model specific object." alt="" coords="495,188,649,229"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxIncrement.html#abf20e2345ba6ab0e17df72337b1bb29d" title=" " alt="" coords="257,5,427,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1ModelAuxControlEstimator.html#a5e8ce8b53d910f17929ee3c1041f3afb" title="Methods." alt="" coords="237,71,447,112"/>
+<area shape="rect" id="node7" href="$classoops_1_1Model.html#af2f988fd643d45829e55e3ca1f011821" title="Initialize the model (prior to forecast)" alt="" coords="271,137,413,163"/>
+<area shape="rect" id="node8" href="$classoops_1_1ModelAuxCovariance.html#a93fcfe99534f981caa71107aeebe10d5" title="Set up the inner loop resolution covariance matrix." alt="" coords="253,188,431,229"/>
+<area shape="rect" id="node9" href="$namespaceoops.html#a38420544d01c55c81822eb408aaf99e8" title=" " alt="" coords="283,254,401,281"/>
+<area shape="rect" id="node10" href="$classoops_1_1LinearModelBase.html#a76511b6351d652b16de0b5973eb6e352" title="Set the linearization trajectory." alt="" coords="252,305,432,347"/>
+<area shape="rect" id="node11" href="$classoops_1_1Model.html#af964de8a5918deddda216697137391ba" title="Model time step." alt="" coords="281,371,403,398"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJbTotal.html#aa6c7ef94aef05aa22127097c865dc65a" title="Various computations after the integration of the model." alt="" coords="31,5,163,47"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlVariable.html#a399c9cbf16565b0cf3303ca698782f6c" title="The arguments define the number of sub&#45;windows and the resolution." alt="" coords="25,71,169,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1ModelAuxNN.html#a47a28020132b2207d42df907480e1a80" title=" " alt="" coords="5,137,189,163"/>
+</map>

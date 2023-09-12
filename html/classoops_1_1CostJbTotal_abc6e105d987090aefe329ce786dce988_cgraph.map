@@ -1,0 +1,6 @@
+<map id="oops::CostJbTotal::addGradientFG" name="oops::CostJbTotal::addGradientFG">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,137,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlVector.html#afd97c8c04a6467b6b23edf5ec740add0" title="Get augmented model control vector." alt="" coords="185,5,320,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlVector.html#a7a46f9167ba94fc58b7bcfd311ff6298" title="Get augmented observation control vector." alt="" coords="185,71,320,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlVector.html#af7de74c97ebb28f9003fec919f91dcb3" title="Get state control vector." alt="" coords="185,136,320,177"/>
+</map>

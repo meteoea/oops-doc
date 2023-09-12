@@ -1,0 +1,5 @@
+<map id="oops::ModelAuxCovariance::multiplySqrtTrans" name="oops::ModelAuxCovariance::multiplySqrtTrans">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,184,80"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxCtlVec.html#ae12e70d12b866b0dd5cf22d99e1bbaeb" title="Return a constant reference to the encapsulated model specific object." alt="" coords="241,5,393,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ModelAuxIncrement.html#a5c982b869b629c6639ee2935b08fc63a" title="Return a constant reference to the model specific object." alt="" coords="232,71,403,112"/>
+</map>

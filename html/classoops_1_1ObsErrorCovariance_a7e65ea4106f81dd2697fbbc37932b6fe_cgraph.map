@@ -1,0 +1,5 @@
+<map id="oops::ObsErrorCovariance::setupWeights" name="oops::ObsErrorCovariance::setupWeights">
+<area shape="rect" id="node1" title="Setup the VarQC weights." alt="" coords="5,35,177,76"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlObsVector.html#a2f12f80a92e562163c88b305b79db4c3" title="Interfacing." alt="" coords="237,5,395,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsVector.html#a676f088d671a5306647d2360111c3cb5" title="Return a constant reference to the model&#45;specific observation vector." alt="" coords="225,71,407,98"/>
+</map>

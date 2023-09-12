@@ -1,0 +1,9 @@
+<map id="oops::Minimizer::adjModelTest" name="oops::Minimizer::adjModelTest">
+<area shape="rect" id="node1" title="Perform model adjoint tests." alt="" coords="5,81,200,108"/>
+<area shape="rect" id="node2" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="281,5,371,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1MMatrix.html#ac2f50ca3a7254d320fba6eae315b292a" title=" " alt="" coords="250,56,402,83"/>
+<area shape="rect" id="node5" href="$classoops_1_1MtMatrix.html#ac0325ff39f9eaeba5ed10eef946af2b9" title=" " alt="" coords="248,107,404,133"/>
+<area shape="rect" id="node7" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="249,158,403,199"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFunction.html#ad83281587aa637c33be0f28fc30373be" title="Run the tangent linear model (virtual method)" alt="" coords="452,41,585,82"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFunction.html#a3e40a4b04c5c45124eb166fb5406cb32" title="Run the adjoint model (virtual method)" alt="" coords="452,106,585,147"/>
+</map>

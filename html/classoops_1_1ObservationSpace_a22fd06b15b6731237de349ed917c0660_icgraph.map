@@ -1,0 +1,6 @@
+<map id="oops::ObservationSpace::config" name="oops::ObservationSpace::config">
+<area shape="rect" id="node1" title="Return a constant reference to the configuration." alt="" coords="220,71,383,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlObsVector.html#ae8c2465056ae7b3550254b1b704c5d75" title=" " alt="" coords="9,5,168,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1LinearObsOperator.html#ac66a59d7c3cf8766d370989fc62cc4b1" title="Constructor." alt="" coords="5,71,172,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsOperator.html#ad7d8cd89cfdccd070feee679c7e6d88c" title="Constructor." alt="" coords="21,136,157,177"/>
+</map>

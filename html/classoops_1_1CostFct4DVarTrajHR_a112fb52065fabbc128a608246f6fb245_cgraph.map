@@ -1,0 +1,6 @@
+<map id="oops::CostFct4DVarTrajHR::evaluate" name="oops::CostFct4DVarTrajHR::evaluate">
+<area shape="rect" id="node1" title="Evaluate the non&#45;linear cost function." alt="" coords="5,35,184,76"/>
+<area shape="rect" id="node2" href="$classoops_1_1PostProcessor.html#a2e1e3cbf40ede8e32a372d8b5b2c270d" title="Adds a post processor to the vector of post&#45;processors." alt="" coords="424,5,567,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFunction.html#a7dfe7e1cc401e3206e0a0db086f43c72" title="Evaluate the non&#45;linear cost function." alt="" coords="237,35,371,76"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="232,100,376,141"/>
+</map>

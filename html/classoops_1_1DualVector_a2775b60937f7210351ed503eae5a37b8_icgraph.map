@@ -1,0 +1,14 @@
+<map id="oops::DualVector::clear" name="oops::DualVector::clear">
+<area shape="rect" id="node1" title=" " alt="" coords="465,175,620,202"/>
+<area shape="rect" id="node2" href="$classoops_1_1RinvMatrix.html#a61e4a71018eb143d440784f17cf08fca" title=" " alt="" coords="247,103,413,130"/>
+<area shape="rect" id="node5" href="$classoops_1_1HMatrix.html#ac6c2bd6065dfd5fed26a62d22293a2b7" title=" " alt="" coords="255,175,405,202"/>
+<area shape="rect" id="node8" href="$classoops_1_1SaddlePointPrecondMatrix.html#a5c68e6eef8b378e7a08b0665e9612748" title=" " alt="" coords="243,229,417,271"/>
+<area shape="rect" id="node11" href="$classoops_1_1HBHtMatrix.html#ae282a08cbf2d19a1a844af73e8e26379" title=" " alt="" coords="243,53,417,79"/>
+<area shape="rect" id="node12" href="$classoops_1_1SaddlePointMatrix.html#a2c19ef67470747ff22c0cf3b240873f4" title=" " alt="" coords="249,295,411,336"/>
+<area shape="rect" id="node3" href="$classoops_1_1RPCGMinimizer.html#a64cb89d1a2f7b0946b3b727cae38f1ba" title=" " alt="" coords="26,5,174,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1RPLanczosMinimizer.html#a7fe11fbe0bfaec3af4212f5411610e18" title=" " alt="" coords="11,71,189,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1Minimizer.html#a02f86245f08d74a4e09111ae2c8fc443" title="Perform observation operator adjoint tests." alt="" coords="8,137,192,163"/>
+<area shape="rect" id="node7" href="$classoops_1_1DualMinimizer.html#a3cf6d56e66d48c5aa41d9c1f7d5a4237" title="Minimizer the quadratic cost function (virtual method)" alt="" coords="31,188,169,229"/>
+<area shape="rect" id="node9" href="$classoops_1_1SaddlePointLMPMatrix.html#afe5952a98d8b95b264d6df68c00e6c60" title=" " alt="" coords="5,253,195,295"/>
+<area shape="rect" id="node10" href="$classoops_1_1SaddlePointLMPMatrix.html#ad91368e6e6337aafd885ead264f6f3ee" title=" " alt="" coords="5,319,195,360"/>
+</map>

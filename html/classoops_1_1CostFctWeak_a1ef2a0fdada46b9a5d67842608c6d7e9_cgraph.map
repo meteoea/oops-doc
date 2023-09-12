@@ -1,0 +1,6 @@
+<map id="oops::CostFctWeak::addIncr" name="oops::CostFctWeak::addIncr">
+<area shape="rect" id="node1" title="Virtual method to add the increment to the state." alt="" coords="5,71,147,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="195,5,349,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="200,71,344,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="195,136,349,177"/>
+</map>

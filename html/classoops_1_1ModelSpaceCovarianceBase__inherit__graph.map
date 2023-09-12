@@ -1,0 +1,10 @@
+<map id="oops::ModelSpaceCovarianceBase&lt; MODEL &gt;" name="oops::ModelSpaceCovarianceBase&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Abstract base class for model space error covariances." alt="" coords="635,5,850,215"/>
+<area shape="rect" id="node2" href="$classoops_1_1EnsembleCovariance.html" title="Generic ensemble based model space error covariance." alt="" coords="5,277,184,575"/>
+<area shape="rect" id="node3" href="$classoops_1_1EnsembleCovarianceSDL.html" title="Generic ensemble based model space error covariance." alt="" coords="209,263,405,589"/>
+<area shape="rect" id="node4" href="$classoops_1_1EnsembleCovsInterpol.html" title="Generic ensemble based model space error covariance." alt="" coords="429,270,616,582"/>
+<area shape="rect" id="node5" href="$classoops_1_1EnsembleCovsInterpolSDL.html" title="Wraps the model space error covariance." alt="" coords="641,263,845,589"/>
+<area shape="rect" id="node6" href="$classoops_1_1ErrorCovariance.html" title="Wrapper for model space error covariances." alt="" coords="869,277,1019,575"/>
+<area shape="rect" id="node7" href="$classoops_1_1HybridCovariance.html" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="1043,299,1202,553"/>
+<area shape="rect" id="node8" href="$classoops_1_1HybridCovarianceGeneralCoeff.html" title="Generic hybrid static&#45;ensemble model space error covariance." alt="" coords="1227,285,1445,567"/>
+</map>

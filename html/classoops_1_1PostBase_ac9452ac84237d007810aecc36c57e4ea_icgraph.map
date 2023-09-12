@@ -1,0 +1,5 @@
+<map id="oops::PostBase::doProcessing" name="oops::PostBase::doProcessing">
+<area shape="rect" id="node1" title="Actual processing." alt="" coords="208,46,407,73"/>
+<area shape="rect" id="node2" href="$classoops_1_1PostBase.html#a4c793f67f691acc4c7422cc3bbee6670" title="Wraps doInitialize method; doProcessing is called if requested." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1PostBase.html#afb2a31269dd300eb2c818c25c6223f40" title="Wraps doProcessing method; doProcessing is is called when requested." alt="" coords="5,71,160,112"/>
+</map>

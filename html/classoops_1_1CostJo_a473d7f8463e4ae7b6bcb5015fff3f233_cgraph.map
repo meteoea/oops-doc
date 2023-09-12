@@ -1,0 +1,6 @@
+<map id="oops::CostJo::finalizeTraj" name="oops::CostJo::finalizeTraj">
+<area shape="rect" id="node1" title="Various computations after the linearisation trajectory computation." alt="" coords="5,56,169,83"/>
+<area shape="rect" id="node2" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="249,5,339,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1Departures.html#a56d674f242759e53b2ae8a5227b4a7b8" title="Write departures." alt="" coords="217,56,371,83"/>
+<area shape="rect" id="node4" href="$classoops_1_1Departures.html#aca706597582ffcabafeb6e8ea52a23f6" title="Return the number of components." alt="" coords="220,107,368,133"/>
+</map>

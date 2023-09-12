@@ -1,0 +1,5 @@
+<map id="oops::ErrorCovariance::linearize" name="oops::ErrorCovariance::linearize">
+<area shape="rect" id="node1" title="Set up the inner loop resolution B matrix." alt="" coords="5,23,153,65"/>
+<area shape="rect" id="node2" href="$classoops_1_1Geometry.html#a18e63dbcd70034be85ae0ba416aef536" title="Interfacing &#45; returns a constant reference to model specific geometry." alt="" coords="201,5,372,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1State.html#a604088ba96bafab8955158221be192f8" title="Return a reference to the model specific state." alt="" coords="225,56,348,83"/>
+</map>

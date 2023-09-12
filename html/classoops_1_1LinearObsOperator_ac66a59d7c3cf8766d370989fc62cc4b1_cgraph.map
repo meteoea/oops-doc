@@ -1,0 +1,6 @@
+<map id="oops::LinearObsOperator::LinearObsOperator" name="oops::LinearObsOperator::LinearObsOperator">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,71,172,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1LinearObsOperator.html#a342f02752eab7cc177f953274cd0cf91" title=" " alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObservationSpace.html#a22fd06b15b6731237de349ed917c0660" title="Return a constant reference to the configuration." alt="" coords="222,71,385,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObservationSpace.html#a803f97c2a5f462f39ee600ed067416fd" title="Return a reference to the model specific object." alt="" coords="222,136,385,177"/>
+</map>

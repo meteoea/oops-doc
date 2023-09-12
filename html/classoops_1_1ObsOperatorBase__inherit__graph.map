@@ -1,0 +1,11 @@
+<map id="oops::ObsOperatorBase&lt; MODEL &gt;" name="oops::ObsOperatorBase&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Base class for the observation operator." alt="" coords="263,132,423,297"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsOperatorBase.html" title=" " alt="" coords="171,360,331,525"/>
+<area shape="rect" id="node8" href="$classoops_1_1ObsOperatorBase.html" title=" " alt="" coords="425,360,585,525"/>
+<area shape="rect" id="node2" title=" " alt="" coords="235,5,331,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="355,5,453,83"/>
+<area shape="rect" id="node5" title="Streamfunction observation for QG model." alt="" coords="5,575,133,652"/>
+<area shape="rect" id="node6" title="Wind observation for QG model." alt="" coords="157,575,272,652"/>
+<area shape="rect" id="node7" title="Wind speed observation for QG model." alt="" coords="297,575,431,652"/>
+<area shape="rect" id="node9" title="Observation for Lorenz 95 model." alt="" coords="456,575,624,652"/>
+</map>

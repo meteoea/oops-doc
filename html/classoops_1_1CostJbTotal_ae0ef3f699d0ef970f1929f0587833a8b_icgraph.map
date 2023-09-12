@@ -1,0 +1,5 @@
+<map id="oops::CostJbTotal::multiplyBsqrtTrans" name="oops::CostJbTotal::multiplyBsqrtTrans">
+<area shape="rect" id="node1" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="423,5,555,47"/>
+<area shape="rect" id="node2" href="$classoops_1_1BMatrix.html#aeec47e205511554b7f82f8a8320447d6" title=" " alt="" coords="200,5,375,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1SQRTMinimizer.html#aedbcd7115ddd82c902ae81a59be2466e" title="Solver (virtual method) &#45; implemented by concrete minimizers." alt="" coords="5,5,152,47"/>
+</map>

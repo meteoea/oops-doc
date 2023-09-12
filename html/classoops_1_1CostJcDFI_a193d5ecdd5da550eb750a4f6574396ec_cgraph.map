@@ -1,0 +1,4 @@
+<map id="oops::CostJcDFI::finalizeTraj" name="oops::CostJcDFI::finalizeTraj">
+<area shape="rect" id="node1" title="Perform computation after the linearisation trajectory computation." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="239,5,329,32"/>
+</map>

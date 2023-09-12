@@ -1,0 +1,31 @@
+<map id="oops::ControlVariable::state" name="oops::ControlVariable::state">
+<area shape="rect" id="node1" title="Returns a 4D state component of the control variable." alt="" coords="264,860,408,901"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFct3DVar.html#a643d30d6657323dd4d0f3662053daa3a" title="Virtual method to add the increment to the state." alt="" coords="41,5,180,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFct4DVar.html#abe651b750c1dc4824d437e82961a5a1b" title="Virtual method to add the increment to the state." alt="" coords="41,71,180,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFctWeak.html#a1ef2a0fdada46b9a5d67842608c6d7e9" title="Virtual method to add the increment to the state." alt="" coords="40,136,181,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostFct4DEnsVar.html#abece163eadf95af9d039e41e9d3761e5" title="Virtual method to add the increment to the state." alt="" coords="31,201,191,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFct4DEnVar.html#a7d12ebcfbba3b0b6c3b684f89696294b" title="Virtual method to add the increment to the state." alt="" coords="34,267,187,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1CostFct4DVarTrajHR.html#a22c1ae6b8c0ca291fbc468567d126b90" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="21,332,200,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1CostFct4DVarMFTemplate.html#ad45a7e63349c36995ecf6be81c551057" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="5,397,216,439"/>
+<area shape="rect" id="node9" href="$classoops_1_1CostFct4DVarTrajHR.html#a112fb52065fabbc128a608246f6fb245" title="Evaluate the non&#45;linear cost function." alt="" coords="21,463,200,504"/>
+<area shape="rect" id="node10" href="$classoops_1_1CostFct4DVarMFTemplate.html#a711bbe94ab0bc1e1c4f0fcf19ba4b337" title="Evaluate the non&#45;linear cost function." alt="" coords="5,528,216,569"/>
+<area shape="rect" id="node11" href="$classoops_1_1CostJcDFI.html#a547cd874eb3b5f9697d437807625ad1c" title="Initialize before nonlinear model integration." alt="" coords="25,594,196,621"/>
+<area shape="rect" id="node12" href="$classoops_1_1CostJcDFI.html#a2fe1d58bf297da20267efb7345f87a41" title=" " alt="" coords="15,645,207,671"/>
+<area shape="rect" id="node13" href="$classoops_1_1CostFct4DVarTrajHR.html#a7c4ae909393cb470512d124e967ed585" title="Specific linearization for ARPEGE 4D&#45;Var with trajectory from high resolution." alt="" coords="21,696,200,737"/>
+<area shape="rect" id="node14" href="$classoops_1_1CostFct4DVarMFTemplate.html#ad0a521e1dd47fd401094faec25fc15c8" title="Set up the quadratic cost function. Specific linearization for ARPEGE 4D&#45;Var." alt="" coords="5,761,216,803"/>
+<area shape="rect" id="node15" href="$classoops_1_1CostFunction.html#a9f5436014c826918c0593d55f07df3be" title="Linearise the cost function: set up the quadratic cost function." alt="" coords="44,827,177,868"/>
+<area shape="rect" id="node16" href="$classoops_1_1CostFct3DVar.html#a8abfb0cc035135ca712a2652a8d61f9d" title="Create the &#160;term of the cost function (virtual method)" alt="" coords="41,892,180,933"/>
+<area shape="rect" id="node17" href="$classoops_1_1CostFct4DVar.html#ae3787592a57ec9dc8b68254f01dac3d2" title="Create the &#160;term of the cost function (virtual method)" alt="" coords="41,957,180,999"/>
+<area shape="rect" id="node18" href="$classoops_1_1CostFct4DVarHyb4D.html#a3fca76d0745f75868e4655d257b0480d" title="Create the &#160;4D term of the cost function." alt="" coords="22,1023,199,1064"/>
+<area shape="rect" id="node19" href="$classoops_1_1CostFctWeak.html#a192a2620791d05a7a331286e280a065f" title="Create the &#160;term of the cost function (virtual method)" alt="" coords="40,1088,181,1129"/>
+<area shape="rect" id="node20" href="$classoops_1_1CostFct4DEnsVar.html#ac7e3d9297296664e8ed7147ae96e74c9" title="Create the &#160;term of the cost function (virtual method)" alt="" coords="31,1153,191,1195"/>
+<area shape="rect" id="node21" href="$classoops_1_1CostFct4DEnVar.html#a0631bcf8b795ac4a2df36a0c0533970a" title="Create the &#160;term of the cost function (virtual method)" alt="" coords="34,1219,187,1260"/>
+<area shape="rect" id="node22" href="$classoops_1_1CostFct4DVarMFTemplate.html#a04f6bd072f3ef8c7343b7f37fa160a92" title="Create the &#160;term of the cost function." alt="" coords="5,1284,216,1325"/>
+<area shape="rect" id="node23" href="$classoops_1_1CostFct3DVar.html#adb9783822b134c0812682c01cfe90119" title="Run the non&#45;linear model (virtual method)" alt="" coords="41,1349,180,1391"/>
+<area shape="rect" id="node24" href="$classoops_1_1CostFct4DVar.html#a11cc4b2eda793d2c5c087533413dfe72" title="Run the non&#45;linear model (virtual method)" alt="" coords="41,1415,180,1456"/>
+<area shape="rect" id="node25" href="$classoops_1_1CostFctWeak.html#ae52f9b20b1e54ccf28e7c0e3dcfe7d51" title="Run the non&#45;linear model (virtual method)" alt="" coords="40,1480,181,1521"/>
+<area shape="rect" id="node26" href="$classoops_1_1CostFct4DEnsVar.html#a9f9ac24e0e56fac9ad2e961e5340a73f" title="Run the non&#45;linear model (virtual method)" alt="" coords="31,1545,191,1587"/>
+<area shape="rect" id="node27" href="$classoops_1_1CostFct4DEnVar.html#a499bc216ee13afecab0bfcf92223e0bf" title="Run the non&#45;linear model (virtual method)" alt="" coords="34,1611,187,1652"/>
+<area shape="rect" id="node28" href="$classoops_1_1CostFct4DVarMFTemplate.html#a0a055420c35897c7454be260b8050d9c" title="Run the non&#45;linear model (HR)" alt="" coords="5,1676,216,1717"/>
+<area shape="rect" id="node29" href="$classoops_1_1Minimizer.html#a8aa8f4456592a53498288825809bfda9" title="Perform the Tayolor test." alt="" coords="13,1742,209,1769"/>
+</map>

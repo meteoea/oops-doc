@@ -1,0 +1,8 @@
+<map id="solve_helmholz" name="solve_helmholz">
+<area shape="rect" id="node1" title="Solve a Helmholz equation." alt="" coords="471,56,581,83"/>
+<area shape="rect" id="node2" href="$solve__elliptic__system_8f90.html#ac59f9513f54c865229076bf35fe95c0f" title="Solves the elliptic system that arises when inverting potential vorticity." alt="" coords="276,56,423,83"/>
+<area shape="rect" id="node3" href="$invert__pv_8f90.html#a1354a9609eb2607efde2978c8a3e0db5" title="Invert potential vorticity, returning streamfunction." alt="" coords="143,5,217,32"/>
+<area shape="rect" id="node5" href="$invert__pv__ad_8f90.html#acd3d83fae352a431faca6f7ba7d4c0f5" title="Invert potential vorticity &#45; Adjoint." alt="" coords="132,56,228,83"/>
+<area shape="rect" id="node6" href="$invert__pv__tl_8f90.html#a2cabf18d8a3c994a254e71cb8edeb670" title="Invert potential vorticity &#45; Tangent Linear." alt="" coords="135,107,225,133"/>
+<area shape="rect" id="node4" href="$propagate_8f90.html#aee6cf32c40d546f490884dfba2a86c06" title="Perform a timestep of the QG model." alt="" coords="5,5,84,32"/>
+</map>

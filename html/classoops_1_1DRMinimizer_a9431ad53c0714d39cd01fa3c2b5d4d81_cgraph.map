@@ -1,0 +1,6 @@
+<map id="oops::DRMinimizer::restart" name="oops::DRMinimizer::restart">
+<area shape="rect" id="node1" title="Restart the minimizer (virtual method)" alt="" coords="5,49,140,90"/>
+<area shape="rect" id="node2" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="220,5,311,32"/>
+<area shape="rect" id="node3" href="$namespaceutil.html#a6f3485a2993a330fd9409cca6a86b0c6" title="Formatting numerical types with full precision for output." alt="" coords="205,56,326,83"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#ad9275d81276cf14492749073f17c2152" title="Read control increment." alt="" coords="188,107,343,149"/>
+</map>

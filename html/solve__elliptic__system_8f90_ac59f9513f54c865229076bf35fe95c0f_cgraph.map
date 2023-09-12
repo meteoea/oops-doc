@@ -1,0 +1,5 @@
+<map id="solve_elliptic_system" name="solve_elliptic_system">
+<area shape="rect" id="node1" title="Solves the elliptic system that arises when inverting potential vorticity." alt="" coords="5,31,152,57"/>
+<area shape="rect" id="node2" href="$laplacian__2d_8f90.html#ae4bfebb31112d49fc8074354fbf85718" title="Horizontal Laplacian operator." alt="" coords="208,5,303,32"/>
+<area shape="rect" id="node3" href="$solve__helmholz_8f90.html#a9139037c4b497dcaddaba8158d488eb3" title="Solve a Helmholz equation." alt="" coords="200,56,311,83"/>
+</map>

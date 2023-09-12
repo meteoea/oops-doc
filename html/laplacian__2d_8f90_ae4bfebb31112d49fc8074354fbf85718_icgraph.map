@@ -1,0 +1,12 @@
+<map id="laplacian_2d" name="laplacian_2d">
+<area shape="rect" id="node1" title="Horizontal Laplacian operator." alt="" coords="485,107,580,133"/>
+<area shape="rect" id="node2" href="$pv__operator_8f90.html#a7946c92e184d5aafa49d4eaf520b8245" title="Potential vorticity operator." alt="" coords="319,56,409,83"/>
+<area shape="rect" id="node7" href="$solve__elliptic__system_8f90.html#ac59f9513f54c865229076bf35fe95c0f" title="Solves the elliptic system that arises when inverting potential vorticity." alt="" coords="291,132,437,159"/>
+<area shape="rect" id="node3" href="$calc__pv_8f90.html#a7574880e56a8f1a376408c5311df4af1" title="Calculate potential vorticity from streamfunction." alt="" coords="161,5,228,32"/>
+<area shape="rect" id="node6" href="$calc__pv__tl_8f90.html#a5dd4df4fb3189ff3ab7798b47a6ac914" title="Calculate potential vorticity &#45; Tangent Linear." alt="" coords="154,56,235,83"/>
+<area shape="rect" id="node4" href="$invent__state_8f90.html#a98357b7a56de10e89a7aa8d00d6b4c69" title="Invent an initial state for the QG model." alt="" coords="5,5,99,32"/>
+<area shape="rect" id="node5" href="$propagate_8f90.html#aee6cf32c40d546f490884dfba2a86c06" title="Perform a timestep of the QG model." alt="" coords="13,81,91,108"/>
+<area shape="rect" id="node8" href="$invert__pv_8f90.html#a1354a9609eb2607efde2978c8a3e0db5" title="Invert potential vorticity, returning streamfunction." alt="" coords="157,107,232,133"/>
+<area shape="rect" id="node9" href="$invert__pv__ad_8f90.html#acd3d83fae352a431faca6f7ba7d4c0f5" title="Invert potential vorticity &#45; Adjoint." alt="" coords="147,157,243,184"/>
+<area shape="rect" id="node10" href="$invert__pv__tl_8f90.html#a2cabf18d8a3c994a254e71cb8edeb670" title="Invert potential vorticity &#45; Tangent Linear." alt="" coords="150,208,239,235"/>
+</map>

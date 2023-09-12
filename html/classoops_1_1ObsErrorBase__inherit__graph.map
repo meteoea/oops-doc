@@ -1,0 +1,10 @@
+<map id="oops::ObsErrorBase&lt; MODEL &gt;" name="oops::ObsErrorBase&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Base class for observation error covariance matrices." alt="" coords="44,132,183,341"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsErrorDiag.html" title="Diagonal observation error covariance matrix." alt="" coords="23,404,161,657"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsErrorBase.html" title=" " alt="" coords="185,426,324,635"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,101,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="125,5,224,83"/>
+<area shape="rect" id="node6" title="Diagonal observation error covariance matrix." alt="" coords="21,707,165,784"/>
+<area shape="rect" id="node7" title="Diagonal observation error covariance matrix." alt="" coords="189,707,320,784"/>
+<area shape="rect" id="node8" title="Diagonal observation error covariance matrix." alt="" coords="345,707,495,784"/>
+</map>
