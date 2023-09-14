@@ -1,0 +1,5 @@
+<map id="oops::ObsAuxCovariance::get" name="oops::ObsAuxCovariance::get">
+<area shape="rect" id="node1" title="Return a constant reference to the model specific object." alt="" coords="409,13,600,39"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxCovariance.html#a5009b7e85d291686c273b50381a71108" title="Return a constant reference to the model specific object." alt="" coords="195,5,361,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxCtlVec.html#a8ad8f45af476f48aea9c4ecb886a09a7" title="Constructor." alt="" coords="5,5,147,47"/>
+</map>

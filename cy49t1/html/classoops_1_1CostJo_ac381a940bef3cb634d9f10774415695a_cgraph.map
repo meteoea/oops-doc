@@ -1,0 +1,4 @@
+<map id="oops::CostJo::setupAD" name="oops::CostJo::setupAD">
+<area shape="rect" id="node1" title="Initialize ObserverAD (computes ) before starting the AD run." alt="" coords="5,13,159,39"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="207,5,361,47"/>
+</map>

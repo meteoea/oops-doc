@@ -1,0 +1,5 @@
+<map id="oops::CostTermBase&lt; MODEL &gt;" name="oops::CostTermBase&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Abstract base class for the terms of the cost function (e.g. Jo, Jc)." alt="" coords="127,5,270,244"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostJcDFI.html" title="Jc DFI Cost Function." alt="" coords="5,292,192,663"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJo.html" title="term of the cost function" alt="" coords="216,292,381,663"/>
+</map>

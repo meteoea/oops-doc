@@ -1,0 +1,11 @@
+<map id="oops::BMatrix::multiplySqrtTrans" name="oops::BMatrix::multiplySqrtTrans">
+<area shape="rect" id="node1" title=" " alt="" coords="5,140,180,181"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45" title="Access ." alt="" coords="228,118,377,145"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="237,169,369,211"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="425,5,580,47"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlVector.html#afd97c8c04a6467b6b23edf5ec740add0" title="Get augmented model control vector." alt="" coords="435,71,570,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="425,136,580,177"/>
+<area shape="rect" id="node7" href="$classoops_1_1ControlVector.html#a7a46f9167ba94fc58b7bcfd311ff6298" title="Get augmented observation control vector." alt="" coords="435,201,570,243"/>
+<area shape="rect" id="node8" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="425,267,580,308"/>
+<area shape="rect" id="node9" href="$classoops_1_1ControlVector.html#af7de74c97ebb28f9003fec919f91dcb3" title="Get state control vector." alt="" coords="435,332,570,373"/>
+</map>

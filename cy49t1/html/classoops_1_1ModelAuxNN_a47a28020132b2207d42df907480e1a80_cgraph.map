@@ -1,0 +1,8 @@
+<map id="oops::ModelAuxNN::execute" name="oops::ModelAuxNN::execute">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,189,134"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxControlEstimator.html#a5e8ce8b53d910f17929ee3c1041f3afb" title="Methods." alt="" coords="237,35,447,76"/>
+<area shape="rect" id="node5" href="$classoops_1_1ModelAuxControl.html#a2dd65ac3c8eb2dabbc2ee839085e6a6c" title="Compute L&#45;2 norm." alt="" coords="265,100,419,141"/>
+<area shape="rect" id="node6" href="$classoops_1_1State.html#a075c8525fdc5c270359469661167fc82" title="L&#45;2 norm." alt="" coords="281,166,403,193"/>
+<area shape="rect" id="node3" href="$classoops_1_1ModelAuxControl.html#a2ce4d9e9509061647213fe18e8a2f14f" title="Return a constant reference to the encapsulated model specific object." alt="" coords="495,5,649,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1State.html#a604088ba96bafab8955158221be192f8" title="Return a reference to the model specific state." alt="" coords="511,71,633,98"/>
+</map>

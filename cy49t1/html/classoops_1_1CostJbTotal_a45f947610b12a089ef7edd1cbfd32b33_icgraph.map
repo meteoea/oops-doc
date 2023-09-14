@@ -1,0 +1,5 @@
+<map id="oops::CostJbTotal::jbState" name="oops::CostJbTotal::jbState">
+<area shape="rect" id="node1" title="Access covariance matrix for the state component of ctrl vec." alt="" coords="447,5,579,47"/>
+<area shape="rect" id="node2" href="$classoops_1_1BMatrix.html#af326a336f1f969e5ee11e865ee1b1141" title=" " alt="" coords="240,13,399,39"/>
+<area shape="rect" id="node3" href="$classoops_1_1DRPLanczosMinimizer.html#a6339485da6ba7f0309db9b004427cffc" title=" " alt="" coords="5,5,192,47"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="oops::Application" name="oops::Application">
+<area shape="rect" id="node1" title=" " alt="" coords="989,131,1109,267"/>
+<area shape="rect" id="node3" href="$classoops_1_1AssimEnsemble.html" title=" " alt="" coords="5,329,156,465"/>
+<area shape="rect" id="node4" href="$classoops_1_1DualConfigForecast.html" title=" " alt="" coords="180,329,349,465"/>
+<area shape="rect" id="node5" href="$classoops_1_1DualResForecast.html" title=" " alt="" coords="373,329,529,465"/>
+<area shape="rect" id="node6" href="$classoops_1_1EnsForecast.html" title=" " alt="" coords="553,329,691,465"/>
+<area shape="rect" id="node7" href="$classoops_1_1ExternalDFI.html" title=" " alt="" coords="715,329,846,465"/>
+<area shape="rect" id="node8" href="$classoops_1_1Forecast.html" title=" " alt="" coords="871,337,1045,458"/>
+<area shape="rect" id="node9" href="$classoops_1_1GenEnsPertB.html" title=" " alt="" coords="1069,329,1212,465"/>
+<area shape="rect" id="node10" href="$classoops_1_1HofX.html" title=" " alt="" coords="1237,337,1391,458"/>
+<area shape="rect" id="node11" href="$classoops_1_1MakeObs.html" title=" " alt="" coords="1416,337,1596,458"/>
+<area shape="rect" id="node12" href="$classoops_1_1ModelAuxNN.html" title=" " alt="" coords="1620,337,1821,458"/>
+<area shape="rect" id="node13" href="$classoops_1_1Test.html" title=" " alt="" coords="1845,315,1961,480"/>
+<area shape="rect" id="node32" href="$classoops_1_1Variational.html" title="Variational data assimilation application." alt="" coords="1986,329,2111,465"/>
+<area shape="rect" id="node2" title=" " alt="" coords="1001,5,1097,83"/>
+<area shape="rect" id="node14" title=" " alt="" coords="311,528,453,620"/>
+<area shape="rect" id="node15" title=" " alt="" coords="477,535,652,613"/>
+<area shape="rect" id="node16" title=" " alt="" coords="677,535,853,613"/>
+<area shape="rect" id="node17" title=" " alt="" coords="877,528,1007,620"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1031,528,1149,620"/>
+<area shape="rect" id="node19" title=" " alt="" coords="1173,535,1348,613"/>
+<area shape="rect" id="node20" title=" " alt="" coords="1372,535,1525,613"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1549,528,1697,620"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1721,528,1893,620"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1918,528,2083,620"/>
+<area shape="rect" id="node24" title=" " alt="" coords="2108,528,2245,620"/>
+<area shape="rect" id="node25" title=" " alt="" coords="2269,528,2431,620"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2455,528,2610,620"/>
+<area shape="rect" id="node27" title=" " alt="" coords="2635,528,2801,620"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2826,528,2983,620"/>
+<area shape="rect" id="node29" title=" " alt="" coords="3008,535,3188,613"/>
+<area shape="rect" id="node30" title=" " alt="" coords="3213,535,3362,613"/>
+<area shape="rect" id="node31" title=" " alt="" coords="3387,535,3559,613"/>
+</map>

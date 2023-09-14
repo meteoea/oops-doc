@@ -1,0 +1,27 @@
+<map id="oops::State::state" name="oops::State::state">
+<area shape="rect" id="node1" title="Return a reference to the model specific state." alt="" coords="495,530,617,557"/>
+<area shape="rect" id="node2" href="$classoops_1_1GenericMatrix.html#acc9db84fde1e86e2f82ddc5574c9e56f" title=" " alt="" coords="274,5,410,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Increment.html#a3128f6e879b9d8ae9c861c413cfc2947" title="Accumulate." alt="" coords="257,71,427,98"/>
+<area shape="rect" id="node5" href="$classoops_1_1Increment.html#a09e5a764457558dfc8034241edecb4d8" title="Compute increment as a difference between two States." alt="" coords="273,122,411,149"/>
+<area shape="rect" id="node8" href="$classoops_1_1ErrorCovariance.html#a0d64bfad94ac949a556e9706f2f522f2" title=" " alt="" coords="268,173,416,215"/>
+<area shape="rect" id="node9" href="$classoops_1_1ModelAuxControlEstimator.html#a5e8ce8b53d910f17929ee3c1041f3afb" title="Methods." alt="" coords="237,239,447,280"/>
+<area shape="rect" id="node12" href="$classoops_1_1Model.html#adaf5c59a4295a1f2b7d70a48a2c825da" title="Finalize the model (after the forecast)" alt="" coords="274,305,410,331"/>
+<area shape="rect" id="node13" href="$classoops_1_1GeoVaLs.html#aad8a7e0b9a74813a2fc80b99927da974" title="Constructor (takes a State)" alt="" coords="256,355,428,382"/>
+<area shape="rect" id="node14" href="$classoops_1_1Model.html#af2f988fd643d45829e55e3ca1f011821" title="Initialize the model (prior to forecast)" alt="" coords="271,406,413,433"/>
+<area shape="rect" id="node15" href="$classoops_1_1Interpolator.html#ad708e49ee2b0013df73dc4d970395c34" title=" " alt="" coords="281,457,403,499"/>
+<area shape="rect" id="node16" href="$classoops_1_1Interpolator.html#a25ec7bb06882172a89868afd7a6714fe" title=" " alt="" coords="281,523,403,564"/>
+<area shape="rect" id="node17" href="$classoops_1_1JcCovarBase.html#a1ba2194b21ac676d922576b9b232931d" title="Set up the inner loop resolution covariance matrix." alt="" coords="272,588,412,629"/>
+<area shape="rect" id="node18" href="$classoops_1_1ErrorCovariance.html#a04fd8cc047c8d3fec653ed1c2366b8ac" title="Set up the inner loop resolution B matrix." alt="" coords="268,653,416,695"/>
+<area shape="rect" id="node19" href="$classoops_1_1JcCovarMaker.html#a48e8385e63594ba3d38135d7bd507c2c" title=" " alt="" coords="272,719,412,760"/>
+<area shape="rect" id="node20" href="$classoops_1_1GenericMatrix.html#ac20c6a2459c5d35098c1298034fda26b" title=" " alt="" coords="274,784,410,825"/>
+<area shape="rect" id="node21" href="$classoops_1_1Interpolator.html#a78fc347f233f49bada9b9e1a4d553307" title=" " alt="" coords="281,849,403,891"/>
+<area shape="rect" id="node22" href="$namespaceoops.html#aa799d12e7c1d61c15d9cdd9777f89b73" title=" " alt="" coords="283,915,401,942"/>
+<area shape="rect" id="node23" href="$classoops_1_1Interpolator.html#a441368c341067fc7932998197e78ced5" title=" " alt="" coords="281,967,403,1008"/>
+<area shape="rect" id="node24" href="$classoops_1_1LinearModelBase.html#a76511b6351d652b16de0b5973eb6e352" title="Set the linearization trajectory." alt="" coords="252,1032,432,1073"/>
+<area shape="rect" id="node25" href="$classoops_1_1Model.html#af964de8a5918deddda216697137391ba" title="Model time step." alt="" coords="281,1098,403,1125"/>
+<area shape="rect" id="node4" href="$classoops_1_1Ensemble.html#a5f5fa4b26bd00c999b8a443d6c5b13ee" title=" " alt="" coords="24,57,171,83"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFct4DVarTrajHR.html#a22c1ae6b8c0ca291fbc468567d126b90" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="8,108,187,149"/>
+<area shape="rect" id="node7" href="$classoops_1_1CostFct4DVarMF.html#a0a6b2a4d0e8f0575b0c04a0d817c085c" title="Add increment to the first guess ( with FullPos change of resolution )" alt="" coords="19,173,176,215"/>
+<area shape="rect" id="node10" href="$classoops_1_1ControlVariable.html#a399c9cbf16565b0cf3303ca698782f6c" title="The arguments define the number of sub&#45;windows and the resolution." alt="" coords="25,239,169,280"/>
+<area shape="rect" id="node11" href="$classoops_1_1ModelAuxNN.html#a47a28020132b2207d42df907480e1a80" title=" " alt="" coords="5,305,189,331"/>
+</map>

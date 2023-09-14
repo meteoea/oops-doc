@@ -1,0 +1,5 @@
+<map id="oops::ObsAuxCovariance::update" name="oops::ObsAuxCovariance::update">
+<area shape="rect" id="node1" title="Update." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxControl.html#aa59fc212bcd7b725367d144665d8d84a" title="Return a constant reference to the model specific object." alt="" coords="220,5,363,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxControl.html#ad9ab8f371fe45faec10436fc3e3b3a36" title="Return a constant reference to the model specific object." alt="" coords="411,13,577,39"/>
+</map>

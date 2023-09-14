@@ -1,0 +1,5 @@
+<map id="oops::ModelAuxCovariance::linearize" name="oops::ModelAuxCovariance::linearize">
+<area shape="rect" id="node1" title="Set up the inner loop resolution covariance matrix." alt="" coords="5,27,184,69"/>
+<area shape="rect" id="node2" href="$classoops_1_1Geometry.html#a18e63dbcd70034be85ae0ba416aef536" title="Interfacing &#45; returns a constant reference to model specific geometry." alt="" coords="232,5,403,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1ModelAuxControl.html#a2ce4d9e9509061647213fe18e8a2f14f" title="Return a constant reference to the encapsulated model specific object." alt="" coords="240,57,395,98"/>
+</map>

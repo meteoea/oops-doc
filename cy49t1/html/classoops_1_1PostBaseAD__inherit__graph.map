@@ -1,0 +1,7 @@
+<map id="oops::PostBaseAD&lt; INCR &gt;" name="oops::PostBaseAD&lt; INCR &gt;">
+<area shape="rect" id="node1" title="Handles post&#45;processing of model fields related to cost function." alt="" coords="199,131,385,325"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObserverAD.html" title="Computes observation equivalent AD and AD to/from increments." alt="" coords="5,373,187,685"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObserverEnVarAD.html" title="Computes observation equivalent AD and AD to/from increments." alt="" coords="211,447,373,612"/>
+<area shape="rect" id="node5" href="$classoops_1_1WeightedDiffAD.html" title="Compute time average of states or increments during linear model run." alt="" coords="397,381,544,678"/>
+<area shape="rect" id="node2" title=" " alt="" coords="243,5,341,83"/>
+</map>

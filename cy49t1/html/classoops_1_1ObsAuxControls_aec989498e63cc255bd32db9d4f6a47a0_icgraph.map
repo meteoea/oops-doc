@@ -1,0 +1,9 @@
+<map id="oops::ObsAuxControls::size" name="oops::ObsAuxControls::size">
+<area shape="rect" id="node1" title="Return the size." alt="" coords="408,136,559,177"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxIncrements.html#a224cfdb7d8cb6d7d71920bd613ad73b8" title=" " alt="" coords="189,5,356,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxCovariances.html#a3ffba759e77259a5c6159372bb8a88c3" title="Set up the inner loop resolution B matrix." alt="" coords="185,71,360,112"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxControls.html#ab773fe93410ac7b7b1a3ed7cd28ffa9d" title="Copy constructor." alt="" coords="197,136,348,177"/>
+<area shape="rect" id="node6" href="$namespaceoops.html#a28e7a0158ed1bd72f082e3cce4950833" title=" " alt="" coords="213,202,332,229"/>
+<area shape="rect" id="node7" href="$classoops_1_1ObsAuxCovariances.html#a71cecc6b258e7eab2f61beb2c8d8c2d8" title="Update." alt="" coords="185,253,360,295"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJbTotal.html#aa6c7ef94aef05aa22127097c865dc65a" title="Various computations after the integration of the model." alt="" coords="5,5,137,47"/>
+</map>

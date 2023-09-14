@@ -1,0 +1,9 @@
+<map id="oops::RinvMatrix::multiply" name="oops::RinvMatrix::multiply">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,172,163"/>
+<area shape="rect" id="node2" href="$classoops_1_1DualVector.html#a71176330c74c3b7a5098f773f3aae978" title=" " alt="" coords="220,5,388,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1DualVector.html#a2775b60937f7210351ed503eae5a37b8" title=" " alt="" coords="227,56,381,83"/>
+<area shape="rect" id="node4" href="$classoops_1_1DualVector.html#a82a56dc33d3cebd2e079e2b3e3e6a33d" title=" " alt="" coords="229,107,379,133"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostFunction.html#a4dee360528ce876c3d1e4b7f217b802a" title="Access terms of the cost function other than ." alt="" coords="237,158,371,199"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostTermBase.html#a0e7d83cef3fb9932a98736aad9e78a7d" title="Multiply by inverse covariance (or weight) matrix." alt="" coords="233,223,375,265"/>
+<area shape="rect" id="node7" href="$classoops_1_1CostFunction.html#a3acfb71d2502722de8f248bcbe1cf13f" title="Return the numer of other cost function terms ." alt="" coords="237,289,371,330"/>
+</map>

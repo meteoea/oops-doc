@@ -1,0 +1,4 @@
+<map id="oops::ControlVariable::norm" name="oops::ControlVariable::norm">
+<area shape="rect" id="node1" title="Compute the L&#45;2 norm of the control variable." alt="" coords="187,5,331,47"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#a3e13195b3ae645295dd42ce48424da56" title="Add increment to the first guess." alt="" coords="5,5,139,47"/>
+</map>

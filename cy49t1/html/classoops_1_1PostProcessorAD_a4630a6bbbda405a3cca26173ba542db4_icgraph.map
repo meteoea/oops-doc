@@ -1,0 +1,6 @@
+<map id="oops::PostProcessorAD::finalizeAD" name="oops::PostProcessorAD::finalizeAD">
+<area shape="rect" id="node1" title=" " alt="" coords="231,71,391,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1LinearModel.html#abed64b693e5ca135a5e5fd036ec35113" title="Run the adjoint forecast." alt="" coords="27,5,161,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostFct4DVarHyb4D.html#a1d0fd0cc40459ffbaa786428ec93707e" title="Run the adjoint model with 4D Increment." alt="" coords="5,71,183,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFct4DEnVar.html#a07778f7062813960eb0861504f49f941" title="Run the adjoint model (virtual method)" alt="" coords="17,136,171,177"/>
+</map>

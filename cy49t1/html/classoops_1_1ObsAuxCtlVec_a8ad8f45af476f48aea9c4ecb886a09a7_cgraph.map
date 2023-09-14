@@ -1,0 +1,7 @@
+<map id="oops::ObsAuxCtlVec::ObsAuxCtlVec" name="oops::ObsAuxCtlVec::ObsAuxCtlVec">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,71,147,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxCtlVec.html#a6dfeb6a8b84d6a13957760019b5a201a" title=" " alt="" coords="207,5,349,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxCovariance.html#a5c533039b83dcc9d5e343cc8f8857910" title="Retrun a constant reference to configuration." alt="" coords="195,71,361,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxCovariance.html#a5009b7e85d291686c273b50381a71108" title="Return a constant reference to the model specific object." alt="" coords="195,136,361,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxCovariance.html#a19015a2939d52b50c37ebbd161e0d119" title="Return a constant reference to the model specific object." alt="" coords="409,143,600,170"/>
+</map>

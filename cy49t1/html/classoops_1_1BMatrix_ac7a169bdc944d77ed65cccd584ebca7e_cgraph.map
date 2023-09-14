@@ -1,0 +1,8 @@
+<map id="oops::BMatrix::multiply" name="oops::BMatrix::multiply">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,156,75"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45" title="Access ." alt="" coords="204,19,353,46"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJbTotal.html#af554c6dbcc2a6f5499c265c719342725" title="Multiply by the covariance matrix." alt="" coords="213,71,345,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="401,5,556,47"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="401,71,556,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="401,136,556,177"/>
+</map>

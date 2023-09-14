@@ -1,0 +1,8 @@
+<map id="oops::CostTermBase::multiplyCoInv" name="oops::CostTermBase::multiplyCoInv">
+<area shape="rect" id="node1" title="Multiply by inverse covariance (or weight) matrix." alt="" coords="448,96,591,137"/>
+<area shape="rect" id="node2" href="$classoops_1_1RinvMatrix.html#a61e4a71018eb143d440784f17cf08fca" title=" " alt="" coords="233,45,399,71"/>
+<area shape="rect" id="node5" href="$classoops_1_1LBHessianMatrix.html#ab1306ed7701729b87c281ea542a45591" title=" " alt="" coords="238,96,394,137"/>
+<area shape="rect" id="node6" href="$classoops_1_1RMatrix.html#a1c28c930f287bead69c3d30590a8233f" title=" " alt="" coords="232,162,400,189"/>
+<area shape="rect" id="node3" href="$classoops_1_1RPCGMinimizer.html#a64cb89d1a2f7b0946b3b727cae38f1ba" title=" " alt="" coords="21,5,169,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1RPLanczosMinimizer.html#a7fe11fbe0bfaec3af4212f5411610e18" title=" " alt="" coords="5,71,184,112"/>
+</map>

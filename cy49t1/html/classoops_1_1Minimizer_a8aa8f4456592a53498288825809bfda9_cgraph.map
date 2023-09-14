@@ -1,0 +1,10 @@
+<map id="oops::Minimizer::tlmTaylorTest" name="oops::Minimizer::tlmTaylorTest">
+<area shape="rect" id="node1" title="Perform the Tayolor test." alt="" coords="5,132,201,159"/>
+<area shape="rect" id="node2" href="$classoops_1_1Increment4D.html#aab2949435832b5e1eb699433bc965d94" title="Compute 4D increment as a difference between two 4D states." alt="" coords="250,5,403,32"/>
+<area shape="rect" id="node3" href="$dot__product_8h.html#af0275315d135f0b993246c2ff4b1f40a" title="Syntactic sugar to let us use a more mathematical notation for dot products." alt="" coords="281,56,372,83"/>
+<area shape="rect" id="node4" href="$namespaceutil.html#a6f3485a2993a330fd9409cca6a86b0c6" title="Formatting numerical types with full precision for output." alt="" coords="266,107,387,133"/>
+<area shape="rect" id="node5" href="$classoops_1_1MMatrix.html#ac2f50ca3a7254d320fba6eae315b292a" title=" " alt="" coords="251,157,403,184"/>
+<area shape="rect" id="node7" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="255,209,399,250"/>
+<area shape="rect" id="node8" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="249,274,404,315"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFunction.html#ad83281587aa637c33be0f28fc30373be" title="Run the tangent linear model (virtual method)" alt="" coords="452,150,585,191"/>
+</map>

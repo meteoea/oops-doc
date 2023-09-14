@@ -1,0 +1,10 @@
+<map id="oops::DualResForecast::execute" name="oops::DualResForecast::execute">
+<area shape="rect" id="node1" title=" " alt="" coords="5,161,161,203"/>
+<area shape="rect" id="node2" href="$classoops_1_1PostProcessor.html#a2e1e3cbf40ede8e32a372d8b5b2c270d" title="Adds a post processor to the vector of post&#45;processors." alt="" coords="210,77,353,119"/>
+<area shape="rect" id="node3" href="$classoops_1_1Model.html#ac53afddeb4398d3f4ffd8ac5148ed6d0" title="Run the forecast." alt="" coords="209,143,353,170"/>
+<area shape="rect" id="node7" href="$classoops_1_1State.html#a8cd064dfcc43549efd2c9d5b7af13b75" title="Time." alt="" coords="401,202,551,229"/>
+<area shape="rect" id="node8" href="$classoops_1_1State.html#a075c8525fdc5c270359469661167fc82" title="L&#45;2 norm." alt="" coords="220,245,343,271"/>
+<area shape="rect" id="node4" href="$classoops_1_1PostProcessor.html#a8db30741ea49ed67b0c46854a7f04a13" title="Calls finalize method of individual processors." alt="" coords="405,5,547,47"/>
+<area shape="rect" id="node5" href="$classoops_1_1PostProcessor.html#aa808950cbd22263adc02298a85f0750d" title="Calls initialize method of individual processors." alt="" coords="405,71,547,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1PostProcessor.html#a56e0ecddea8c1b537abe58dffec69c69" title="Calls process method of individual processors." alt="" coords="405,136,547,177"/>
+</map>

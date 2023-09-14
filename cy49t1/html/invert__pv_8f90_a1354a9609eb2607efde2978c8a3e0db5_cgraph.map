@@ -1,0 +1,6 @@
+<map id="invert_pv" name="invert_pv">
+<area shape="rect" id="node1" title="Invert potential vorticity, returning streamfunction." alt="" coords="5,31,80,57"/>
+<area shape="rect" id="node2" href="$solve__elliptic__system_8f90.html#ac59f9513f54c865229076bf35fe95c0f" title="Solves the elliptic system that arises when inverting potential vorticity." alt="" coords="128,31,275,57"/>
+<area shape="rect" id="node3" href="$laplacian__2d_8f90.html#ae4bfebb31112d49fc8074354fbf85718" title="Horizontal Laplacian operator." alt="" coords="331,5,425,32"/>
+<area shape="rect" id="node4" href="$solve__helmholz_8f90.html#a9139037c4b497dcaddaba8158d488eb3" title="Solve a Helmholz equation." alt="" coords="323,56,433,83"/>
+</map>

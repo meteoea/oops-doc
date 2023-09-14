@@ -1,0 +1,8 @@
+<map id="oops::ObsAuxControlBase&lt; MODEL &gt;" name="oops::ObsAuxControlBase&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Base class for auxiliary observation space components of ControlVariable." alt="" coords="107,132,285,415"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxControlBase.html" title=" " alt="" coords="5,477,184,760"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxControlBase.html" title=" " alt="" coords="208,477,387,760"/>
+<area shape="rect" id="node2" title=" " alt="" coords="148,5,244,83"/>
+<area shape="rect" id="node4" title="Class to handle observation bias parameters." alt="" coords="49,809,141,887"/>
+<area shape="rect" id="node6" title="Class to handle observation bias parameters." alt="" coords="234,809,361,887"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="oops::Increment::schur_product_with" name="oops::Increment::schur_product_with">
+<area shape="rect" id="node1" title="Hadamard product (element&#45;wise)" alt="" coords="247,300,399,341"/>
+<area shape="rect" id="node2" href="$classoops_1_1EnsembleCovariance.html#a4bb5bef9bcc2569fd8a3a0073282869e" title=" " alt="" coords="13,5,191,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1EnsembleCovariance.html#a753f5e328e00818a81eaabf8d8eb7dc8" title=" " alt="" coords="13,71,191,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1EnsembleCovariance.html#add8f7ade55ede286debf79f958a9ad4d" title=" " alt="" coords="13,136,191,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1EnsembleCovariance.html#a51a69346f4381eeb552ddd8e6fe6f7aa" title=" " alt="" coords="13,201,191,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1EnsembleCovariance4D.html#aa8700545edcf1051abd972ae6e894ca9" title=" " alt="" coords="9,267,195,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1EnsembleCovariance4DScaleDependent.html#aaf0a4c8071079ab503818b2cce46ac2e" title=" " alt="" coords="6,332,198,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1EnsembleCovariance4DWithChangeOfVariable.html#a056be28149ed92d1f7323b66e34deb31" title=" " alt="" coords="9,398,195,454"/>
+<area shape="rect" id="node9" href="$classoops_1_1EnsembleCovsInterpol.html#ac0c0b5f617d15ac816113de4347e5f76" title=" " alt="" coords="9,479,195,520"/>
+<area shape="rect" id="node10" href="$classoops_1_1EnsembleCovsInterpol4D.html#a95c6a51b9c100fc77c20a4b830d7f7a5" title=" " alt="" coords="5,544,199,585"/>
+<area shape="rect" id="node11" href="$classoops_1_1EnsembleCovariance4DDistributed.html#a93a75ff288e7877e90b8add923a6d846" title=" " alt="" coords="9,609,195,651"/>
+</map>

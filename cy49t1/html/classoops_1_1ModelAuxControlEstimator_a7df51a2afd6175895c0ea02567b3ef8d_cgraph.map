@@ -1,0 +1,6 @@
+<map id="oops::ModelAuxControlEstimator::ModelAuxControlEstimator" name="oops::ModelAuxControlEstimator::ModelAuxControlEstimator">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,215,105"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxControlEstimator.html#a8aa73b17ed979239ec6824a6cf3f1957" title=" " alt="" coords="263,5,472,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1Geometry.html#a18e63dbcd70034be85ae0ba416aef536" title="Interfacing &#45; returns a constant reference to model specific geometry." alt="" coords="282,71,453,98"/>
+<area shape="rect" id="node4" href="$classoops_1_1Model.html#a8458bbb07031de2096ca727edea7adc0" title="Return a constant reference to the model specific model object." alt="" coords="301,122,433,149"/>
+</map>

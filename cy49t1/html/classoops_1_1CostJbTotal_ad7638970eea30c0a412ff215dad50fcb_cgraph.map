@@ -1,0 +1,6 @@
+<map id="oops::CostJbTotal::multiplyBinv" name="oops::CostJbTotal::multiplyBinv">
+<area shape="rect" id="node1" title="Multiply by the inverse covariance matrix." alt="" coords="5,71,137,112"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="185,5,340,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="185,71,340,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="185,136,340,177"/>
+</map>

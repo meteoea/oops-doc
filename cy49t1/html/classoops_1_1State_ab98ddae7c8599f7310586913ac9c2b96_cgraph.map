@@ -1,0 +1,6 @@
+<map id="oops::State::State" name="oops::State::State">
+<area shape="rect" id="node1" title="Constructor (with LinearModel)" alt="" coords="5,56,129,83"/>
+<area shape="rect" id="node2" href="$classoops_1_1State.html#aa4383195d3cb8e792b4e53e9dcf1c972" title=" " alt="" coords="185,5,341,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1Geometry.html#a18e63dbcd70034be85ae0ba416aef536" title="Interfacing &#45; returns a constant reference to model specific geometry." alt="" coords="177,56,348,83"/>
+<area shape="rect" id="node4" href="$classoops_1_1LinearModel.html#a48fa71bfc968930d2045ecf998478686" title="Return a constant reference to the LinearModelBase object." alt="" coords="196,107,329,149"/>
+</map>

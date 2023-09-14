@@ -1,0 +1,5 @@
+<map id="oops::ModelAuxControlEstimator::estimate" name="oops::ModelAuxControlEstimator::estimate">
+<area shape="rect" id="node1" title="Methods." alt="" coords="5,35,215,76"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxControl.html#a2ce4d9e9509061647213fe18e8a2f14f" title="Return a constant reference to the encapsulated model specific object." alt="" coords="263,5,417,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1State.html#a604088ba96bafab8955158221be192f8" title="Return a reference to the model specific state." alt="" coords="279,71,401,98"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="oops::CostFunction::addIncrement" name="oops::CostFunction::addIncrement">
+<area shape="rect" id="node1" title="Add increment to the first guess." alt="" coords="5,136,139,177"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlVariable.html#a08f7e7049122bfabb08770b9724bf094" title="Returns the auxiliary model space component of the control variable." alt="" coords="192,5,336,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="187,71,341,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlVariable.html#aca18e00dd76f9b337c457efffd16fd8c" title="Compute the L&#45;2 norm of the control variable." alt="" coords="192,136,336,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1ControlVariable.html#aa37049addedf7f5a0904813ec56d7618" title="Returns the auxiliary observation space component of the control variable." alt="" coords="192,201,336,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="187,267,341,308"/>
+</map>

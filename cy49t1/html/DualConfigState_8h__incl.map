@@ -1,0 +1,42 @@
+<map id="src/oops/generic/DualConfigState.h" name="src/oops/generic/DualConfigState.h">
+<area shape="rect" id="node1" title=" " alt="" coords="2417,5,2601,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="1791,557,1859,584"/>
+<area shape="rect" id="node3" title=" " alt="" coords="2365,557,2419,584"/>
+<area shape="rect" id="node4" title=" " alt="" coords="597,333,774,360"/>
+<area shape="rect" id="node5" href="$PostProcessor_8h.html" title=" " alt="" coords="307,169,490,196"/>
+<area shape="rect" id="node11" href="$DateTime_8h.html" title=" " alt="" coords="504,408,613,435"/>
+<area shape="rect" id="node16" href="$DualConfigGeometry_8h.html" title=" " alt="" coords="3249,251,3477,278"/>
+<area shape="rect" id="node18" href="$oops_2interface_2Geometry_8h.html" title=" " alt="" coords="3201,333,3375,360"/>
+<area shape="rect" id="node23" href="$ObjectCounter_8h.html" title=" " alt="" coords="2349,408,2485,435"/>
+<area shape="rect" id="node26" href="$Printable_8h.html" title=" " alt="" coords="3167,557,3271,584"/>
+<area shape="rect" id="node27" href="$Timer_8h.html" title=" " alt="" coords="2618,408,2705,435"/>
+<area shape="rect" id="node29" href="$oops_2interface_2State_8h.html" title=" " alt="" coords="2277,95,2427,121"/>
+<area shape="rect" id="node32" href="$oops_2interface_2Variables_8h.html" title=" " alt="" coords="2953,333,3125,360"/>
+<area shape="rect" id="node34" href="$LogbookWriter_8h.html" title=" " alt="" coords="1111,251,1249,278"/>
+<area shape="rect" id="node6" title=" " alt="" coords="93,408,152,435"/>
+<area shape="rect" id="node7" href="$PostBase_8h.html" title=" " alt="" coords="322,251,475,278"/>
+<area shape="rect" id="node8" title=" " alt="" coords="634,557,825,584"/>
+<area shape="rect" id="node9" href="$PostTimer_8h.html" title=" " alt="" coords="205,333,361,360"/>
+<area shape="rect" id="node15" href="$Duration_8h.html" title=" " alt="" coords="328,408,429,435"/>
+<area shape="rect" id="node10" title=" " alt="" coords="818,483,1027,509"/>
+<area shape="rect" id="node12" title=" " alt="" coords="613,483,691,509"/>
+<area shape="rect" id="node13" title=" " alt="" coords="377,483,449,509"/>
+<area shape="rect" id="node14" title=" " alt="" coords="473,483,537,509"/>
+<area shape="rect" id="node17" title=" " alt="" coords="3408,632,3477,659"/>
+<area shape="rect" id="node19" href="$Logger_8h.html" title=" " alt="" coords="2840,408,2933,435"/>
+<area shape="rect" id="node20" title=" " alt="" coords="2872,483,2979,509"/>
+<area shape="rect" id="node21" href="$LibOOPS_8h.html" title=" " alt="" coords="2688,483,2797,509"/>
+<area shape="rect" id="node22" title=" " alt="" coords="2668,557,2817,584"/>
+<area shape="rect" id="node24" href="$ObjectCountHelper_8h.html" title=" " alt="" coords="1939,483,2101,509"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1205,557,1251,584"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2582,483,2663,509"/>
+<area shape="rect" id="node30" href="$GeoVaLs_8h.html" title=" " alt="" coords="1764,169,1937,196"/>
+<area shape="rect" id="node33" href="$oops_2interface_2Locations_8h.html" title=" " alt="" coords="2547,169,2722,196"/>
+<area shape="rect" id="node31" href="$oops_2interface_2ObservationSpace_8h.html" title=" " alt="" coords="1913,244,2092,285"/>
+<area shape="rect" id="node35" href="$LogbookHelper_8h.html" title=" " alt="" coords="1368,333,1509,360"/>
+<area shape="rect" id="node36" title=" " alt="" coords="968,408,1035,435"/>
+<area shape="rect" id="node37" title=" " alt="" coords="1059,408,1245,435"/>
+<area shape="rect" id="node38" title=" " alt="" coords="1270,408,1458,435"/>
+<area shape="rect" id="node39" href="$Logbook_8h.html" title=" " alt="" coords="841,408,943,435"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1051,483,1266,509"/>
+</map>

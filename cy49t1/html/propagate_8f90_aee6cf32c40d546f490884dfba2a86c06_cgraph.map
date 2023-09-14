@@ -1,0 +1,12 @@
+<map id="propagate" name="propagate">
+<area shape="rect" id="node1" title="Perform a timestep of the QG model." alt="" coords="5,107,84,133"/>
+<area shape="rect" id="node2" href="$advect__pv_8f90.html#a2d52ff80f64fd1d464a3db415092a2c2" title="Advect potential vorticity." alt="" coords="148,5,231,32"/>
+<area shape="rect" id="node3" href="$calc__pv_8f90.html#a7574880e56a8f1a376408c5311df4af1" title="Calculate potential vorticity from streamfunction." alt="" coords="156,56,223,83"/>
+<area shape="rect" id="node6" href="$invert__pv_8f90.html#a1354a9609eb2607efde2978c8a3e0db5" title="Invert potential vorticity, returning streamfunction." alt="" coords="152,107,227,133"/>
+<area shape="rect" id="node9" href="$meridional__wind_8f90.html#a103bed221efdd7665efd56f1779689dd" title="Calculate meridional wind component from the streamfunction." alt="" coords="132,157,247,184"/>
+<area shape="rect" id="node10" href="$zonal__wind_8f90.html#ada570840f88db0e4c4f54075b773a82e" title="Calculate zonal wind component from the streamfunction." alt="" coords="146,208,233,235"/>
+<area shape="rect" id="node4" href="$pv__operator_8f90.html#a7946c92e184d5aafa49d4eaf520b8245" title="Potential vorticity operator." alt="" coords="323,56,413,83"/>
+<area shape="rect" id="node5" href="$laplacian__2d_8f90.html#ae4bfebb31112d49fc8074354fbf85718" title="Horizontal Laplacian operator." alt="" coords="497,56,592,83"/>
+<area shape="rect" id="node7" href="$solve__elliptic__system_8f90.html#ac59f9513f54c865229076bf35fe95c0f" title="Solves the elliptic system that arises when inverting potential vorticity." alt="" coords="295,107,441,133"/>
+<area shape="rect" id="node8" href="$solve__helmholz_8f90.html#a9139037c4b497dcaddaba8158d488eb3" title="Solve a Helmholz equation." alt="" coords="489,107,600,133"/>
+</map>

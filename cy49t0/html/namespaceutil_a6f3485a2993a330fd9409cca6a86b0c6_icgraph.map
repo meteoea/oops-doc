@@ -1,0 +1,57 @@
+<map id="util::full_precision" name="util::full_precision">
+<area shape="rect" id="node1" title="Formatting numerical types with full precision for output." alt="" coords="500,1349,621,1375"/>
+<area shape="rect" id="node2" href="$classoops_1_1SQRTBPCGMinimizer.html#a521f005168eb0cec760125cfc741dc5c" title=" " alt="" coords="253,5,437,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1DRMinimizer.html#a62f896ec1dce9d4dcc4f4b1647a91a67" title="Checkpointing, restart." alt="" coords="277,71,412,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1SpectralSqrtLMP.html#adec364f96a277c73753e78713442aa0d" title="Checkpointing, restart of the limited memory preconditioner." alt="" coords="267,136,423,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1SQRTMinimizer.html#adcb04e5bad46e4bf3767f2f472a1b0a3" title=" " alt="" coords="271,201,418,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1SQRTMinimizer.html#a82fc64517afd6e8e4667e49a8c45871c" title=" " alt="" coords="271,267,418,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1SQRTMinimizer.html#ae54c1acdac24cb8a80331e3653a7805e" title=" " alt="" coords="271,332,418,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1SQRTMinimizer.html#a875a8b856376cce06fe2c6ac2176dfef" title=" " alt="" coords="271,397,418,439"/>
+<area shape="rect" id="node9" href="$namespaceoops.html#af65e62495bc22be5a5b228b29d5d89d7" title=" " alt="" coords="289,463,400,490"/>
+<area shape="rect" id="node11" href="$namespaceoops.html#a41b96deac37aa3cb61783303cd6fd66f" title=" " alt="" coords="283,514,407,541"/>
+<area shape="rect" id="node13" href="$namespaceoops.html#a4f9465f796ddc3921fa43cef96b1be89" title=" " alt="" coords="289,565,401,591"/>
+<area shape="rect" id="node17" href="$namespaceoops.html#a34bcedf164fef3575c578f9db757bd53" title=" " alt="" coords="301,615,389,642"/>
+<area shape="rect" id="node19" href="$namespaceoops.html#a9941ecb208958d728cb7cd02c69ea65c" title=" " alt="" coords="291,666,398,693"/>
+<area shape="rect" id="node21" href="$namespaceoops.html#a2970fc1aaf8c1928a2c0ad100b60e0be" title=" " alt="" coords="303,717,387,743"/>
+<area shape="rect" id="node23" href="$namespaceoops.html#ab1b5db9354b5f228b5742bdc47283c46" title=" " alt="" coords="287,767,402,794"/>
+<area shape="rect" id="node25" href="$classoops_1_1SpectralSqrtLMP.html#a5c855ddd7a82dd91cd2cdff3ce4e2ab4" title=" " alt="" coords="267,819,423,860"/>
+<area shape="rect" id="node26" href="$classoops_1_1SQRTPCGMinimizer.html#aafd5b09f709702451e2611cf14f66902" title=" " alt="" coords="257,884,432,925"/>
+<area shape="rect" id="node27" href="$classoops_1_1SQRTBPCGMinimizer.html#a5d019aa65afaa4d6ffe6688cf6866318" title=" " alt="" coords="253,949,437,991"/>
+<area shape="rect" id="node28" href="$classoops_1_1SQRTBPFOMMinimizer.html#a0bfd50c657e7584f8cd7499ce32ce777" title=" " alt="" coords="247,1015,442,1056"/>
+<area shape="rect" id="node29" href="$classoops_1_1SQRTBPLanczosMinimizer.html#af7a43abbf64269c88116fcec5d99f2e2" title=" " alt="" coords="237,1080,452,1121"/>
+<area shape="rect" id="node30" href="$classoops_1_1SQRTPLanczosMinimizer.html#a36aca0678cede62f48c96979f2c66d42" title=" " alt="" coords="242,1145,447,1187"/>
+<area shape="rect" id="node31" href="$classoops_1_1SQRTBPFOMMinimizer.html#af800e6badc95309f7985002eb49e0a6d" title=" " alt="" coords="247,1211,442,1252"/>
+<area shape="rect" id="node32" href="$classoops_1_1SQRTBPLanczosMinimizer.html#a9306b9199a1198a581840d7ea0337ada" title=" " alt="" coords="237,1276,452,1317"/>
+<area shape="rect" id="node33" href="$classoops_1_1SQRTPLanczosMinimizer.html#af0217233091a24c7563527221971d123" title=" " alt="" coords="242,1341,447,1383"/>
+<area shape="rect" id="node34" href="$classoops_1_1DRMinimizer.html#a9431ad53c0714d39cd01fa3c2b5d4d81" title="Restart the minimizer (virtual method)" alt="" coords="277,1407,412,1448"/>
+<area shape="rect" id="node35" href="$classoops_1_1SpectralSqrtLMP.html#a34403e34846b399210c1387e840e13cb" title=" " alt="" coords="267,1472,423,1513"/>
+<area shape="rect" id="node36" href="$classoops_1_1SQRTMinimizer.html#aa21ae39c78c0dc729fd0d23825f2c207" title=" " alt="" coords="271,1537,418,1579"/>
+<area shape="rect" id="node37" href="$classoops_1_1SQRTMinimizer.html#af3ceea04f1f00abc02e97252d3c9597c" title=" " alt="" coords="271,1603,418,1644"/>
+<area shape="rect" id="node38" href="$classoops_1_1SQRTMinimizer.html#a4d73854ba32f4ad434961ffae07b594c" title=" " alt="" coords="271,1668,418,1709"/>
+<area shape="rect" id="node39" href="$classoops_1_1SQRTMinimizer.html#a052b15d09035114d64e2b0d395fc0c7b" title=" " alt="" coords="271,1733,418,1775"/>
+<area shape="rect" id="node40" href="$classoops_1_1SQRTBPLanczosMinimizer.html#a0f88a8f7eeb9c4878b6a6c64638de3d0" title=" " alt="" coords="237,1799,452,1840"/>
+<area shape="rect" id="node41" href="$classoops_1_1SQRTBPFOMMinimizer.html#a30df2854652f47eeabfc80308c05867c" title=" " alt="" coords="247,1864,442,1905"/>
+<area shape="rect" id="node42" href="$classoops_1_1SQRTPCGMinimizer.html#a734525acf909e942b6ad7c3e4d75afbc" title=" " alt="" coords="257,1929,432,1971"/>
+<area shape="rect" id="node43" href="$classoops_1_1SQRTBPCGMinimizer.html#abe268c2e6a4748f232ede83e95e833f1" title=" " alt="" coords="253,1995,437,2036"/>
+<area shape="rect" id="node44" href="$classoops_1_1SQRTPLanczosMinimizer.html#ac25eea7136ca3924319cc506013473c8" title=" " alt="" coords="242,2060,447,2101"/>
+<area shape="rect" id="node45" href="$classoops_1_1DRPFOMMinimizer.html#ac8337c8e8a5c8dd6785b523a60cea5a5" title=" " alt="" coords="261,2125,428,2167"/>
+<area shape="rect" id="node46" href="$classoops_1_1RPCGMinimizer.html#a64cb89d1a2f7b0946b3b727cae38f1ba" title=" " alt="" coords="271,2191,419,2232"/>
+<area shape="rect" id="node47" href="$classoops_1_1RPLanczosMinimizer.html#a7fe11fbe0bfaec3af4212f5411610e18" title=" " alt="" coords="255,2256,434,2297"/>
+<area shape="rect" id="node48" href="$classoops_1_1DRPLanczosMinimizer.html#a6339485da6ba7f0309db9b004427cffc" title=" " alt="" coords="251,2321,438,2363"/>
+<area shape="rect" id="node49" href="$classoops_1_1DRIPCGMinimizer.html#a0d088584924bc71a82b7663e1f2484f5" title=" " alt="" coords="264,2387,425,2428"/>
+<area shape="rect" id="node50" href="$classoops_1_1DRGMRESRMinimizer.html#a180f104bc09e9cfe53c3ea02bd79816f" title=" " alt="" coords="252,2452,437,2493"/>
+<area shape="rect" id="node51" href="$classoops_1_1DRPCGMinimizer.html#a88381ab3f9aec86ed27431bc33a34fec" title=" " alt="" coords="266,2517,423,2559"/>
+<area shape="rect" id="node52" href="$classoops_1_1Minimizer.html#a8aa8f4456592a53498288825809bfda9" title="Perform the Tayolor test." alt="" coords="247,2583,443,2610"/>
+<area shape="rect" id="node53" href="$classoops_1_1SpectralSqrtLMP.html#a9c024f77eee19cbf411f57c69e3a299a" title="Methods." alt="" coords="267,2635,423,2676"/>
+<area shape="rect" id="node54" href="$classoops_1_1SQRTMinimizer.html#ac0c7fbe6a5ec243c3292d4919e350708" title="Quadratic cost function calculation (Jb component)" alt="" coords="265,2700,424,2741"/>
+<area shape="rect" id="node55" href="$classoops_1_1SQRTMinimizer.html#a514fa4f233e42f85fa882ac0736c8cca" title=" " alt="" coords="271,2765,418,2807"/>
+<area shape="rect" id="node10" href="$classoops_1_1FGMRESMinimizer.html#a9bce2b34039000e1b23d800595d72990" title=" " alt="" coords="14,328,181,369"/>
+<area shape="rect" id="node12" href="$classoops_1_1SaddlePointMinimizer.html#a99a3bb00193725f8f2ce6d47a4207c3a" title="Minimizer the quadratic cost function (virtual method)" alt="" coords="7,393,188,435"/>
+<area shape="rect" id="node14" href="$classoops_1_1HybridCovariance.html#abce2a76fa7a4ea65074e70cc6746fc03" title=" " alt="" coords="18,459,177,500"/>
+<area shape="rect" id="node15" href="$classoops_1_1GMRESRMinimizer.html#a8cb66e1c98517f4e8c80ae0290f52a55" title=" " alt="" coords="14,524,181,565"/>
+<area shape="rect" id="node16" href="$classoops_1_1LBGMRESRMinimizer.html#a847aab283f9a1ae03ba895248bc38aa8" title=" " alt="" coords="5,589,189,631"/>
+<area shape="rect" id="node18" href="$classoops_1_1IPCGMinimizer.html#a30b7e2944df2bf3a8d7d3fc1fb81cd59" title=" " alt="" coords="26,655,169,696"/>
+<area shape="rect" id="node20" href="$classoops_1_1MINRESMinimizer.html#a4363b41e86192aaf20fe2a22a2cbd397" title=" " alt="" coords="16,720,179,761"/>
+<area shape="rect" id="node22" href="$classoops_1_1PCGMinimizer.html#af30bc5000ba576df6d74899f2cbd1fc5" title=" " alt="" coords="28,785,167,827"/>
+<area shape="rect" id="node24" href="$classoops_1_1PLanczosMinimizer.html#a1b3a2163c2c35529c395459de56146d0" title=" " alt="" coords="13,851,182,892"/>
+</map>

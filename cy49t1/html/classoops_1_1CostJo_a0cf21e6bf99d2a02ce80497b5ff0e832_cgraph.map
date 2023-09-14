@@ -1,0 +1,4 @@
+<map id="oops::CostJo::setupTL" name="oops::CostJo::setupTL">
+<area shape="rect" id="node1" title="Initialize ObserverTL (computes ) before starting the TL run." alt="" coords="5,13,156,39"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="204,5,359,47"/>
+</map>

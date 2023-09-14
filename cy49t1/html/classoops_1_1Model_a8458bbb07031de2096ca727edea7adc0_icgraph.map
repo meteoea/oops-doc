@@ -1,0 +1,7 @@
+<map id="oops::Model::model" name="oops::Model::model">
+<area shape="rect" id="node1" title="Return a constant reference to the model specific model object." alt="" coords="263,111,395,138"/>
+<area shape="rect" id="node2" href="$classoops_1_1ModelAuxControl.html#ac5cc34c5692efe60a1b19c9060f1cfea" title="Constructor." alt="" coords="33,5,187,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ModelAuxControlEstimator.html#a7df51a2afd6175895c0ea02567b3ef8d" title=" " alt="" coords="5,71,215,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1LinearModelBase.html#a76511b6351d652b16de0b5973eb6e352" title="Set the linearization trajectory." alt="" coords="20,136,200,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1State.html#ac631e8d99ff35507872bde92bad3f1c4" title="Constructor (with Model)" alt="" coords="48,202,172,229"/>
+</map>

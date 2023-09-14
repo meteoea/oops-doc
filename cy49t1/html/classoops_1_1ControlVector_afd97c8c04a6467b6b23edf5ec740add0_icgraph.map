@@ -1,0 +1,16 @@
+<map id="oops::ControlVector::modVar" name="oops::ControlVector::modVar">
+<area shape="rect" id="node1" title="Get augmented model control vector." alt="" coords="669,345,804,386"/>
+<area shape="rect" id="node2" href="$classoops_1_1CostJbTotal.html#abc6e105d987090aefe329ce786dce988" title=" " alt="" coords="476,166,608,207"/>
+<area shape="rect" id="node3" href="$classoops_1_1JbMatrix.html#aeb7fe19da2f7de2b346a77681b30e29e" title=" " alt="" coords="465,232,619,259"/>
+<area shape="rect" id="node10" href="$classoops_1_1CostJbTotal.html#a469c194404e7346e95b9147bda3a5600" title="Multiply by the square root of the covariance matrix." alt="" coords="476,345,608,386"/>
+<area shape="rect" id="node12" href="$classoops_1_1CostJbTotal.html#ae0ef3f699d0ef970f1929f0587833a8b" title="Multiply by the transpose of the square root of the covariance matrix." alt="" coords="476,410,608,451"/>
+<area shape="rect" id="node14" href="$classoops_1_1SQRTMinimizer.html#ac0c7fbe6a5ec243c3292d4919e350708" title="Quadratic cost function calculation (Jb component)" alt="" coords="463,475,621,517"/>
+<area shape="rect" id="node4" href="$classoops_1_1SQRTMinimizer.html#aedbcd7115ddd82c902ae81a59be2466e" title="Solver (virtual method) &#45; implemented by concrete minimizers." alt="" coords="5,381,152,422"/>
+<area shape="rect" id="node5" href="$classoops_1_1SQRTBPFOMMinimizer.html#a30df2854652f47eeabfc80308c05867c" title=" " alt="" coords="210,61,405,102"/>
+<area shape="rect" id="node6" href="$classoops_1_1SQRTBPLanczosMinimizer.html#a0f88a8f7eeb9c4878b6a6c64638de3d0" title=" " alt="" coords="200,126,415,167"/>
+<area shape="rect" id="node7" href="$classoops_1_1SQRTPCGMinimizer.html#a734525acf909e942b6ad7c3e4d75afbc" title=" " alt="" coords="220,191,395,233"/>
+<area shape="rect" id="node8" href="$classoops_1_1SQRTBPCGMinimizer.html#abe268c2e6a4748f232ede83e95e833f1" title=" " alt="" coords="215,257,399,298"/>
+<area shape="rect" id="node9" href="$classoops_1_1SQRTPLanczosMinimizer.html#ac25eea7136ca3924319cc506013473c8" title=" " alt="" coords="205,322,410,363"/>
+<area shape="rect" id="node11" href="$classoops_1_1BMatrix.html#a4a4210b366136e546a52e2c788e1e9f2" title=" " alt="" coords="220,388,395,415"/>
+<area shape="rect" id="node13" href="$classoops_1_1BMatrix.html#aeec47e205511554b7f82f8a8320447d6" title=" " alt="" coords="220,439,395,481"/>
+</map>

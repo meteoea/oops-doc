@@ -1,0 +1,12 @@
+<map id="oops::ControlVector::axpy" name="oops::ControlVector::axpy">
+<area shape="rect" id="node1" title=" " alt="" coords="268,267,403,308"/>
+<area shape="rect" id="node2" href="$classoops_1_1QNewtonSqrtLMP.html#a4c6105d9d5c1b1fb52651545c05f5593" title=" " alt="" coords="31,5,194,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1SpectralSqrtLMP.html#a20b8b50eaddd80648fe4d5d18ab49ee6" title=" " alt="" coords="35,71,191,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1QNewtonSqrtLMP.html#a5cc34044ecb423c8dcb2e505ba3ecab4" title=" " alt="" coords="31,136,194,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1SpectralSqrtLMP.html#ab838146a96b1201b450d28f3d2edf4df" title=" " alt="" coords="35,201,191,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1SpectralSqrtLMP.html#a2f2a1379b2e75d9c370a20380af8c398" title=" " alt="" coords="35,267,191,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1SQRTBPFOMMinimizer.html#a30df2854652f47eeabfc80308c05867c" title=" " alt="" coords="15,332,210,373"/>
+<area shape="rect" id="node8" href="$classoops_1_1SQRTBPLanczosMinimizer.html#a0f88a8f7eeb9c4878b6a6c64638de3d0" title=" " alt="" coords="5,397,220,439"/>
+<area shape="rect" id="node9" href="$classoops_1_1SQRTPCGMinimizer.html#a734525acf909e942b6ad7c3e4d75afbc" title=" " alt="" coords="25,463,200,504"/>
+<area shape="rect" id="node10" href="$classoops_1_1SQRTBPCGMinimizer.html#abe268c2e6a4748f232ede83e95e833f1" title=" " alt="" coords="21,528,205,569"/>
+</map>

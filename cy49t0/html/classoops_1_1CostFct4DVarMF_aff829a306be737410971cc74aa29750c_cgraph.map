@@ -1,0 +1,11 @@
+<map id="oops::CostFct4DVarMF::runNL" name="oops::CostFct4DVarMF::runNL">
+<area shape="rect" id="node1" title="Run the non&#45;linear model (Trajectory)" alt="" coords="5,187,163,228"/>
+<area shape="rect" id="node2" href="$classoops_1_1State4D.html#aa91b6d67d3eeb16575b479c7008c1f3c" title="Get model space control variable." alt="" coords="211,77,393,119"/>
+<area shape="rect" id="node3" href="$classoops_1_1Model.html#ac53afddeb4398d3f4ffd8ac5148ed6d0" title="Run the forecast." alt="" coords="230,143,374,170"/>
+<area shape="rect" id="node7" href="$classoops_1_1State.html#a8cd064dfcc43549efd2c9d5b7af13b75" title="Time." alt="" coords="441,202,591,229"/>
+<area shape="rect" id="node8" href="$classoops_1_1ControlVariable.html#a08f7e7049122bfabb08770b9724bf094" title="Returns the auxiliary model space component of the control variable." alt="" coords="230,245,374,287"/>
+<area shape="rect" id="node9" href="$classoops_1_1ControlVariable.html#ae32877503a550f7d6d59b307e9da310a" title="Returns a 4D state component of the control variable." alt="" coords="230,311,374,352"/>
+<area shape="rect" id="node4" href="$classoops_1_1PostProcessor.html#a8db30741ea49ed67b0c46854a7f04a13" title="Calls finalize method of individual processors." alt="" coords="445,5,587,47"/>
+<area shape="rect" id="node5" href="$classoops_1_1PostProcessor.html#aa808950cbd22263adc02298a85f0750d" title="Calls initialize method of individual processors." alt="" coords="445,71,587,112"/>
+<area shape="rect" id="node6" href="$classoops_1_1PostProcessor.html#a56e0ecddea8c1b537abe58dffec69c69" title="Calls process method of individual processors." alt="" coords="445,136,587,177"/>
+</map>

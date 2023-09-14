@@ -1,0 +1,7 @@
+<map id="oops::CostJbState&lt; MODEL &gt;" name="oops::CostJbState&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Pure abstract base class for the Jb term state component." alt="" coords="227,131,376,369"/>
+<area shape="rect" id="node3" href="$classoops_1_1CostJb3D.html" title="CostJb3D encapsulates the state component of the Jb term of the cost function for a 3 dimensional bac..." alt="" coords="5,425,187,707"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostJb4D.html" title="4D Jb Cost Function" alt="" coords="211,432,392,700"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostJbJq.html" title="Jb + Jq Cost Function." alt="" coords="416,417,595,715"/>
+<area shape="rect" id="node2" title=" " alt="" coords="252,5,351,83"/>
+</map>

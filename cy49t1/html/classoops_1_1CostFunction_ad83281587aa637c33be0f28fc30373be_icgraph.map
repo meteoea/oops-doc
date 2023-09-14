@@ -1,0 +1,12 @@
+<map id="oops::CostFunction::runTL" name="oops::CostFunction::runTL">
+<area shape="rect" id="node1" title="Run the tangent linear model (virtual method)" alt="" coords="460,201,593,242"/>
+<area shape="rect" id="node2" href="$classoops_1_1MMatrix.html#ac2f50ca3a7254d320fba6eae315b292a" title=" " alt="" coords="258,107,410,133"/>
+<area shape="rect" id="node7" href="$classoops_1_1HMatrix.html#ac6c2bd6065dfd5fed26a62d22293a2b7" title=" " alt="" coords="259,208,409,235"/>
+<area shape="rect" id="node10" href="$classoops_1_1LBHessianMatrix.html#ab1306ed7701729b87c281ea542a45591" title=" " alt="" coords="256,259,412,301"/>
+<area shape="rect" id="node3" href="$classoops_1_1Minimizer.html#a81f3d301ce34beba4a23bdb57a3f497e" title="Perform model adjoint tests." alt="" coords="9,5,204,32"/>
+<area shape="rect" id="node4" href="$classoops_1_1Minimizer.html#a9085af3b9da16b8aa96d38dae8c3ccb8" title="Perform tangent linear model approximation test." alt="" coords="6,56,207,83"/>
+<area shape="rect" id="node5" href="$classoops_1_1Minimizer.html#a79eb945247f2f60cf8b2c9ca4b298357" title="Peroform the tangent linear propagation test." alt="" coords="5,107,208,133"/>
+<area shape="rect" id="node6" href="$classoops_1_1Minimizer.html#a8aa8f4456592a53498288825809bfda9" title="Perform the Tayolor test." alt="" coords="9,157,205,184"/>
+<area shape="rect" id="node8" href="$classoops_1_1Minimizer.html#a02f86245f08d74a4e09111ae2c8fc443" title="Perform observation operator adjoint tests." alt="" coords="15,208,199,235"/>
+<area shape="rect" id="node9" href="$classoops_1_1DualMinimizer.html#a3cf6d56e66d48c5aa41d9c1f7d5a4237" title="Minimizer the quadratic cost function (virtual method)" alt="" coords="38,259,175,301"/>
+</map>

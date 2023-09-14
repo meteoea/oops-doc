@@ -1,0 +1,62 @@
+<map id="src/oops/assimilation/PLanczosMinimizer.h" name="src/oops/assimilation/PLanczosMinimizer.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1647,5,1796,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="2607,1033,2662,1060"/>
+<area shape="rect" id="node3" href="$BMatrix_8h.html" title=" " alt="" coords="7776,191,7957,218"/>
+<area shape="rect" id="node5" href="$ControlIncrement_8h.html" title=" " alt="" coords="6285,512,6453,553"/>
+<area shape="rect" id="node41" href="$CostFunction_8h.html" title=" " alt="" coords="3298,273,3513,300"/>
+<area shape="rect" id="node55" href="$HessianMatrix_8h.html" title=" " alt="" coords="595,184,770,225"/>
+<area shape="rect" id="node57" href="$PLanczos_8h.html" title="Preconditioned Lanczos solver." alt="" coords="2819,609,3013,635"/>
+<area shape="rect" id="node59" href="$PrimalMinimizer_8h.html" title=" " alt="" coords="7631,95,7795,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="325,1033,515,1060"/>
+<area shape="rect" id="node37" href="$ControlVector_8h.html" title=" " alt="" coords="7860,512,8028,553"/>
+<area shape="rect" id="node6" title=" " alt="" coords="7123,1108,7192,1135"/>
+<area shape="rect" id="node7" title=" " alt="" coords="7837,787,7907,814"/>
+<area shape="rect" id="node8" title=" " alt="" coords="8158,951,8335,978"/>
+<area shape="rect" id="node9" href="$Increment4D_8h.html" title=" " alt="" coords="5741,609,5952,635"/>
+<area shape="rect" id="node16" href="$oops_2interface_2Geometry_8h.html" title=" " alt="" coords="4923,951,5098,978"/>
+<area shape="rect" id="node17" href="$Logger_8h.html" title=" " alt="" coords="7516,1033,7609,1060"/>
+<area shape="rect" id="node18" href="$ObjectCounter_8h.html" title=" " alt="" coords="4829,1033,4965,1060"/>
+<area shape="rect" id="node19" href="$Printable_8h.html" title=" " alt="" coords="6776,1033,6880,1060"/>
+<area shape="rect" id="node31" href="$dot__product_8h.html" title=" " alt="" coords="5982,698,6103,725"/>
+<area shape="rect" id="node32" href="$ObsAuxIncrements_8h.html" title=" " alt="" coords="6585,698,6791,725"/>
+<area shape="rect" id="node36" href="$oops_2interface_2ModelAuxIncrement_8h.html" title=" " alt="" coords="6001,869,6234,896"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5563,869,5621,896"/>
+<area shape="rect" id="node11" title=" " alt="" coords="8097,1033,8143,1060"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5298,1108,5366,1135"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1600,1033,1659,1060"/>
+<area shape="rect" id="node14" title=" " alt="" coords="2774,951,2983,978"/>
+<area shape="rect" id="node15" href="$CostJbState_8h.html" title=" " alt="" coords="4712,691,4880,732"/>
+<area shape="rect" id="node20" href="$oops_2interface_2Increment_8h.html" title=" " alt="" coords="2811,787,2987,814"/>
+<area shape="rect" id="node26" href="$DateTime_8h.html" title=" " alt="" coords="4155,951,4264,978"/>
+<area shape="rect" id="node29" href="$Duration_8h.html" title=" " alt="" coords="2731,869,2832,896"/>
+<area shape="rect" id="node30" href="$State4D_8h.html" title=" " alt="" coords="6235,787,6419,814"/>
+<area shape="rect" id="node21" href="$GeneralizedDepartures_8h.html" title=" " alt="" coords="1011,951,1237,978"/>
+<area shape="rect" id="node22" href="$PostProcessorAD_8h.html" title=" " alt="" coords="613,869,813,896"/>
+<area shape="rect" id="node23" href="$PostProcessorTL_8h.html" title=" " alt="" coords="837,869,1035,896"/>
+<area shape="rect" id="node24" href="$oops_2interface_2State_8h.html" title=" " alt="" coords="3989,869,4139,896"/>
+<area shape="rect" id="node28" href="$LogbookWriter_8h.html" title=" " alt="" coords="2073,951,2210,978"/>
+<area shape="rect" id="node25" href="$PostProcessor_8h.html" title=" " alt="" coords="702,951,885,978"/>
+<area shape="rect" id="node27" title=" " alt="" coords="5629,1033,5701,1060"/>
+<area shape="rect" id="node33" href="$ObsAuxControls_8h.html" title=" " alt="" coords="5513,787,5703,814"/>
+<area shape="rect" id="node34" href="$ObservationSpaces_8h.html" title=" " alt="" coords="4771,869,4981,896"/>
+<area shape="rect" id="node35" href="$oops_2interface_2ObsAuxIncrement_8h.html" title=" " alt="" coords="6138,951,6361,978"/>
+<area shape="rect" id="node38" href="$IncrCtlVec4D_8h.html" title=" " alt="" coords="4955,601,5120,643"/>
+<area shape="rect" id="node39" href="$ObsAuxCtlVecs_8h.html" title=" " alt="" coords="6373,698,6561,725"/>
+<area shape="rect" id="node40" href="$ModelAuxCtlVec_8h.html" title=" " alt="" coords="5781,944,5963,985"/>
+<area shape="rect" id="node42" title=" " alt="" coords="2457,348,2527,375"/>
+<area shape="rect" id="node43" href="$ControlVariable_8h.html" title=" " alt="" coords="5411,691,5579,732"/>
+<area shape="rect" id="node44" href="$CostJbTotal_8h.html" title=" " alt="" coords="5124,423,5292,464"/>
+<area shape="rect" id="node45" href="$CostJo_8h.html" title=" " alt="" coords="4039,348,4217,375"/>
+<area shape="rect" id="node46" href="$CostTermBase_8h.html" title=" " alt="" coords="4357,423,4541,464"/>
+<area shape="rect" id="node47" href="$DualVector_8h.html" title=" " alt="" coords="4769,430,4970,457"/>
+<area shape="rect" id="node48" href="$StateSaver_8h.html" title=" " alt="" coords="3702,869,3863,896"/>
+<area shape="rect" id="node49" href="$StateWriter_8h.html" title=" " alt="" coords="3465,869,3626,896"/>
+<area shape="rect" id="node50" href="$TrajectorySaver_8h.html" title=" " alt="" coords="2608,609,2795,635"/>
+<area shape="rect" id="node51" href="$oops_2interface_2LinearModel_8h.html" title=" " alt="" coords="3317,698,3507,725"/>
+<area shape="rect" id="node52" href="$oops_2interface_2Model_8h.html" title=" " alt="" coords="3569,787,3722,814"/>
+<area shape="rect" id="node53" href="$abor1__cpp_8h.html" title=" " alt="" coords="2062,348,2175,375"/>
+<area shape="rect" id="node54" href="$formats_8h.html" title=" " alt="" coords="1657,698,1754,725"/>
+<area shape="rect" id="node56" href="$PrintAdjTest_8h.html" title=" " alt="" coords="1707,609,1832,635"/>
+<area shape="rect" id="node58" href="$TriDiagSolve_8h.html" title=" " alt="" coords="2011,780,2179,821"/>
+<area shape="rect" id="node60" href="$Minimizer_8h.html" title=" " alt="" coords="4041,191,4233,218"/>
+</map>

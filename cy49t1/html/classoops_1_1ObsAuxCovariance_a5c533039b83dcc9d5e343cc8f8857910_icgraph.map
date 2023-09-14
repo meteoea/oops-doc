@@ -1,0 +1,5 @@
+<map id="oops::ObsAuxCovariance::config" name="oops::ObsAuxCovariance::config">
+<area shape="rect" id="node1" title="Retrun a constant reference to configuration." alt="" coords="220,39,387,80"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxCovariance.html#a4b1fe905fc08de46aebf188e636bff19" title="Constructor." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxCtlVec.html#a8ad8f45af476f48aea9c4ecb886a09a7" title="Constructor." alt="" coords="18,71,159,112"/>
+</map>

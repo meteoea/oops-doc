@@ -1,0 +1,6 @@
+<map id="oops::GeneralizedDepartures" name="oops::GeneralizedDepartures">
+<area shape="rect" id="node1" title="Abstract base class for quantities." alt="" coords="186,5,373,97"/>
+<area shape="rect" id="node2" title="Increment Class: Difference between two states." alt="" coords="5,226,161,303"/>
+<area shape="rect" id="node3" href="$classoops_1_1Departures.html" title="Difference between two observation vectors." alt="" coords="186,145,373,384"/>
+<area shape="rect" id="node4" title="Increment Class: Difference between two states." alt="" coords="397,226,517,303"/>
+</map>

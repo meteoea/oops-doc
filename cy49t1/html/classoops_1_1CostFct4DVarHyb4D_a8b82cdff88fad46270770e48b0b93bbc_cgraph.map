@@ -1,0 +1,9 @@
+<map id="oops::CostFct4DVarHyb4D::zeroAD" name="oops::CostFct4DVarHyb4D::zeroAD">
+<area shape="rect" id="node1" title="Nullify the 4D increment prior to running the adjoint model." alt="" coords="5,169,183,211"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="239,5,393,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="239,71,393,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="239,136,393,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxIncrements.html#ad32962e51a7fc2e95e80e81f652ac751" title=" " alt="" coords="233,201,399,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1ModelAuxIncrement.html#aab3ae4b1e754aaab3a984bc6fd5fc50b" title=" " alt="" coords="231,267,401,308"/>
+<area shape="rect" id="node7" href="$classoops_1_1Increment4D.html#a6cb42404f5d669e782c15458cbbd49a3" title=" " alt="" coords="236,333,396,359"/>
+</map>

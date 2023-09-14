@@ -1,0 +1,30 @@
+<map id="src/oops/base/WeightingFct.h" name="src/oops/base/WeightingFct.h">
+<area shape="rect" id="node1" title=" " alt="" coords="765,5,960,32"/>
+<area shape="rect" id="node2" href="$CostFct4DVarMF_8h.html" title=" " alt="" coords="417,319,562,360"/>
+<area shape="rect" id="node9" href="$CostFct4DVarTrajHR_8h.html" title=" " alt="" coords="198,408,357,449"/>
+<area shape="rect" id="node10" href="$CostJcDFI_8h.html" title=" " alt="" coords="814,229,959,271"/>
+<area shape="rect" id="node19" href="$DFIProcessor_8h.html" title=" " alt="" coords="42,237,241,263"/>
+<area shape="rect" id="node20" href="$DolphChebyshev_8h.html" title=" " alt="" coords="659,80,874,107"/>
+<area shape="rect" id="node22" href="$WeightedDiff_8h.html" title=" " alt="" coords="179,155,370,181"/>
+<area shape="rect" id="node23" href="$WeightedDiffAD_8h.html" title=" " alt="" coords="843,155,1053,181"/>
+<area shape="rect" id="node24" href="$WeightedDiffTL_8h.html" title=" " alt="" coords="1077,155,1283,181"/>
+<area shape="rect" id="node25" href="$WeightedMean_8h.html" title=" " alt="" coords="1359,155,1563,181"/>
+<area shape="rect" id="node28" href="$WeightingFct_8cc.html" title=" " alt="" coords="1410,80,1611,107"/>
+<area shape="rect" id="node3" href="$CostFct4DVarHyb4D_8h.html" title=" " alt="" coords="432,408,589,449"/>
+<area shape="rect" id="node4" href="$instantiateCostFactory_8h.html" title=" " alt="" coords="659,497,826,539"/>
+<area shape="rect" id="node5" href="$Variational_8h.html" title=" " alt="" coords="856,676,1032,703"/>
+<area shape="rect" id="node6" href="$AssimEnsemble_8h.html" title=" " alt="" coords="643,758,853,785"/>
+<area shape="rect" id="node7" href="$Main4dvar_8cc.html" title=" " alt="" coords="877,751,1011,792"/>
+<area shape="rect" id="node8" href="$qg4DVar_8cc.html" title=" " alt="" coords="1036,758,1183,785"/>
+<area shape="rect" id="node11" href="$CostFct4DEnsVar_8h.html" title=" " alt="" coords="835,408,981,449"/>
+<area shape="rect" id="node12" href="$CostFct4DEnVar_8h.html" title=" " alt="" coords="614,408,759,449"/>
+<area shape="rect" id="node13" href="$CostFct4DVar_8h.html" title=" " alt="" coords="725,319,870,360"/>
+<area shape="rect" id="node14" href="$CostFctWeak_8h.html" title=" " alt="" coords="971,319,1117,360"/>
+<area shape="rect" id="node15" href="$SaddlePointLMPMatrix_8h.html" title=" " alt="" coords="955,497,1125,539"/>
+<area shape="rect" id="node16" href="$SaddlePointPrecondMatrix_8h.html" title=" " alt="" coords="1107,408,1296,449"/>
+<area shape="rect" id="node17" href="$SaddlePointMinimizer_8h.html" title=" " alt="" coords="1149,497,1310,539"/>
+<area shape="rect" id="node18" href="$instantiateMinFactory_8h.html" title=" " alt="" coords="995,587,1155,628"/>
+<area shape="rect" id="node21" href="$DolphChebyshev_8cc.html" title=" " alt="" coords="495,155,718,181"/>
+<area shape="rect" id="node26" href="$ExternalDFI_8h.html" title=" " alt="" coords="1370,237,1553,263"/>
+<area shape="rect" id="node27" href="$qgDFI_8cc.html" title=" " alt="" coords="1396,326,1527,353"/>
+</map>

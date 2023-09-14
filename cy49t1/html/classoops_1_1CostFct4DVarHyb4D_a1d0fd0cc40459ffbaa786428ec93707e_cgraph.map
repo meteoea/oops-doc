@@ -1,0 +1,8 @@
+<map id="oops::CostFct4DVarHyb4D::runAD" name="oops::CostFct4DVarHyb4D::runAD">
+<area shape="rect" id="node1" title="Run the adjoint model with 4D Increment." alt="" coords="5,136,183,177"/>
+<area shape="rect" id="node2" href="$classoops_1_1PostProcessorAD.html#a4630a6bbbda405a3cca26173ba542db4" title=" " alt="" coords="231,5,391,47"/>
+<area shape="rect" id="node3" href="$classoops_1_1PostProcessorAD.html#a65efb131c72d35ff1ef0c7918788ce23" title=" " alt="" coords="231,71,391,112"/>
+<area shape="rect" id="node4" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="233,136,388,177"/>
+<area shape="rect" id="node5" href="$classoops_1_1PostProcessorAD.html#a9f0298816e9f8ef25e30f0eb822d6e7b" title=" " alt="" coords="231,201,391,243"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="233,267,388,308"/>
+</map>

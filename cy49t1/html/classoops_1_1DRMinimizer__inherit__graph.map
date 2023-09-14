@@ -1,0 +1,10 @@
+<map id="oops::DRMinimizer&lt; MODEL &gt;" name="oops::DRMinimizer&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="DR (Derber and Rosati) Minimizers." alt="" coords="411,476,548,744"/>
+<area shape="rect" id="node4" href="$classoops_1_1DRGMRESRMinimizer.html" title="Derber&#45;Rosati GMRESR Minimizer." alt="" coords="5,836,191,972"/>
+<area shape="rect" id="node5" href="$classoops_1_1DRIPCGMinimizer.html" title="Derber&#45;Rosati IPCG Minimizer." alt="" coords="215,836,376,972"/>
+<area shape="rect" id="node6" href="$classoops_1_1DRPCGMinimizer.html" title="DRPCG Minimizer." alt="" coords="401,836,558,972"/>
+<area shape="rect" id="node7" href="$classoops_1_1DRPFOMMinimizer.html" title="DRPFOM Minimizer." alt="" coords="583,799,749,1009"/>
+<area shape="rect" id="node8" href="$classoops_1_1DRPLanczosMinimizer.html" title="DRPLanczos Minimizer." alt="" coords="774,792,961,1016"/>
+<area shape="rect" id="node2" href="$classoops_1_1Minimizer.html" title="Abstract base class for minimizers." alt="" coords="390,131,569,428"/>
+<area shape="rect" id="node3" title=" " alt="" coords="430,5,529,83"/>
+</map>

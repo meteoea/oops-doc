@@ -1,0 +1,28 @@
+<map id="oops::DualVector::getv" name="oops::DualVector::getv">
+<area shape="rect" id="node1" title=" " alt="" coords="496,362,647,389"/>
+<area shape="rect" id="node2" href="$classoops_1_1HtRinvHdxFG.html#ac544ad721163ea87abf44c16de133de1" title=" " alt="" coords="282,8,425,49"/>
+<area shape="rect" id="node4" href="$classoops_1_1UtHtRinvHUMatrix.html#a49f038b3e4a1055fad4a02ef0fb6d289" title=" " alt="" coords="271,75,436,116"/>
+<area shape="rect" id="node6" href="$classoops_1_1CostFunction.html#a8e479579b5c025bd684223bfc4aed6fb" title="Compute the cost function gradient at first guess (without Jb)" alt="" coords="281,143,426,184"/>
+<area shape="rect" id="node7" href="$classoops_1_1RinvMatrix.html#a61e4a71018eb143d440784f17cf08fca" title=" " alt="" coords="270,209,437,235"/>
+<area shape="rect" id="node10" href="$classoops_1_1HtMatrix.html#aed0d6981224f758c2b8db11ad5abdbff" title=" " alt="" coords="276,333,431,359"/>
+<area shape="rect" id="node13" href="$classoops_1_1SaddlePointPrecondMatrix.html#a5c68e6eef8b378e7a08b0665e9612748" title=" " alt="" coords="266,384,441,425"/>
+<area shape="rect" id="node16" href="$classoops_1_1HBHtMatrix.html#ae282a08cbf2d19a1a844af73e8e26379" title=" " alt="" coords="266,259,441,286"/>
+<area shape="rect" id="node17" href="$classoops_1_1SaddlePointMatrix.html#a2c19ef67470747ff22c0cf3b240873f4" title=" " alt="" coords="273,449,434,491"/>
+<area shape="rect" id="node18" href="$classoops_1_1HtRinvHMatrix.html#a8764280573dcd9df9b0409c96a4e8c56" title=" " alt="" coords="283,515,424,556"/>
+<area shape="rect" id="node24" href="$classoops_1_1HessianMatrix.html#a0d7c7f6f7bcc5a68914c74e9731cd1e4" title=" " alt="" coords="284,580,423,621"/>
+<area shape="rect" id="node25" href="$classoops_1_1RMatrix.html#a1c28c930f287bead69c3d30590a8233f" title=" " alt="" coords="269,646,437,673"/>
+<area shape="rect" id="node26" href="$classoops_1_1SaddlePointLMPMatrix.html#a91f91f4c483625b55d403b2322c06702" title=" " alt="" coords="259,697,448,739"/>
+<area shape="rect" id="node3" href="$classoops_1_1DRMinimizer.html#a9cc6fd429955da531a87e2bf2bbc3018" title="Minimizer the quadratic cost function (virtual method)" alt="" coords="41,5,175,47"/>
+<area shape="rect" id="node5" href="$classoops_1_1SQRTPLanczosMinimizer.html#ac25eea7136ca3924319cc506013473c8" title=" " alt="" coords="5,71,211,112"/>
+<area shape="rect" id="node8" href="$classoops_1_1RPCGMinimizer.html#a64cb89d1a2f7b0946b3b727cae38f1ba" title=" " alt="" coords="34,201,182,243"/>
+<area shape="rect" id="node9" href="$classoops_1_1RPLanczosMinimizer.html#a7fe11fbe0bfaec3af4212f5411610e18" title=" " alt="" coords="19,136,197,177"/>
+<area shape="rect" id="node11" href="$classoops_1_1Minimizer.html#a02f86245f08d74a4e09111ae2c8fc443" title="Perform observation operator adjoint tests." alt="" coords="16,333,200,359"/>
+<area shape="rect" id="node12" href="$classoops_1_1DualMinimizer.html#a3cf6d56e66d48c5aa41d9c1f7d5a4237" title="Minimizer the quadratic cost function (virtual method)" alt="" coords="39,267,177,308"/>
+<area shape="rect" id="node14" href="$classoops_1_1SaddlePointLMPMatrix.html#afe5952a98d8b95b264d6df68c00e6c60" title=" " alt="" coords="13,449,203,491"/>
+<area shape="rect" id="node15" href="$classoops_1_1SaddlePointLMPMatrix.html#ad91368e6e6337aafd885ead264f6f3ee" title=" " alt="" coords="13,384,203,425"/>
+<area shape="rect" id="node19" href="$classoops_1_1DRPFOMMinimizer.html#ac8337c8e8a5c8dd6785b523a60cea5a5" title=" " alt="" coords="25,776,191,817"/>
+<area shape="rect" id="node20" href="$classoops_1_1DRPLanczosMinimizer.html#a6339485da6ba7f0309db9b004427cffc" title=" " alt="" coords="15,515,201,556"/>
+<area shape="rect" id="node21" href="$classoops_1_1DRIPCGMinimizer.html#a0d088584924bc71a82b7663e1f2484f5" title=" " alt="" coords="27,580,189,621"/>
+<area shape="rect" id="node22" href="$classoops_1_1DRGMRESRMinimizer.html#a180f104bc09e9cfe53c3ea02bd79816f" title=" " alt="" coords="15,645,201,687"/>
+<area shape="rect" id="node23" href="$classoops_1_1DRPCGMinimizer.html#a88381ab3f9aec86ed27431bc33a34fec" title=" " alt="" coords="29,711,187,752"/>
+</map>

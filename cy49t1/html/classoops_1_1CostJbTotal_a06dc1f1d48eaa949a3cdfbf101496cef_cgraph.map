@@ -1,0 +1,4 @@
+<map id="oops::CostJbTotal::initializeAD" name="oops::CostJbTotal::initializeAD">
+<area shape="rect" id="node1" title="Initialize JqTermAD (weak constraint only) before starting the AD run." alt="" coords="5,5,137,47"/>
+<area shape="rect" id="node2" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="185,5,340,47"/>
+</map>

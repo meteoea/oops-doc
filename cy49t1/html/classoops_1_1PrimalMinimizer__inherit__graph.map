@@ -1,0 +1,11 @@
+<map id="oops::PrimalMinimizer&lt; MODEL &gt;" name="oops::PrimalMinimizer&lt; MODEL &gt;">
+<area shape="rect" id="node1" title="Primal Minimizer." alt="" coords="472,476,620,671"/>
+<area shape="rect" id="node4" href="$classoops_1_1FGMRESMinimizer.html" title="FGMRES Minimizer." alt="" coords="5,719,172,855"/>
+<area shape="rect" id="node5" href="$classoops_1_1GMRESRMinimizer.html" title="GMRESR Minimizer." alt="" coords="196,719,363,855"/>
+<area shape="rect" id="node6" href="$classoops_1_1IPCGMinimizer.html" title="IPCG Minimizer." alt="" coords="387,719,529,855"/>
+<area shape="rect" id="node7" href="$classoops_1_1MINRESMinimizer.html" title="MINRES Minimizer." alt="" coords="554,719,717,855"/>
+<area shape="rect" id="node8" href="$classoops_1_1PCGMinimizer.html" title="PCG Minimizer." alt="" coords="741,719,879,855"/>
+<area shape="rect" id="node9" href="$classoops_1_1PLanczosMinimizer.html" title="PLanczos Minimizer." alt="" coords="904,719,1073,855"/>
+<area shape="rect" id="node2" href="$classoops_1_1Minimizer.html" title="Abstract base class for minimizers." alt="" coords="457,131,635,428"/>
+<area shape="rect" id="node3" title=" " alt="" coords="497,5,595,83"/>
+</map>

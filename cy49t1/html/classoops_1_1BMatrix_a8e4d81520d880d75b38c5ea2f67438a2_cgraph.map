@@ -1,0 +1,15 @@
+<map id="oops::BMatrix::multiplyId" name="oops::BMatrix::multiplyId">
+<area shape="rect" id="node1" title=" " alt="" coords="5,294,167,321"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxCovariances.html#a1edec80913fbbd731387e1de95e35296" title=" " alt="" coords="215,5,389,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1CostFunction.html#a31214b40b102ae7965c54354ec6cce45" title="Access ." alt="" coords="227,202,377,229"/>
+<area shape="rect" id="node5" href="$classoops_1_1CostJbTotal.html#a41afe4cae614d95dcb23d7d732b1b8d9" title=" " alt="" coords="236,253,368,295"/>
+<area shape="rect" id="node6" href="$classoops_1_1ControlIncrement.html#a45b19fa6afbc1d393f30368705c5264c" title="Get augmented model control increment." alt="" coords="225,319,379,360"/>
+<area shape="rect" id="node7" href="$classoops_1_1ObsAuxCovariances.html#ac59a9de0e5a1ed8d2fc530d617d49220" title=" " alt="" coords="215,71,389,112"/>
+<area shape="rect" id="node9" href="$classoops_1_1ObsAuxCovariances.html#aee002af8b02e783a4cad8145cb5799ea" title=" " alt="" coords="215,136,389,177"/>
+<area shape="rect" id="node10" href="$classoops_1_1ControlIncrement.html#a8ca2b37a736bca34976b032468669b81" title="Get augmented observation control increment." alt="" coords="225,384,379,425"/>
+<area shape="rect" id="node11" href="$classoops_1_1ControlIncrement.html#a3e7a0c18fd7fb27befb798c8e1af4a6f" title="Get state control increment." alt="" coords="225,449,379,491"/>
+<area shape="rect" id="node12" href="$classoops_1_1ObsAuxCtlVecs.html#a746e0d6796d404c0a15e61d67805043a" title=" " alt="" coords="228,515,376,556"/>
+<area shape="rect" id="node13" href="$classoops_1_1ObsAuxIncrements.html#ad32962e51a7fc2e95e80e81f652ac751" title=" " alt="" coords="219,580,385,621"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxIncrements.html#a3adcda43b5c1630b029f1f853721c93b" title="Return the size." alt="" coords="437,71,604,112"/>
+<area shape="rect" id="node8" href="$classoops_1_1ObsAuxCtlVecs.html#a0589fb5ed3b01d2cb7b31033b3c8d1ff" title="Return the size." alt="" coords="447,136,595,177"/>
+</map>

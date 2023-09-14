@@ -1,0 +1,6 @@
+<map id="oops::CostJb4D::computeIncrement" name="oops::CostJb4D::computeIncrement">
+<area shape="rect" id="node1" title="Get increment from state (usually first guess)." alt="" coords="5,56,232,83"/>
+<area shape="rect" id="node2" href="$classoops_1_1Increment4D.html#aab2949435832b5e1eb699433bc965d94" title="Compute 4D increment as a difference between two 4D states." alt="" coords="299,5,452,32"/>
+<area shape="rect" id="node3" href="$classoops_1_1State4D.html#a5ff8620d6505087d5571c1d2bf9cba5d" title=" " alt="" coords="280,56,471,83"/>
+<area shape="rect" id="node4" href="$classoops_1_1Increment4D.html#a6cb42404f5d669e782c15458cbbd49a3" title=" " alt="" coords="295,107,455,133"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="oops::ObsAuxCovariance::multiplySqrt" name="oops::ObsAuxCovariance::multiplySqrt">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,172,80"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxCtlVec.html#a9058259787a079ca6febea7b784b69c6" title="Return a constant reference to the model specific object." alt="" coords="229,5,371,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxIncrement.html#aea8472f938112cc98f98ea69f1c4d178" title="Return a constant reference to the model specific object." alt="" coords="220,71,380,112"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxCtlVec.html#a89f40362dfc9613ba4a1a76d87e02877" title="Return a constant reference to the model specific object." alt="" coords="437,13,603,39"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsAuxIncrement.html#a59e358fa1803052625d4cf606f140772" title="Return a constant reference to the model specific object." alt="" coords="428,78,612,105"/>
+</map>

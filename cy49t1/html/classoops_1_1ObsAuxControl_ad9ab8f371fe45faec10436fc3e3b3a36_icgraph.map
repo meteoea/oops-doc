@@ -1,0 +1,11 @@
+<map id="oops::ObsAuxControl::get" name="oops::ObsAuxControl::get">
+<area shape="rect" id="node1" title="Return a constant reference to the model specific object." alt="" coords="411,209,577,235"/>
+<area shape="rect" id="node2" href="$classoops_1_1ObsAuxControl.html#aa59fc212bcd7b725367d144665d8d84a" title="Return a constant reference to the model specific object." alt="" coords="220,201,363,243"/>
+<area shape="rect" id="node3" href="$classoops_1_1ObsAuxIncrement.html#aa4b049f1081e68cbc1f1ab96ef66b3da" title=" " alt="" coords="9,5,169,47"/>
+<area shape="rect" id="node4" href="$classoops_1_1ObsAuxCovariance.html#a913e46af47aea74b514adcba7085414c" title="Set up the inner loop resolution B matrix." alt="" coords="5,71,172,112"/>
+<area shape="rect" id="node5" href="$classoops_1_1ObsOperator.html#a04e4da33256fafb865fe94be57acb781" title="Evaluate the non&#45;linear bias operator ." alt="" coords="21,136,157,177"/>
+<area shape="rect" id="node6" href="$classoops_1_1ObsOperator.html#ac599f3f12bc8e47d42898da33b808700" title="Evaluate the non&#45;linear observation operator ." alt="" coords="21,201,157,243"/>
+<area shape="rect" id="node7" href="$namespaceoops.html#a0ea3d1e28459294bdab6d5cb9591eee3" title=" " alt="" coords="29,267,148,294"/>
+<area shape="rect" id="node8" href="$classoops_1_1LinearObsOperator.html#a79749c0035fe6ab03842f91741badb84" title="Set the linearisation trajectory." alt="" coords="5,319,172,360"/>
+<area shape="rect" id="node9" href="$classoops_1_1ObsAuxCovariance.html#a3ecdf5147019104c5f4383d66a1e49bf" title="Update." alt="" coords="5,384,172,425"/>
+</map>
